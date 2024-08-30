@@ -1,0 +1,89 @@
+# Reading pref.tcl
+# do run.do
+# 
+# AMBA BFM Compiler (Version 3.0.0 Mar 2014) 
+# 
+# @I: BFM101 : Reading input BFM file "test.bfm".
+# 
+# @I: BFM101 : Reading input BFM file "user.bfm".
+# 
+# @I: BFM101 : Reading input BFM file "subsystem.bfm".
+# 
+# @I: BFM107 : Checking procedure calls.
+# 
+# @I: BFM103 : Writing vectors output file "test.vec".
+# 
+# @I: BFM104 : 12 commands are generated in the output vectors output file.
+# 
+# @I: BFM105 : 29 vectors are generated in the output vectors output file.
+# 
+# @I: BFM106 : Output vectors files CheckSum 0e47e36c
+# 
+# 
+# @I: BFM Compiler Completed Successfully.
+# 
+# 
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vmap 2023.4 Lib Mapping Utility 2023.10 Oct 10 2023
+# vmap SmartFusion2 C:/Microchip/Libero_SoC_v2024.1/Designer/lib/modelsimpro/precompiled/vlog/smartfusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi Pro vlog 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 12:56:13 on Aug 08,2024
+# vlog -reportprogress 300 -sv -work presynth D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v 
+# -- Compiling module OSC_C0_OSC_C0_0_OSC
+# 
+# Top level modules:
+# 	OSC_C0_OSC_C0_0_OSC
+# End time: 12:56:13 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 12:56:13 on Aug 08,2024
+# vlog -reportprogress 300 -sv -work presynth D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0.v 
+# -- Compiling module OSC_C0
+# 
+# Top level modules:
+# 	OSC_C0
+# End time: 12:56:14 on Aug 08,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 12:56:14 on Aug 08,2024
+# vlog -reportprogress 300 -sv -work presynth D:/libero_tests/ABFN_UART/component/work/UART_MSS/UART_MSS.v 
+# -- Compiling module UART_MSS
+# 
+# Top level modules:
+# 	UART_MSS
+# End time: 12:56:14 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim Microsemi Pro vlog 2023.4 Compiler 2023.10 Oct 10 2023
+# Start time: 12:56:14 on Aug 08,2024
+# vlog -reportprogress 300 -sv -work presynth D:/libero_tests/ABFN_UART/component/work/UART_ABFN/UART_ABFN.v 
+# -- Compiling module UART_ABFN
+# 
+# Top level modules:
+# 	UART_ABFN
+# End time: 12:56:14 on Aug 08,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -L SmartFusion2 -L presynth -t 1fs presynth.UART_ABFN 
+# Start time: 12:56:14 on Aug 08,2024
+# //  ModelSim Microsemi Pro 2023.4 Oct 10 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim Microsemi Pro and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# ** Error: License checkout has been disallowed because
+# only one session is allowed to run on an uncounted nodelocked
+# license and an instance of ModelSim is already running with a
+# nodelocked license on this machine.
+# Error loading design
+# End time: 12:56:27 on Aug 08,2024, Elapsed time: 0:00:13
+# Errors: 1, Warnings: 0

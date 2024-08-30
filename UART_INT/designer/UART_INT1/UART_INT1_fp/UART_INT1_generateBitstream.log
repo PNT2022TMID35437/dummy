@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\libero_tests\UART_INT\designer\UART_INT1\UART_INT1_fp\UART_INT1.pro'
+PDB file 'D:\libero_tests\UART_INT\designer\UART_INT1\UART_INT1.pdb' has been loaded successfully.
+DESIGN : UART_INT1;  CHECKSUM : 770B;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\libero_tests\UART_INT\designer\UART_INT1\UART_INT1.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\libero_tests\UART_INT\designer\UART_INT1\UART_INT1.ppd'; file programs Fabric.
+Fabric component bitstream digest: 061101471be0c4f9407360bb57243518bdcce30f6a24328c23d42254350823ef
+Entire bitstream digest: 7780a75665872ee185b34b94f1743354481ae32653e7e117ab993366cfb8d12e
+Finished: Fri Aug 23 17:31:25 2024 (Elapsed time 00:00:03)
+
+Project saved.
+Project closed.

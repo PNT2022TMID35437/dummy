@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\libero_tests\I2C_1\designer\IIC_MSS\IIC_MSS_fp\IIC_MSS.pro'
+PDB file 'D:\libero_tests\I2C_1\designer\IIC_MSS\IIC_MSS.pdb' has been loaded successfully.
+DESIGN : IIC_MSS;  CHECKSUM : E655;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\libero_tests\I2C_1\designer\IIC_MSS\IIC_MSS.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\libero_tests\I2C_1\designer\IIC_MSS\IIC_MSS.ppd'; file programs Fabric.
+Fabric component bitstream digest: 7c7af3fa0fbb24b9625477bb05a324e4326a804b987e45be5c14c3fa223eef65
+Entire bitstream digest: 761e8d74cbbf3ecb93989fae0539e35bbce0d76c7168944a4ad3f3330bfaa2e1
+Finished: Mon Aug 26 11:19:25 2024 (Elapsed time 00:00:03)
+
+Project saved.
+Project closed.

@@ -1,0 +1,5 @@
+Detailed Resource Usage
+Module Name,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,CAN,HS USB,Multi-Mode UART,RCOSC_50MHZ
+peripherals_sb_0/CCC_0/Primitives,0,1,1,0,0,0,0,0
+peripherals_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,1
+peripherals_sb_0/peripherals_sb_MSS_0/Primitives,12,0,0,1,0,0,0,0

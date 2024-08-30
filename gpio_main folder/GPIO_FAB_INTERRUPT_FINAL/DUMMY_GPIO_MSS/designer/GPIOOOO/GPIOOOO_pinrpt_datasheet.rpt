@@ -1,0 +1,18 @@
+----------------------------------------------------------------
+-Pin Report - Date: Fri Aug 23 16:35:29 2024 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2024.1
+-Version: 2024.1.0.3
+-Design Name: GPIOOOO
+-Family: SmartFusion2
+-Die: M2S005
+-Package: 400 VF
+-----------------------------------------------------------------
+
+Port        |Pin |Fixed |Function                                   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+------------|----|------|-------------------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+DEVRST_N     U17  Fixed  DEVRST_N                                    ---       
+GPIO_IN[0]   A19  Yes    MSIO18NB1/I2C_0_SCL/GPIO_31_B/USB_DATA1_C   Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+GPIO_IN[1]   D18  Yes    MSI16NB1/MMUART_0_TXD/GPIO_27_B/USB_DIR_C   Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+GPIO_OUT[0]  A20  Yes    MSIO18PB1/I2C_0_SDA/GPIO_30_B/USB_DATA0_C   Bank1     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+GPIO_OUT[1]  C19  Yes    MSIO17PB1/MMUART_0_RXD/GPIO_28_B/USB_STP_C  Bank1     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 

@@ -1,0 +1,192 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Tue Aug 27 11:30:32 2024
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S005         |
+| Package                        | 400 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+-------------------------------------------------------------+
+| Topcell | MSS_sys_i2c_sb                                              |
+| Format  | Verilog                                                     |
+| Source  | D:\libero_tests\I2C_smart_build\synthesis\MSS_sys_i2c_sb.vm |
++---------+-------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 381  | 6060  | 6.29       |
+| DFF                       | 162  | 6060  | 2.67       |
+| I/O Register              | 0    | 513   | 0.00       |
+| User I/O                  | 11   | 171   | 6.43       |
+| -- Single-ended I/O       | 11   | 171   | 6.43       |
+| -- Differential I/O Pairs | 0    | 85    | 0.00       |
+| RAM64x18                  | 0    | 11    | 0.00       |
+| RAM1K18                   | 0    | 10    | 0.00       |
+| MACC                      | 0    | 11    | 0.00       |
+| Chip Globals              | 5    | 8     | 62.50      |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 381  | 162 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 381  | 162 |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (128KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 1    | 2     |
+| UART          | 0    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 5    |
+| Total  | 5    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 1            | 0           | 0               |
+| Output I/O                    | 6            | 0           | 0               |
+| Bidirectional I/O             | 4            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  1    |  6     |  4            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+--------------------------------------------------------------+
+| Fanout | Type    | Name                                                         |
++--------+---------+--------------------------------------------------------------+
+| 150    | INT_NET | Net   : FAB_CCC_GL0_c                                        |
+|        |         | Driver: CCC_0/GL0_INST/U0_RGB1                               |
+|        |         | Source: NETLIST                                              |
+| 112    | INT_NET | Net   : MSS_HPMS_READY_int_arst                              |
+|        |         | Driver: CORERESETP_0/MSS_HPMS_READY_int_rep_RNI7J4V6/U0_RGB1 |
+|        |         | Source: NETLIST                                              |
+| 20     | INT_NET | Net   : CORERESETP_0/sm0_areset_n_clk_base_Z                 |
+|        |         | Driver: CORERESETP_0/sm0_areset_n_clk_base_RNICF602/U0_RGB1  |
+|        |         | Source: NETLIST                                              |
+| 16     | INT_NET | Net   : RCOSC_25_50MHZ_O2F_c                                 |
+|        |         | Driver: FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1         |
+|        |         | Source: NETLIST                                              |
+| 12     | INT_NET | Net   : CORERESETP_0/sm0_areset_n_arst                       |
+|        |         | Driver: CORERESETP_0/sdif0_areset_n_RNIVPT77/U0_RGB1         |
+|        |         | Source: NETLIST                                              |
++--------+---------+--------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+------------------------------------------------------------+
+| Fanout | Type    | Name                                                       |
++--------+---------+------------------------------------------------------------+
+| 34     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/sercon_Z[6] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]   |
+| 30     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[2] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[2]   |
+| 28     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[3] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[3]   |
+| 26     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmdet_Z[3] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmdet[3]   |
+| 25     | INT_NET | Net   : sercon[3]                                          |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/sercon[3]   |
+| 25     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[1] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[1]   |
+| 23     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[4] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[4]   |
+| 23     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[0] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]   |
+| 21     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/SCLInt_Z    |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/SCLInt      |
+| 19     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[2]                     |
+|        |         | Driver: MSS_sys_i2c_sb_MSS_0/MSS_ADLIB_INST                |
++--------+---------+------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------------------------------------------+
+| Fanout | Type    | Name                                                       |
++--------+---------+------------------------------------------------------------+
+| 34     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/sercon_Z[6] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/sercon[6]   |
+| 30     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[2] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[2]   |
+| 28     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[3] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[3]   |
+| 26     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmdet_Z[3] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmdet[3]   |
+| 25     | INT_NET | Net   : sercon[3]                                          |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/sercon[3]   |
+| 25     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[1] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[1]   |
+| 23     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[4] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[4]   |
+| 23     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta_Z[0] |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/fsmsta[0]   |
+| 21     | INT_NET | Net   : COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/SCLInt_Z    |
+|        |         | Driver: COREI2C_0_0/I2C_NUM_GENERATION[0].ui2c/SCLInt      |
+| 19     | INT_NET | Net   : CoreAPB3_0_APBmslave0_PADDR[2]                     |
+|        |         | Driver: MSS_sys_i2c_sb_MSS_0/MSS_ADLIB_INST                |
++--------+---------+------------------------------------------------------------+
+

@@ -1,0 +1,186 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Thu Aug 22 18:24:53 2024
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S005         |
+| Package                        | 400 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+---------------------------------------------------------+
+| Topcell | GPIO_INT_ABFN                                           |
+| Format  | Verilog                                                 |
+| Source  | D:\libero_tests\LIU_GPIO_INT\synthesis\GPIO_INT_ABFN.vm |
++---------+---------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 327  | 6060  | 5.40       |
+| DFF                       | 274  | 6060  | 4.52       |
+| I/O Register              | 0    | 513   | 0.00       |
+| User I/O                  | 5    | 171   | 2.92       |
+| -- Single-ended I/O       | 5    | 171   | 2.92       |
+| -- Differential I/O Pairs | 0    | 85    | 0.00       |
+| RAM64x18                  | 2    | 11    | 18.18      |
+| RAM1K18                   | 0    | 10    | 0.00       |
+| MACC                      | 0    | 11    | 0.00       |
+| Chip Globals              | 2    | 8     | 25.00      |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 255  | 202 |
+| RAM64x18 Interface Logic | 72   | 72  |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 327  | 274 |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (128KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 0    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 4    |
+| 5      | 1    |
+| 7      | 6    |
+| 14     | 1    |
+| Total  | 12   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 3            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  2    |  3     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                        |
++--------+---------+-----------------------------------------------------------------------------+
+| 207    | INT_NET | Net   : GPIO_INT_ABFN_sb_0/GL0_INST                                         |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CCC_0/GL0_INST/U0_RGB1                           |
+|        |         | Source: NETLIST                                                             |
+| 195    | INT_NET | Net   : GPIO_INT_ABFN_sb_0/MSS_HPMS_READY_int                               |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNI1TQV4/U0_RGB1 |
+|        |         | Source: NETLIST                                                             |
++--------+---------+-----------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                         |
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+| 24     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/baud_clock                                                  |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_CLOCK_GEN/genblk1.baud_clock_int                       |
+| 23     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreAPB3_0_APBmslave0_PADDR[3]                                                    |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/GPIO_INT_ABFN_sb_MSS_0/MSS_ADLIB_INST                                             |
+| 19     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0_PARITY_ERR                                                        |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_RX/parity_err                                          |
+| 18     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreAPB3_0_APBmslave0_PADDR[4]                                                    |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/GPIO_INT_ABFN_sb_MSS_0/MSS_ADLIB_INST                                             |
+| 16     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreAPB3_0_APBmslave0_PADDR[2]                                                    |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/GPIO_INT_ABFN_sb_MSS_0/MSS_ADLIB_INST                                             |
+| 15     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreAPB3_0_APBmslave1_PSELx                                                       |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreAPB3_0/iPSELS[1]                                                              |
+| 15     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_write_tx_Z                                             |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_write_tx                                               |
+| 15     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_read_tx                                                |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_TX/fifo_read_en0                                       |
+| 14     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_read_rx_0_sqmuxa                                       |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_read_rx_0_sqmuxa_0_a2                                  |
+| 14     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_CLOCK_GEN/baud_cntr7_1_RNIFA25S_Y                      |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_CLOCK_GEN/genblk1.make_baud_cntr.baud_cntr7_1_RNIFA25S |
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                         |
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+| 24     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/baud_clock                                                  |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_CLOCK_GEN/genblk1.baud_clock_int                       |
+| 23     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreAPB3_0_APBmslave0_PADDR[3]                                                    |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/GPIO_INT_ABFN_sb_MSS_0/MSS_ADLIB_INST                                             |
+| 19     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0_PARITY_ERR                                                        |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_RX/parity_err                                          |
+| 18     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreAPB3_0_APBmslave0_PADDR[4]                                                    |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/GPIO_INT_ABFN_sb_MSS_0/MSS_ADLIB_INST                                             |
+| 16     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreAPB3_0_APBmslave0_PADDR[2]                                                    |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/GPIO_INT_ABFN_sb_MSS_0/MSS_ADLIB_INST                                             |
+| 15     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreAPB3_0_APBmslave1_PSELx                                                       |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreAPB3_0/iPSELS[1]                                                              |
+| 15     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_write_tx_Z                                             |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_write_tx                                               |
+| 15     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_read_tx                                                |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_TX/fifo_read_en0                                       |
+| 14     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_read_rx_0_sqmuxa                                       |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/fifo_read_rx_0_sqmuxa_0_a2                                  |
+| 14     | INT_NET | Net   : GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_CLOCK_GEN/baud_cntr7_1_RNIFA25S_Y                      |
+|        |         | Driver: GPIO_INT_ABFN_sb_0/CoreUARTapb_0_0/uUART/make_CLOCK_GEN/genblk1.make_baud_cntr.baud_cntr7_1_RNIFA25S |
++--------+---------+--------------------------------------------------------------------------------------------------------------+
+

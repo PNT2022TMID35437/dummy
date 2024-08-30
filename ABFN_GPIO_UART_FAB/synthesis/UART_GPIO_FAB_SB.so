@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>UART_GPIO_FAB_SB</design>
+	<target_verilog>D:\libero_tests\ABFN_GPIO_UART_FAB\synthesis\UART_GPIO_FAB_SB.vm</target_verilog>
+</SynplifyOutput>

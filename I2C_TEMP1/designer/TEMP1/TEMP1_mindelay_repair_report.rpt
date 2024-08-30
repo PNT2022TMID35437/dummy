@@ -1,0 +1,69 @@
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 1  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 1  
+ Total paths eligible for improvement: 1       
+ Total paths improved: 1       
+-------------------------
+
+Path 1
+------------------------
+From: OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ:CLKOUT
+  To: COREI2C_C0_0/COREI2C_C0_0/BCLK_ff0:D
+Operating Conditions: WORST
+------------------------
+Path min-delay slack:     -1638 ps
+------------------------
+  On sink pin: COREI2C_C0_0/COREI2C_C0_0/BCLK_ff0:D
+-------------------------------------
+  Pin max-delay slack:    11577 ps
+  Min-delay inserted:      1757 ps ( Estimated )
+  ----------------------------
+  Delay buffers inserted before the sink:
+      mdr_COREI2C_C0_0/COREI2C_C0_0/BCLK_ff0_CFG1A_TEST
+      mdr_COREI2C_C0_0/COREI2C_C0_0/BCLK_ff0_CFG1D_TEST1
+      mdr_COREI2C_C0_0/COREI2C_C0_0/BCLK_ff0_CFG1D_TEST0
+      mdr_COREI2C_C0_0/COREI2C_C0_0/BCLK_ff0_CFG1D_TEST
+
+
+
+
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 2  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 2  
+ Total paths eligible for improvement: 0       
+ Total paths improved: 0       
+-------------------------
+
+
+Note:
+    [1]: A net cannot be modified for repair if:
+         - it is hardwired, preserved, or global;
+         - the sink pin is a clock pin;
+         - the sink pin has negative max-delay slack allowance;
+
+    [2]: A location is not feasible for inserting a delay buffer if the estimated minimum delay to be inserted might exceed the max-delay slack allowance of the sink pin.
+
+    [3]: The I/O delay taps cannot be used to fix hold violations in RTG4 design if it is a MSIO or MSIOD that drives a GB.
+
+
+

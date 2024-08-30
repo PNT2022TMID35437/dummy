@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>SPI</design>
+	<target_verilog>D:\libero_tests\SPI_MSS\synthesis\SPI.vm</target_verilog>
+</SynplifyOutput>

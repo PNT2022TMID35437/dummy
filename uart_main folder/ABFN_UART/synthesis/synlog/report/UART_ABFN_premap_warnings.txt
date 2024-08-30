@@ -1,0 +1,1 @@
+@W: MT530 :"d:\libero_tests\abfn_uart\component\work\uart_mss\uart_mss.v":150:0:150:13|Found inferred clock OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 1 sequential elements including UART_MSS_0.MSS_ADLIB_INST. This clock has no specified timing constraint which may adversely impact design performance. 

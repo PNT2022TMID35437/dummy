@@ -1,0 +1,38 @@
+17:58:48 **** Incremental Build of configuration Debug for project SF2_interrupt_tx ****
+make all 
+Building file: ../core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../CMSIS -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../drivers/CoreUARTapb -I../drivers_config/sys_config -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"core_gpio.d" -MT"core_gpio.o" -c -o "core_gpio.o" "../core_gpio.c"
+Finished building: ../core_gpio.c
+ 
+Building target: SF2_interrupt_tx.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"SF2_interrupt_tx.map" -o "SF2_interrupt_tx.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/CoreUARTapb/core_uart_apb.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./core_gpio.o ./main.o   
+Finished building target: SF2_interrupt_tx.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "SF2_interrupt_tx.elf"  "SF2_interrupt_tx.hex"
+Finished building: SF2_interrupt_tx.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_interrupt_tx.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3008	   1072	  61456	  65536	  10000	SF2_interrupt_tx.elf
+Finished building: SF2_interrupt_tx.siz
+ 
+17:58:49 **** Incremental Build of configuration Debug for project SF2_interrupt_tx ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_interrupt_tx.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3008	   1072	  61456	  65536	  10000	SF2_interrupt_tx.elf
+Finished building: SF2_interrupt_tx.siz
+ 
+17:58:49 **** Incremental Build of configuration Debug for project SF2_simple_gpio ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_simple_gpio.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3008	   1072	  61456	  65536	  10000	SF2_simple_gpio.elf
+Finished building: SF2_simple_gpio.siz
+ 

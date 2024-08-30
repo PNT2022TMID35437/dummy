@@ -1,0 +1,44 @@
+Resource Usage Report for LIU_GPIO_SB_1 
+
+Mapping to part: m2s005vf400std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+MSS_005         1 use
+OR3             3 uses
+SYSRESET        1 use
+CFG1           1 use
+CFG2           246 uses
+CFG3           146 uses
+CFG4           448 uses
+
+Carry cells:
+ARI1            14 uses - used for arithmetic functions
+ARI1            197 uses - used for Wide-Mux implementation
+Total ARI1      211 uses
+
+
+Sequential Cells: 
+SLE            632 uses
+
+DSP Blocks:    0 of 11 (0%)
+
+I/O ports: 68
+I/O primitives: 67
+INBUF          34 uses
+OUTBUF         33 uses
+
+
+Global Clock Buffers: 2
+
+Total LUTs:    1052
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  632 + 0 + 0 + 0 = 632;
+Total number of LUTs after P&R:  1052 + 0 + 0 + 0 = 1052;
+

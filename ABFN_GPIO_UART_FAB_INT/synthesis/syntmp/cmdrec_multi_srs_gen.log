@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  FAB_INT  -multisrs  D:\libero_tests\ABFN_GPIO_UART_FAB_INT\synthesis\synwork\FAB_INT_comp.srs  -osyn  D:\libero_tests\ABFN_GPIO_UART_FAB_INT\synthesis\synwork\FAB_INT_mult.srs  -log  D:\libero_tests\ABFN_GPIO_UART_FAB_INT\synthesis\synlog\FAB_INT_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top FAB_INT -multisrs ..\synwork\FAB_INT_comp.srs -osyn ..\synwork\FAB_INT_mult.srs -log ..\synlog\FAB_INT_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\fab_int_comp.srs|io:i|time:1724329672|size:101183|exec:0|csum:45C97F7E2DC6C233AE71B21531BF34FE
+file:..\synwork\fab_int_mult.srs|io:o|time:1724329674|size:2656|exec:0|csum:
+file:..\synlog\fab_int_multi_srs_gen.srr|io:o|time:1724329674|size:1163|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

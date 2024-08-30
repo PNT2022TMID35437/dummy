@@ -1,0 +1,17 @@
+@P:  Worst Slack : 2.671
+@P:  FABRIC_UART_sb_0/CCC_0/GL0 - Estimated Frequency : 136.4 MHz
+@P:  FABRIC_UART_sb_0/CCC_0/GL0 - Requested Frequency : 100.0 MHz
+@P:  FABRIC_UART_sb_0/CCC_0/GL0 - Estimated Period : 7.329
+@P:  FABRIC_UART_sb_0/CCC_0/GL0 - Requested Period : 10.000
+@P:  FABRIC_UART_sb_0/CCC_0/GL0 - Slack : 2.671
+@P:  FABRIC_UART_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : NA
+@P:  FABRIC_UART_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  FABRIC_UART_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : NA
+@P:  FABRIC_UART_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  FABRIC_UART_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : NA
+@P: FABRIC_UART Part : m2s005vf400std
+@P: FABRIC_UART Register bits  : 196 
+@P: FABRIC_UART DSP Blocks  : 0
+@P: FABRIC_UART I/O primitives : 2
+@P: FABRIC_UART RAM64x18 :  2
+@P:  CPU Time : 0h:00m:01s

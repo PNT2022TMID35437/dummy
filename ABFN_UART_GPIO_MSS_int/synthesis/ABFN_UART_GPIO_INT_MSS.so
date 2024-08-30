@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>ABFN_UART_GPIO_INT_MSS</design>
+	<target_verilog>D:\libero_tests\ABFN_UART_GPIO_MSS_int\synthesis\ABFN_UART_GPIO_INT_MSS.vm</target_verilog>
+</SynplifyOutput>

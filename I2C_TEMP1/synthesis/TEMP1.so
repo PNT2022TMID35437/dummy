@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>TEMP1</design>
+	<target_verilog>D:\libero_tests\I2C_TEMP1\synthesis\TEMP1.vm</target_verilog>
+</SynplifyOutput>

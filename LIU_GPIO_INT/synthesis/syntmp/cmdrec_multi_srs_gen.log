@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  GPIO_INT_ABFN  -multisrs  D:\libero_tests\LIU_GPIO_INT\synthesis\synwork\GPIO_INT_ABFN_comp.srs  -osyn  D:\libero_tests\LIU_GPIO_INT\synthesis\synwork\GPIO_INT_ABFN_mult.srs  -log  D:\libero_tests\LIU_GPIO_INT\synthesis\synlog\GPIO_INT_ABFN_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top GPIO_INT_ABFN -multisrs ..\synwork\GPIO_INT_ABFN_comp.srs -osyn ..\synwork\GPIO_INT_ABFN_mult.srs -log ..\synlog\GPIO_INT_ABFN_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\gpio_int_abfn_comp.srs|io:i|time:1724331262|size:99071|exec:0|csum:7422A28189F1F6F65735D4CAAEB71B47
+file:..\synwork\gpio_int_abfn_mult.srs|io:o|time:1724331264|size:2630|exec:0|csum:
+file:..\synlog\gpio_int_abfn_multi_srs_gen.srr|io:o|time:1724331264|size:1061|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

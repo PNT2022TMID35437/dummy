@@ -1,0 +1,9 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals,MSS,10/100/1000 Ethernet,RCOSC_50MHZ
+COREI2C_C0_0/COREI2C_C0_0/I2C_NUM_GENERATION[0].ui2c/Primitives,347,88,0,0,0,0,0
+COREI2C_C0_0/COREI2C_C0_0/Primitives,4,10,0,0,0,0,0
+CoreAPB3_C0_0/CoreAPB3_C0_0/Primitives,2,0,0,0,0,0,0
+CoreAPB3_C0_0/CoreAPB3_C0_0/u_mux_p_to_b3/Primitives,9,0,0,0,0,0,0
+OSC_C0_0/OSC_C0_0/Primitives,0,0,0,1,0,0,1
+Primitives/Primitives,0,0,4,1,0,0,0
+TEMP1_MSS_0/Primitives,0,0,2,0,1,0,0

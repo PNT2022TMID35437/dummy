@@ -1,0 +1,11 @@
+16:21:34 **** Incremental Build of configuration Debug for project SF2_GNU_SC4_GPIO_simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_GNU_SC4_GPIO_simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   2576	   1072	  61888	  65536	  10000	SF2_GNU_SC4_GPIO_simple_blink.elf
+Finished building: SF2_GNU_SC4_GPIO_simple_blink.siz
+ 
+
+16:21:34 Build Finished (took 190ms)
+

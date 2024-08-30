@@ -1,0 +1,21 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Interface 4LUT,Interface DFF,Single-Ended I/O,uSRAM 1K,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,Multi-Mode UART,RCOSC_50MHZ
+Primitives/Primitives,1,0,0,0,6,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CCC_0/Primitives,0,0,0,0,0,0,1,1,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CORERESETP_0/Primitives,2,9,0,0,0,0,0,1,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreAPB3_0/Primitives,4,0,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreAPB3_0/u_mux_p_to_b3/Primitives,10,0,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreGPIO_0_0/Primitives,6,1,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreGPIO_1_0/Primitives,9,6,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreUARTapb_0_0/Primitives,35,24,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreUARTapb_0_0/uUART/Primitives,26,24,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreUARTapb_0_0/uUART/genblk2.tx_fifo/CoreUART_top_COREUART_0_fifo_128x8_pa4/Primitives,27,30,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreUARTapb_0_0/uUART/genblk2.tx_fifo/CoreUART_top_COREUART_0_fifo_128x8_pa4/ram128_8_pa4/Primitives,0,0,36,36,0,1,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreUARTapb_0_0/uUART/genblk3.rx_fifo/CoreUART_top_COREUART_0_fifo_128x8_pa4/Primitives,27,30,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreUARTapb_0_0/uUART/genblk3.rx_fifo/CoreUART_top_COREUART_0_fifo_128x8_pa4/ram128_8_pa4/Primitives,0,0,36,36,0,1,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreUARTapb_0_0/uUART/make_CLOCK_GEN/Primitives,24,19,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreUARTapb_0_0/uUART/make_RX/Primitives,54,37,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/CoreUARTapb_0_0/uUART/make_TX/Primitives,29,23,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,0,0,0,0,1
+UART_GPIO_FAB_SB_sb_0/Primitives,3,0,0,0,0,0,0,0,0,0,0,0
+UART_GPIO_FAB_SB_sb_0/UART_GPIO_FAB_SB_sb_MSS_0/Primitives,0,0,0,0,0,0,0,0,1,0,0,0

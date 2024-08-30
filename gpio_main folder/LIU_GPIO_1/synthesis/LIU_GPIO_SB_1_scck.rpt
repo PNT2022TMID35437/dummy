@@ -1,0 +1,52 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+
+# Written on Mon Aug 19 11:40:27 2024
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "D:\libero_tests\LIU_GPIO_1\designer\LIU_GPIO_SB_1\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                   Requested     Requested     Clock                         Clock                Clock
+Level     Clock                                                   Frequency     Period        Type                          Group                Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       CLK0_PAD                                                100.0 MHz     10.000        declared                      default_clkgroup     0    
+1 .         LIU_GPIO_SB_1_sb_0/CCC_0/GL0                          3.1 MHz       320.000       generated (from CLK0_PAD)     default_clkgroup     660  
+                                                                                                                                                      
+0 -       LIU_GPIO_SB_1_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared                      default_clkgroup     15   
+======================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                        Clock     Source                                                                  Clock Pin                                                             Non-clock Pin     Non-clock Pin                                                         
+Clock                                                   Load      Pin                                                                     Seq Example                                                           Seq Example       Comb Example                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLK0_PAD                                                0         CLK0_PAD(port)                                                          -                                                                     -                 LIU_GPIO_SB_1_sb_0.CCC_0.CLK0_PAD_INST.I(IBUF)                        
+LIU_GPIO_SB_1_sb_0/CCC_0/GL0                            660       LIU_GPIO_SB_1_sb_0.CCC_0.CCC_INST.GL0(CCC)                              LIU_GPIO_SB_1_sb_0.LIU_GPIO_SB_1_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 LIU_GPIO_SB_1_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                        
+LIU_GPIO_SB_1_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     15        LIU_GPIO_SB_1_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     LIU_GPIO_SB_1_sb_0.CORERESETP_0.release_sdif0_core.C                  -                 LIU_GPIO_SB_1_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+========================================================================================================================================================================================================================================================================================================

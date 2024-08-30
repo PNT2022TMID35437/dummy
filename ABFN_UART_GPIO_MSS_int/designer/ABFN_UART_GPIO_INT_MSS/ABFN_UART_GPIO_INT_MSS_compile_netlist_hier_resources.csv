@@ -1,0 +1,5 @@
+Detailed Resource Usage
+Module Name,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,HS USB,Multi-Mode UART,RCOSC_50MHZ
+ABFN_UART_GPIO_INT_MSS_sb_0/ABFN_UART_GPIO_INT_MSS_sb_MSS_0/Primitives,4,0,0,1,0,0,0,0
+ABFN_UART_GPIO_INT_MSS_sb_0/CCC_0/Primitives,0,1,1,0,0,0,0,0
+ABFN_UART_GPIO_INT_MSS_sb_0/FABOSC_0/Primitives,0,0,0,0,0,0,0,1

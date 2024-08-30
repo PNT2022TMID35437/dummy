@@ -1,0 +1,108 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S005VF400STD (Microchip)
+
+-------------------------------------------------------------------------
+########   Utilization report for  Top level view:   eth_dummy   ########
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     3                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block eth_dummy:	3 (10.00 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block eth_dummy:	1 (3.33 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       18                 100 %                
+=================================================
+Total IO PADS in the block eth_dummy:	18 (60.00 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   OSC_C0   ########
+Instance path:   eth_dummy.OSC_C0                           
+============================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  66.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block eth_dummy.OSC_C0:	2 (6.67 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block eth_dummy.OSC_C0:	1 (3.33 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   OSC_C0_OSC_C0_0_OSC   ########
+Instance path:   OSC_C0.OSC_C0_OSC_C0_0_OSC                              
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  66.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	2 (6.67 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	1 (3.33 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   eth_dummy_MSS   ########
+Instance path:   eth_dummy.eth_dummy_MSS                           
+===================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block eth_dummy.eth_dummy_MSS:	1 (3.33 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       2                  11.1 %               
+=================================================
+Total IO PADS in the block eth_dummy.eth_dummy_MSS:	2 (6.67 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,21 @@
+@P:  Worst Slack : NA
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : NA
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : NA
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : NA
+@P:  eth_dummy|MAC_MII_RX_CLK - Estimated Frequency : NA
+@P:  eth_dummy|MAC_MII_RX_CLK - Requested Frequency : 100.0 MHz
+@P:  eth_dummy|MAC_MII_RX_CLK - Estimated Period : NA
+@P:  eth_dummy|MAC_MII_RX_CLK - Requested Period : 10.000
+@P:  eth_dummy|MAC_MII_RX_CLK - Slack : NA
+@P:  eth_dummy|MAC_MII_TX_CLK - Estimated Frequency : NA
+@P:  eth_dummy|MAC_MII_TX_CLK - Requested Frequency : 100.0 MHz
+@P:  eth_dummy|MAC_MII_TX_CLK - Estimated Period : NA
+@P:  eth_dummy|MAC_MII_TX_CLK - Requested Period : 10.000
+@P:  eth_dummy|MAC_MII_TX_CLK - Slack : NA
+@P: eth_dummy Part : m2s005vf400std
+@P: eth_dummy Register bits  : 0 
+@P: eth_dummy DSP Blocks  : 0
+@P: eth_dummy I/O primitives : 18
+@P:  CPU Time : 0h:00m:01s

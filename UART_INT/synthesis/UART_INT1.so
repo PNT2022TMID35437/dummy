@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>UART_INT1</design>
+	<target_verilog>D:\libero_tests\UART_INT\synthesis\UART_INT1.vm</target_verilog>
+</SynplifyOutput>

@@ -1,0 +1,11 @@
+@P:  Worst Slack : NA
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : NA
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : NA
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : NA
+@P: IIC Part : m2s005vf400std
+@P: IIC Register bits  : 0 
+@P: IIC DSP Blocks  : 0
+@P: IIC I/O primitives : 2
+@P:  CPU Time : 0h:00m:01s

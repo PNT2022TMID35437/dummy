@@ -1,0 +1,36 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Thu Aug 22 19:51:22 2024
+Project   :  D:\libero_tests\ABFN_GPIO_INT
+Component :  CoreGPIO_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/core/components.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/core/coregpio.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/core/coregpio_pkg.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0.vhd
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/bfmtovec_compile.do
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/coregpio_usertb_apb_master.bfm
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/coregpio_usertb_include.bfm
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/wave_vhdl.do
+
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/coreparameters.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreGPIO/3.2.102/rtl/vhdl/amba_bfm/misc.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreGPIO/3.2.102/rtl/vhdl/amba_bfm/textio.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_package.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_ahbl.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_ahblapb.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_ahbslave.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_ahbslaveext.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_ahbtoapb.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_apb.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_apbslave.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_apbslaveext.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_apbtoapb.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/amba_bfm/bfm_main.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreGPIO_C0/CoreGPIO_C0_0/rtl/vhdl/test/user/testbench.vhd
+

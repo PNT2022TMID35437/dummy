@@ -1,0 +1,4 @@
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: MT420 |Found inferred clock eth_dummy|MAC_MII_TX_CLK with period 10.00ns. Please declare a user-defined clock on port MAC_MII_TX_CLK.
+@W: MT420 |Found inferred clock eth_dummy|MAC_MII_RX_CLK with period 10.00ns. Please declare a user-defined clock on port MAC_MII_RX_CLK.

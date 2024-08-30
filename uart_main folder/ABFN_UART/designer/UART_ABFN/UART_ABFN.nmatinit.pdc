@@ -1,0 +1,30 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: UART_ABFN 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S005 , Package: 400 VF , Speed grade: STD 
+
+# Date generated: Thu Aug  8 13:03:35 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io MMUART_0_RXD -DIRECTION INPUT -pinname C19 -fixed no
+set_io MMUART_0_TXD -DIRECTION OUTPUT -pinname D18 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1 -fixed no 218 54
+set_location SYSRESET_0 -fixed no 396 8
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ -fixed no 396 44
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB -fixed no 397 44
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT -fixed no 222 30
+set_location UART_MSS_0/MSS_ADLIB_INST -fixed no 228 56

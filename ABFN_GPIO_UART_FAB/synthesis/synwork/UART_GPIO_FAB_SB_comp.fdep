@@ -1,0 +1,112 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\libero_tests\\ABFN_GPIO_UART_FAB\\synthesis\\synwork\\UART_GPIO_FAB_SB_comp.srs|-top|UART_GPIO_FAB_SB|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|D:\\libero_tests\\ABFN_GPIO_UART_FAB\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb\\CCC_0\\UART_GPIO_FAB_SB_sb_CCC_0_FCCC.v":1724304973
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1720505688
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb\\FABOSC_0\\UART_GPIO_FAB_SB_sb_FABOSC_0_OSC.v":1724304974
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb_MSS\\UART_GPIO_FAB_SB_sb_MSS_syn.v":1724304971
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb_MSS\\UART_GPIO_FAB_SB_sb_MSS.v":1724304971
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\Actel\\DirectCore\\CoreGPIO\\3.0.120\\rtl\\vlog\\core\\coregpio.v":1724043182
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1723789588
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1723789588
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb\\CoreUARTapb_0_0\\rtl\\vlog\\core\\Clock_gen.v":1724304973
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb\\CoreUARTapb_0_0\\rtl\\vlog\\core\\fifo_256x8_smartfusion2.v":1724304973
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb\\CoreUARTapb_0_0\\rtl\\vlog\\core\\Rx_async.v":1724304973
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb\\CoreUARTapb_0_0\\rtl\\vlog\\core\\Tx_async.v":1724304973
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb\\CoreUARTapb_0_0\\rtl\\vlog\\core\\CoreUART.v":1724304973
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb\\CoreUARTapb_0_0\\rtl\\vlog\\core\\CoreUARTapb.v":1724304973
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core\\coreapb3_muxptob3.v":1723800459
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core\\coreapb3_iaddr_reg.v":1723800459
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core\\coreapb3.v":1723800459
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB_sb\\UART_GPIO_FAB_SB_sb.v":1724304974
+#CUR:"D:\\libero_tests\\ABFN_GPIO_UART_FAB\\component\\work\\UART_GPIO_FAB_SB\\UART_GPIO_FAB_SB.v":1724305108
+0			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb\CCC_0\UART_GPIO_FAB_SB_sb_CCC_0_FCCC.v" verilog
+1			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+2			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb\FABOSC_0\UART_GPIO_FAB_SB_sb_FABOSC_0_OSC.v" verilog
+3			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb_MSS\UART_GPIO_FAB_SB_sb_MSS_syn.v" verilog
+4			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb_MSS\UART_GPIO_FAB_SB_sb_MSS.v" verilog
+5			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v" verilog
+6			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+7			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+8			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v" verilog
+9			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v" verilog
+10			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v" verilog
+11			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v" verilog
+12			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v" verilog
+13			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v" verilog
+14			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
+15			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
+16			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v" verilog
+17			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB_sb\UART_GPIO_FAB_SB_sb.v" verilog
+18			"D:\libero_tests\ABFN_GPIO_UART_FAB\component\work\UART_GPIO_FAB_SB\UART_GPIO_FAB_SB.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 3
+5 -1
+6 -1
+7 6
+8 -1
+9 -1
+10 -1
+11 -1
+12 9 10 11 8
+13 12
+14 -1
+15 -1
+16 15 14
+17 4 2 13 7 5 16 0
+18 17
+#Dependency Lists(Users Of)
+0 17
+1 2
+2 17
+3 4
+4 17
+5 17
+6 7
+7 17
+8 12
+9 12
+10 12
+11 12
+12 13
+13 17
+14 16
+15 16
+16 17
+17 18
+18 -1
+#Design Unit to File Association
+module COREAPB3_LIB CoreAPB3 16
+module COREAPB3_LIB coreapb3_iaddr_reg 15
+module COREAPB3_LIB COREAPB3_MUXPTOB3 14
+module work UART_GPIO_FAB_SB 18
+module work UART_GPIO_FAB_SB_sb 17
+module work UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb 13
+module work UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART 12
+module work UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Tx_async 11
+module work UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Rx_async 10
+module work UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_ram128x8_pa4 9
+module work UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128 9
+module work UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8 9
+module work UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Clock_gen 8
+module work CoreResetP 7
+module work coreresetp_pcie_hotreset 6
+module work CoreGPIO 5
+module work UART_GPIO_FAB_SB_sb_MSS 4
+module work MSS_005 3
+module work UART_GPIO_FAB_SB_sb_FABOSC_0_OSC 2
+module work XTLOSC_FAB 1
+module work RCOSC_25_50MHZ_FAB 1
+module work RCOSC_1MHZ_FAB 1
+module work XTLOSC 1
+module work RCOSC_25_50MHZ 1
+module work RCOSC_1MHZ 1
+module work UART_GPIO_FAB_SB_sb_CCC_0_FCCC 0

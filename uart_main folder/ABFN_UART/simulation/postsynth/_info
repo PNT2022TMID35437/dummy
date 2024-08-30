@@ -1,0 +1,200 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/libero_tests/ABFN_UART/simulation
+vMSS_005
+Z1 2D:/libero_tests/ABFN_UART/synthesis/UART_ABFN.v
+Z2 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z3 !s110 1723101957
+!i10b 1
+!s100 [Y8T[ojb5z?oHRjGhjT4Y0
+ID2QS6;T[4L2N<U;oA7ZDJ3
+S1
+R0
+Z4 w1723101943
+Z5 8D:/libero_tests/ABFN_UART/synthesis/UART_ABFN.v
+Z6 FD:/libero_tests/ABFN_UART/synthesis/UART_ABFN.v
+!i122 0
+L0 5 869
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OW;L;2023.4;77
+r1
+!s85 0
+31
+Z9 !s108 1723101956.000000
+!s107 D:/libero_tests/ABFN_UART/synthesis/UART_ABFN.v|
+Z10 !s90 -reportprogress|300|-sv|-work|postsynth|D:/libero_tests/ABFN_UART/synthesis/UART_ABFN.v|
+!s101 -O0
+!i113 1
+Z11 o-sv -work postsynth -O0
+Z12 tCvgOpt 0
+n@m@s@s_005
+vOSC_C0
+R1
+R2
+R3
+!i10b 1
+!s100 Y1HQW6f_>I:V:965L:I[G2
+IEX8Y[idl;J160UX_j3?dD2
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 1546 13
+R7
+R8
+r1
+!s85 0
+31
+R9
+Z13 !s107 D:/libero_tests/ABFN_UART/synthesis/UART_ABFN.v|
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@o@s@c_@c0
+vOSC_C0_OSC_C0_0_OSC
+R1
+R2
+R3
+!i10b 1
+!s100 _3o^ll4cJjMVm^C1:VVfA1
+IVfTZ[J[2Zfl>N2cTE;5eV3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 1527 17
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@o@s@c_@c0_@o@s@c_@c0_0_@o@s@c
+vRCOSC_25_50MHZ
+R1
+R2
+R3
+!i10b 1
+!s100 obG3aKEch7nWheE7@3ZB[3
+IT_1fI<bIkSWfi]G4JG4>D2
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 887 8
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@r@c@o@s@c_25_50@m@h@z
+vRCOSC_25_50MHZ_FAB
+R1
+R2
+R3
+!i10b 1
+!s100 @6:N3^5aG:Gjim4GoIYM=3
+IcG^4S00MzJQ56Shi8FLW12
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 876 9
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@r@c@o@s@c_25_50@m@h@z_@f@a@b
+vUART_ABFN
+R1
+R2
+R3
+!i10b 1
+!s100 n8M_Z_<6;H<T_26_bGZQA0
+I[I@fTzW`8<59<dMH@bB]V3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 1561 24
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@u@a@r@t_@a@b@f@n
+vUART_MSS
+R1
+R2
+R3
+!i10b 1
+!s100 kWJ1aa9RA:hV?R_1eIFE43
+I=Bc[5Z8em46fo9F4gekH@3
+S1
+R0
+R4
+R5
+R6
+!i122 0
+L0 897 628
+R7
+R8
+r1
+!s85 0
+31
+R9
+R13
+R10
+!s101 -O0
+!i113 1
+R11
+R12
+n@u@a@r@t_@m@s@s

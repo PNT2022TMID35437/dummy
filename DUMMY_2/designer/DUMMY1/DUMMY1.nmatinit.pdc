@@ -1,0 +1,145 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: DUMMY1 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S005 , Package: 400 VF , Speed grade: STD 
+
+# Date generated: Fri Aug 23 13:11:07 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io GPIO_IN\[0\] -DIRECTION INPUT -pinname D18 -fixed no
+set_io GPIO_IN\[1\] -DIRECTION INPUT -pinname A19 -fixed no
+set_io GPIO_OUT\[0\] -DIRECTION OUTPUT -pinname A20 -fixed no
+set_io GPIO_OUT\[1\] -DIRECTION OUTPUT -pinname C19 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o_2_cZ\[2\] -fixed no 400 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_INT.un20_intr_2_1 -fixed no 407 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.INTR_reg73 -fixed no 385 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]\[7\] -fixed no 386 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]\[3\] -fixed no 399 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]\[5\] -fixed no 394 13
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/iPSELS\[0\] -fixed no 393 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GPOUT.un20_GPIO_OUT_i -fixed no 392 6
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]\[6\] -fixed no 397 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o19lto5_3 -fixed no 385 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.edge_both\[0\] -fixed no 379 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.INTR_reg_36\[0\] -fixed no 380 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o_2_cZ\[6\] -fixed no 375 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.edge_pos\[0\] -fixed no 376 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o_2_cZ\[3\] -fixed no 399 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_INT.un20_intr_u -fixed no 392 9
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/iPSELS_1\[0\] -fixed no 394 9
+set_location DUMMY1_MSS_0/MSS_ADLIB_INST_RNINQSR7 -fixed no 221 30
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/INT_OR -fixed no 395 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]2_1 -fixed no 373 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_INT.un9_intr_3_2_0 -fixed no 362 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o_2_cZ\[5\] -fixed no 383 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]\[7\] -fixed no 407 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o_2_cZ\[7\] -fixed no 386 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/edge_neg_2_sqmuxa_i -fixed no 372 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]\[5\] -fixed no 391 13
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/edge_both_2_sqmuxa_1_i -fixed no 384 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.edge_both_22_iv_i\[1\] -fixed no 388 6
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].gpin3\[0\] -fixed no 389 16
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/edge_neg_2_sqmuxa_1_i -fixed no 389 9
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1 -fixed no 218 54
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o_2_cZ\[4\] -fixed no 404 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.INTR_reg\[0\] -fixed no 380 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.edge_neg13 -fixed no 392 15
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/PRDATA_o_m3_1_1\[1\] -fixed no 393 12
+set_location SYSRESET_0 -fixed no 396 8
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]2_2 -fixed no 385 6
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_INT.un9_intr_u -fixed no 365 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o_cZ\[0\] -fixed no 391 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.GPOUT_reg69 -fixed no 388 15
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.GPOUT_reg\[1\] -fixed no 389 13
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/RDATA_8.un35_PRDATA_o_1 -fixed no 391 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/edge_pos_2_sqmuxa_i -fixed no 374 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/un1_PADDR_1 -fixed no 372 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/un1_PADDR_1_1 -fixed no 378 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]2 -fixed no 393 15
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.un63_PRDATA_o_1 -fixed no 390 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/RDATA_8.un35_PRDATA_o_4 -fixed no 392 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GPOUT.un9_GPIO_OUT_i -fixed no 395 6
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.edge_both_9_iv_i\[0\] -fixed no 379 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_INT.un20_intr_3 -fixed no 373 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].gpin2\[0\] -fixed no 392 16
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/u_mux_p_to_b3/PRDATA\[4\] -fixed no 406 9
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/u_mux_p_to_b3/PRDATA\[2\] -fixed no 403 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.edge_neg_9_iv_i\[0\] -fixed no 391 15
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_INT.un9_intr_3 -fixed no 363 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.edge_neg38 -fixed no 387 21
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/PRDATA_o_m3_1\[1\] -fixed no 389 12
+set_location DUMMY1_MSS_0/MSS_ADLIB_INST_RNINQSR7/U0_RGB1 -fixed no 219 15
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/edge_both_2_sqmuxa_i -fixed no 384 6
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.edge_pos_9_iv_i\[0\] -fixed no 376 9
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ -fixed no 396 44
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.edge_neg\[1\] -fixed no 372 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.edge_both13 -fixed no 390 15
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/PRDATA_o_m3_4_1 -fixed no 395 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].gpin1\[0\] -fixed no 386 7
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB -fixed no 397 44
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_INT.un20_intr_2 -fixed no 397 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]\[4\] -fixed no 401 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o_cZ\[1\] -fixed no 381 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]\[2\] -fixed no 400 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/PRDATA_o_m3_cZ\[1\] -fixed no 388 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.edge_neg\[0\] -fixed no 391 16
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/PRDATA_o_m3_1\[0\] -fixed no 386 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]2 -fixed no 387 6
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.edge_both38 -fixed no 382 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]\[1\] -fixed no 381 13
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT -fixed no 219 30
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].gpin2\[1\] -fixed no 382 13
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.INTR_reg_46\[1\] -fixed no 371 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/PRDATA_o_m3_cZ\[0\] -fixed no 391 6
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]\[4\] -fixed no 404 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]\[0\] -fixed no 391 10
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/u_mux_p_to_b3/PRDATA\[6\] -fixed no 396 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]\[2\] -fixed no 406 10
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/u_mux_p_to_b3/PRDATA\[7\] -fixed no 388 9
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/u_mux_p_to_b3/PRDATA\[1\] -fixed no 387 12
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/u_mux_p_to_b3/PRDATA\[3\] -fixed no 398 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.edge_pos\[1\] -fixed no 374 10
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/edge_pos_2_sqmuxa_1_i -fixed no 387 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.edge_pos13 -fixed no 389 15
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.edge_neg_22_iv_i\[1\] -fixed no 380 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.GPOUT_reg\[0\] -fixed no 386 13
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.edge_both\[1\] -fixed no 388 7
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]\[1\] -fixed no 392 13
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].gpin1\[1\] -fixed no 377 13
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]\[3\] -fixed no 390 16
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/u_mux_p_to_b3/PRDATA\[5\] -fixed no 386 6
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.INTR_reg\[1\] -fixed no 371 13
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.edge_pos40 -fixed no 377 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_GEN.CONFIG_reg\[0\]\[6\] -fixed no 375 13
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/RDATA_8.un35_PRDATA_o -fixed no 394 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.un7_PRDATA_o -fixed no 384 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_GEN.CONFIG_reg\[1\]\[0\] -fixed no 392 7
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].REG_INT.un20_intr_3_2_0 -fixed no 379 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].APB_8.edge_pos_22_iv_i\[1\] -fixed no 387 15
+set_location CoreAPB3_C3_0/CoreAPB3_C3_0/u_mux_p_to_b3/PRDATA\[0\] -fixed no 389 6
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].REG_INT.un9_intr_2_3 -fixed no 360 12
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[1\].gpin3\[1\] -fixed no 373 13
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/CONFIG_reg_o19lto5 -fixed no 390 9
+set_location CoreGPIO_C0_0/CoreGPIO_C0_0/xhdl1.GEN_BITS\[0\].APB_8.un63_PRDATA_o -fixed no 385 15
+set_location DUMMY1_MSS_0/MSS_ADLIB_INST -fixed no 228 56
+set_location DUMMY1_MSS_0/MSS_ADLIB_INST_RNINQSR7/U0_RGB1_RGB0 -fixed no 219 12
+set_location DUMMY1_MSS_0/MSS_ADLIB_INST_RNINQSR7/U0_RGB1_RGB1 -fixed no 219 9
+set_location DUMMY1_MSS_0/MSS_ADLIB_INST_RNINQSR7/U0_RGB1_RGB2 -fixed no 219 6
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB0 -fixed no 218 15
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB1 -fixed no 218 12
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB2 -fixed no 218 9
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB3 -fixed no 218 6

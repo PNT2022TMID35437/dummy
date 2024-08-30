@@ -1,0 +1,45 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: eth_dummy 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S005 , Package: 400 VF , Speed grade: STD 
+
+# Date generated: Wed Aug 28 19:56:59 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io MAC_MII_COL -DIRECTION INPUT -pinname A19 -fixed no
+set_io MAC_MII_CRS -DIRECTION INPUT -pinname B19 -fixed no
+set_io MAC_MII_RXD\[0\] -DIRECTION INPUT -pinname R15 -fixed no
+set_io MAC_MII_RXD\[1\] -DIRECTION INPUT -pinname D18 -fixed no
+set_io MAC_MII_RXD\[2\] -DIRECTION INPUT -pinname C19 -fixed no
+set_io MAC_MII_RXD\[3\] -DIRECTION INPUT -pinname N15 -fixed no
+set_io MAC_MII_RX_CLK -DIRECTION INPUT -pinname M19 -fixed no
+set_io MAC_MII_RX_DV -DIRECTION INPUT -pinname A20 -fixed no
+set_io MAC_MII_RX_ER -DIRECTION INPUT -pinname L19 -fixed no
+set_io MAC_MII_TXD\[0\] -DIRECTION OUTPUT -pinname V19 -fixed no
+set_io MAC_MII_TXD\[1\] -DIRECTION OUTPUT -pinname N19 -fixed no
+set_io MAC_MII_TXD\[2\] -DIRECTION OUTPUT -pinname R18 -fixed no
+set_io MAC_MII_TXD\[3\] -DIRECTION OUTPUT -pinname T19 -fixed no
+set_io MAC_MII_TX_CLK -DIRECTION INPUT -pinname N20 -fixed no
+set_io MAC_MII_TX_EN -DIRECTION OUTPUT -pinname R13 -fixed no
+set_io MAC_MII_TX_ER -DIRECTION OUTPUT -pinname T15 -fixed no
+set_io MMUART_1_RXD -DIRECTION INPUT -pinname F18 -fixed no
+set_io MMUART_1_TXD -DIRECTION OUTPUT -pinname G16 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1 -fixed no 218 54
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ -fixed no 396 44
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB -fixed no 397 44
+set_location OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT -fixed no 220 30
+set_location eth_dummy_MSS_0/MSS_ADLIB_INST -fixed no 228 56

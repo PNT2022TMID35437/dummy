@@ -1,0 +1,175 @@
+# Mon Aug 19 11:40:27 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+
+Reading constraint file: D:\libero_tests\LIU_GPIO_1\designer\LIU_GPIO_SB_1\synthesis.fdc
+@L: D:\libero_tests\LIU_GPIO_1\synthesis\LIU_GPIO_SB_1_scck.rpt 
+See clock summary report "D:\libero_tests\LIU_GPIO_1\synthesis\LIU_GPIO_SB_1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 199MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 199MB peak: 200MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 200MB peak: 200MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 201MB peak: 202MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+@W: BN132 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance LIU_GPIO_SB_1_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance LIU_GPIO_SB_1_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 256MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 256MB)
+
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":111:14:111:24|Tristate driver tx_dout_reg[7] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net tx_dout_reg[7] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":111:14:111:24|Tristate driver tx_dout_reg[6] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net tx_dout_reg[6] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":111:14:111:24|Tristate driver tx_dout_reg[5] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net tx_dout_reg[5] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":111:14:111:24|Tristate driver tx_dout_reg[4] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net tx_dout_reg[4] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":111:14:111:24|Tristate driver tx_dout_reg[3] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net tx_dout_reg[3] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":111:14:111:24|Tristate driver tx_dout_reg[2] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net tx_dout_reg[2] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":111:14:111:24|Tristate driver tx_dout_reg[1] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net tx_dout_reg[1] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":111:14:111:24|Tristate driver tx_dout_reg[0] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net tx_dout_reg[0] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":118:8:118:20|Tristate driver fifo_empty_tx (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net fifo_empty_tx (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":123:8:123:19|Tristate driver fifo_full_tx (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) on net fifo_full_tx (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s(verilog)) has its enable tied to GND.
+@W: MO129 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":676:4:676:9|Sequential instance LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":695:4:695:9|Sequential instance LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":714:4:714:9|Sequential instance LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":733:4:733:9|Sequential instance LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":769:4:769:9|Sequential instance LIU_GPIO_SB_1_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sequential instance LIU_GPIO_SB_1_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
+
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\rx_async.v":459:0:459:5|Removing sequential instance fifo_write (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_Rx_async_0s_0s_1s_2s(verilog)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\work\liu_gpio_sb_1_sb\coreuartapb_0_0\rtl\vlog\core\rx_async.v":459:0:459:5|Removing sequential instance clear_parity_en (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_Rx_async_0s_0s_1s_2s(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Removing sequential instance sdif0_state[3:0] (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":797:4:797:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\liu_gpio_1\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_Z3(verilog)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist LIU_GPIO_SB_1 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 257MB)
+
+@W: MT688 :"d:/libero_tests/liu_gpio_1/designer/liu_gpio_sb_1/synthesis.fdc":9:0:9:0|No path from master pin (-source) to source of clock LIU_GPIO_SB_1_sb_0/CCC_0/GL0 due to black box LIU_GPIO_SB_1_sb_0.CCC_0.CCC_INST 
+
+
+Clock Summary
+******************
+
+          Start                                                   Requested     Requested     Clock                         Clock                Clock
+Level     Clock                                                   Frequency     Period        Type                          Group                Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       CLK0_PAD                                                100.0 MHz     10.000        declared                      default_clkgroup     0    
+1 .         LIU_GPIO_SB_1_sb_0/CCC_0/GL0                          3.1 MHz       320.000       generated (from CLK0_PAD)     default_clkgroup     660  
+                                                                                                                                                      
+0 -       LIU_GPIO_SB_1_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared                      default_clkgroup     15   
+======================================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                        Clock     Source                                                                  Clock Pin                                                             Non-clock Pin     Non-clock Pin                                                         
+Clock                                                   Load      Pin                                                                     Seq Example                                                           Seq Example       Comb Example                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CLK0_PAD                                                0         CLK0_PAD(port)                                                          -                                                                     -                 LIU_GPIO_SB_1_sb_0.CCC_0.CLK0_PAD_INST.I(IBUF)                        
+LIU_GPIO_SB_1_sb_0/CCC_0/GL0                            660       LIU_GPIO_SB_1_sb_0.CCC_0.CCC_INST.GL0(CCC)                              LIU_GPIO_SB_1_sb_0.LIU_GPIO_SB_1_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 LIU_GPIO_SB_1_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                        
+LIU_GPIO_SB_1_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     15        LIU_GPIO_SB_1_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     LIU_GPIO_SB_1_sb_0.CORERESETP_0.release_sdif0_core.C                  -                 LIU_GPIO_SB_1_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+========================================================================================================================================================================================================================================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\libero_tests\LIU_GPIO_1\synthesis\LIU_GPIO_SB_1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 257MB peak: 258MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z3(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine xmit_state[5:0] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_Tx_async_0s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 000001
+   00000000000000000000000000000001 -> 000010
+   00000000000000000000000000000010 -> 000100
+   00000000000000000000000000000011 -> 001000
+   00000000000000000000000000000100 -> 010000
+   00000000000000000000000000000101 -> 100000
+Encoding state machine rx_state[2:0] (in view: work.LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_Rx_async_0s_0s_1s_2s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 260MB peak: 260MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "D:\libero_tests\LIU_GPIO_1\synthesis\LIU_GPIO_SB_1_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 171MB peak: 261MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Aug 19 11:40:28 2024
+
+###########################################################]

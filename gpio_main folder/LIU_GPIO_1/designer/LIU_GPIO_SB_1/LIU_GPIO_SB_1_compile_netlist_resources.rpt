@@ -1,0 +1,185 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Mon Aug 19 11:40:36 2024
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S005         |
+| Package                        | 400 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+-------------------------------------------------------+
+| Topcell | LIU_GPIO_SB_1                                         |
+| Format  | Verilog                                               |
+| Source  | D:\libero_tests\LIU_GPIO_1\synthesis\LIU_GPIO_SB_1.vm |
++---------+-------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1055 | 6060  | 17.41      |
+| DFF                       | 632  | 6060  | 10.43      |
+| I/O Register              | 0    | 513   | 0.00       |
+| User I/O                  | 67   | 171   | 39.18      |
+| -- Single-ended I/O       | 67   | 171   | 39.18      |
+| -- Differential I/O Pairs | 0    | 85    | 0.00       |
+| RAM64x18                  | 0    | 11    | 0.00       |
+| RAM1K18                   | 0    | 10    | 0.00       |
+| MACC                      | 0    | 11    | 0.00       |
+| Chip Globals              | 2    | 8     | 25.00      |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 0    | 1     | 0.00       |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 1055 | 632 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 1055 | 632 |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (128KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 0    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 5      | 1    |
+| 14     | 1    |
+| 24     | 8    |
+| Total  | 10   |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 34           | 0           | 0               |
+| Output I/O                    | 33           | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  34   |  33    |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+-----------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                        |
++--------+---------+-----------------------------------------------------------------------------+
+| 633    | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/GL0_INST                                         |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/CCC_0/GL0_INST/U0_RGB1                           |
+|        |         | Source: NETLIST                                                             |
+| 623    | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/MSS_HPMS_READY_int                               |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNIEUGI2/U0_RGB1 |
+|        |         | Source: NETLIST                                                             |
++--------+---------+-----------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+----------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                       |
++--------+---------+----------------------------------------------------------------------------+
+| 159    | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/N_90                               |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/GPOUT_reg_0_sqmuxa_0_o2_0_RNIS6O4B |
+| 153    | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[5]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 89     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[6]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 64     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/N_125                              |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/PRDATA_m2s2_i_a3                   |
+| 63     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/PRDATA_ss0_i                       |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/PRDATA_ss0_i_0_a3                  |
+| 61     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[4]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 61     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[3]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 50     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[2]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 43     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[7]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 40     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PWDATA[7]                 |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
++--------+---------+----------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+----------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                       |
++--------+---------+----------------------------------------------------------------------------+
+| 159    | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/N_90                               |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/GPOUT_reg_0_sqmuxa_0_o2_0_RNIS6O4B |
+| 153    | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[5]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 89     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[6]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 64     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/N_125                              |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/PRDATA_m2s2_i_a3                   |
+| 63     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/PRDATA_ss0_i                       |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/PRDATA_ss0_i_0_a3                  |
+| 61     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[4]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 61     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[3]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 50     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[2]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 43     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PADDR[7]                  |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
+| 40     | INT_NET | Net   : LIU_GPIO_SB_1_sb_0/CoreAPB3_0_APBmslave0_PWDATA[7]                 |
+|        |         | Driver: LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/MSS_ADLIB_INST           |
++--------+---------+----------------------------------------------------------------------------+
+

@@ -1,0 +1,8 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals,MSS,10/100/1000 Ethernet,Multi-Mode UART,RCOSC_50MHZ
+CoreAPB3_C3_0/CoreAPB3_C3_0/Primitives,2,0,0,0,0,0,0,0
+CoreAPB3_C3_0/CoreAPB3_C3_0/u_mux_p_to_b3/Primitives,8,0,0,0,0,0,0,0
+CoreGPIO_C0_0/CoreGPIO_C0_0/Primitives,62,32,0,0,0,0,0,0
+DUMMY1_MSS_0/Primitives,0,0,0,1,1,0,0,0
+OSC_C0_0/OSC_C0_0/Primitives,0,0,0,1,0,0,0,1
+Primitives/Primitives,0,0,4,0,0,0,0,0

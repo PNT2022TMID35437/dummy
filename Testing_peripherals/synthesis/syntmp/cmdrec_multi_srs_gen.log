@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  peripherals  -multisrs  D:\libero_tests\Testing_peripherals\synthesis\synwork\peripherals_comp.srs  -osyn  D:\libero_tests\Testing_peripherals\synthesis\synwork\peripherals_mult.srs  -log  D:\libero_tests\Testing_peripherals\synthesis\synlog\peripherals_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top peripherals -multisrs ..\synwork\peripherals_comp.srs -osyn ..\synwork\peripherals_mult.srs -log ..\synlog\peripherals_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\peripherals_comp.srs|io:i|time:1724238933|size:61337|exec:0|csum:B2C9D74F2F6AB5B0CFBD6CBFC93A117B
+file:..\synwork\peripherals_mult.srs|io:o|time:1724238935|size:2808|exec:0|csum:
+file:..\synlog\peripherals_multi_srs_gen.srr|io:o|time:1724238935|size:1061|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

@@ -1,0 +1,1 @@
+@W: MF511 |Found issues with constraints. Please check constraint checker report "D:\libero_tests\SPI_MSS\synthesis\SPI_cck.rpt" .

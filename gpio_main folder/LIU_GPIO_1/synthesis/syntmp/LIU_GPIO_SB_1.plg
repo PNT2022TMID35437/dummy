@@ -1,0 +1,16 @@
+@P:  Worst Slack : 307.559
+@P:  CLK0_PAD - Estimated Frequency : NA
+@P:  CLK0_PAD - Requested Frequency : 100.0 MHz
+@P:  CLK0_PAD - Estimated Period : NA
+@P:  CLK0_PAD - Requested Period : 10.000
+@P:  CLK0_PAD - Slack : NA
+@P:  LIU_GPIO_SB_1_sb_0/CCC_0/GL0 - Estimated Frequency : 80.4 MHz
+@P:  LIU_GPIO_SB_1_sb_0/CCC_0/GL0 - Requested Frequency : 3.1 MHz
+@P:  LIU_GPIO_SB_1_sb_0/CCC_0/GL0 - Estimated Period : 12.441
+@P:  LIU_GPIO_SB_1_sb_0/CCC_0/GL0 - Requested Period : 320.000
+@P:  LIU_GPIO_SB_1_sb_0/CCC_0/GL0 - Slack : 307.559
+@P: LIU_GPIO_SB_1 Part : m2s005vf400std
+@P: LIU_GPIO_SB_1 Register bits  : 632 
+@P: LIU_GPIO_SB_1 DSP Blocks  : 0
+@P: LIU_GPIO_SB_1 I/O primitives : 67
+@P:  CPU Time : 0h:00m:02s

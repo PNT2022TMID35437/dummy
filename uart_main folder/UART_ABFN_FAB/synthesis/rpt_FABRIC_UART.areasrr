@@ -1,0 +1,482 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S005VF400STD (Microchip)
+
+---------------------------------------------------------------------------
+########   Utilization report for  Top level view:   FABRIC_UART   ########
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      196                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART:	196 (40.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           169                100 %                
+ARI1          69                 100 %                
+BLACK BOX     9                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART:	247 (50.72 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART:	2 (0.41 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block FABRIC_UART:	2 (0.41 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       2                  100 %                
+=================================================
+Total IO PADS in the block FABRIC_UART:	2 (0.41 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb   ########
+Instance path:   FABRIC_UART.FABRIC_UART_sb                         
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      196                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART.FABRIC_UART_sb:	196 (40.25 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           169                100 %                
+ARI1          69                 100 %                
+BLACK BOX     9                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART.FABRIC_UART_sb:	247 (50.72 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART.FABRIC_UART_sb:	2 (0.41 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block FABRIC_UART.FABRIC_UART_sb:	2 (0.41 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreAPB3_Z1   ########
+Instance path:   FABRIC_UART_sb.CoreAPB3_Z1                      
+=================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      10                 5.92 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb.CoreAPB3_Z1:	10 (2.05 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAPB3_MUXPTOB3_0   ########
+Instance path:   CoreAPB3_Z1.COREAPB3_MUXPTOB3_0                         
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      8                  4.73 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAPB3_Z1.COREAPB3_MUXPTOB3_0:	8 (1.64 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z3   ########
+Instance path:   FABRIC_UART_sb.CoreResetP_Z3                      
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  4.59 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb.CoreResetP_Z3:	9 (1.85 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  1.18 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb.CoreResetP_Z3:	2 (0.41 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block FABRIC_UART_sb.CoreResetP_Z3:	1 (0.21 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CCC_0_FCCC   ########
+Instance path:   FABRIC_UART_sb.FABRIC_UART_sb_CCC_0_FCCC                      
+===============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb.FABRIC_UART_sb_CCC_0_FCCC:	1 (0.21 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block FABRIC_UART_sb.FABRIC_UART_sb_CCC_0_FCCC:	1 (0.21 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_54s_0s_0s_0s_0s_0s_0s   ########
+Instance path:   FABRIC_UART_sb.FABRIC_UART_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_54s_0s_0s_0s_0s_0s_0s                      
+================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      187                95.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb.FABRIC_UART_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_54s_0s_0s_0s_0s_0s_0s:	187 (38.40 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           157                92.9 %               
+ARI1          69                 100 %                
+BLACK BOX     2                  22.2 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb.FABRIC_UART_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_54s_0s_0s_0s_0s_0s_0s:	228 (46.82 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART_sb.FABRIC_UART_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_54s_0s_0s_0s_0s_0s_0s:	2 (0.41 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s   ########                                      
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_54s_0s_0s_0s_0s_0s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s
+===================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      163                83.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_54s_0s_0s_0s_0s_0s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s:	163 (33.47 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           136                80.5 %               
+ARI1          61                 88.4 %               
+BLACK BOX     2                  22.2 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_54s_0s_0s_0s_0s_0s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s:	199 (40.86 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_54s_0s_0s_0s_0s_0s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s:	2 (0.41 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_Clock_gen_0s   ########                   
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_Clock_gen_0s
+====================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      19                 9.69 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_Clock_gen_0s:	19 (3.90 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      10                 5.92 %               
+ARI1     14                 20.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_Clock_gen_0s:	24 (4.93 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s   ########                   
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s
+============================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      37                 18.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s:	37 (7.60 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      58                 34.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s:	58 (11.91 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s   ########                   
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s
+========================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      23                 11.7 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s:	23 (4.72 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      24                 14.2 %               
+ARI1     5                  7.25 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s:	29 (5.95 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8   ########                   
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8
+==================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 15.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8:	30 (6.16 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           8                  4.73 %               
+ARI1          21                 30.4 %               
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8:	30 (6.16 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8:	1 (0.21 % Utilization)
+
+-------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128   ########     
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128
+=======================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 15.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128:	30 (6.16 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           8                  4.73 %               
+ARI1          21                 30.4 %               
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128:	30 (6.16 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128:	1 (0.21 % Utilization)
+
+---------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_ram128x8_pa4   ########        
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128.FABRIC_UART_sb_CoreUARTapb_0_0_ram128x8_pa4
+=========================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128.FABRIC_UART_sb_CoreUARTapb_0_0_ram128x8_pa4:	1 (0.21 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128.FABRIC_UART_sb_CoreUARTapb_0_0_ram128x8_pa4:	1 (0.21 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8_0   ########                   
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8_0
+====================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 15.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8_0:	30 (6.16 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           7                  4.14 %               
+ARI1          21                 30.4 %               
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8_0:	29 (5.95 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8_0:	1 (0.21 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128_0   ########       
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8_0.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128_0
+===========================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 15.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8_0.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128_0:	30 (6.16 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           7                  4.14 %               
+ARI1          21                 30.4 %               
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8_0.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128_0:	29 (5.95 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_256x8_0.FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128_0:	1 (0.21 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_CoreUARTapb_0_0_ram128x8_pa4_0   ########          
+Instance path:   FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128_0.FABRIC_UART_sb_CoreUARTapb_0_0_ram128x8_pa4_0
+=============================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128_0.FABRIC_UART_sb_CoreUARTapb_0_0_ram128x8_pa4_0:	1 (0.21 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block FABRIC_UART_sb_CoreUARTapb_0_0_fifo_ctrl_128_0.FABRIC_UART_sb_CoreUARTapb_0_0_ram128x8_pa4_0:	1 (0.21 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_FABOSC_0_OSC   ########
+Instance path:   FABRIC_UART_sb.FABRIC_UART_sb_FABOSC_0_OSC                      
+=================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb.FABRIC_UART_sb_FABOSC_0_OSC:	1 (0.21 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   FABRIC_UART_sb_MSS   ########
+Instance path:   FABRIC_UART_sb.FABRIC_UART_sb_MSS                      
+========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block FABRIC_UART_sb.FABRIC_UART_sb_MSS:	1 (0.21 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  SPI  -multisrs  D:\libero_tests\SPI_MSS\synthesis\synwork\SPI_comp.srs  -osyn  D:\libero_tests\SPI_MSS\synthesis\synwork\SPI_mult.srs  -log  D:\libero_tests\SPI_MSS\synthesis\synlog\SPI_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top SPI -multisrs ..\synwork\SPI_comp.srs -osyn ..\synwork\SPI_mult.srs -log ..\synlog\SPI_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\spi_comp.srs|io:i|time:1724930564|size:43986|exec:0|csum:4BE305771EF4717505DF9AF02EA94FB9
+file:..\synwork\spi_mult.srs|io:o|time:1724930565|size:2965|exec:0|csum:
+file:..\synlog\spi_multi_srs_gen.srr|io:o|time:1724930565|size:1144|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

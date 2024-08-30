@@ -1,0 +1,16 @@
+@P:  Worst Slack : 29.194
+@P:  TEMP_sb_0/CCC_0/GL0 - Estimated Frequency : 92.5 MHz
+@P:  TEMP_sb_0/CCC_0/GL0 - Requested Frequency : 25.0 MHz
+@P:  TEMP_sb_0/CCC_0/GL0 - Estimated Period : 10.806
+@P:  TEMP_sb_0/CCC_0/GL0 - Requested Period : 40.000
+@P:  TEMP_sb_0/CCC_0/GL0 - Slack : 29.194
+@P:  TEMP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : NA
+@P:  TEMP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  TEMP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : NA
+@P:  TEMP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  TEMP_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : NA
+@P: TEMP Part : m2s005vf400std
+@P: TEMP Register bits  : 105 
+@P: TEMP DSP Blocks  : 0
+@P: TEMP I/O primitives : 4
+@P:  CPU Time : 0h:00m:02s

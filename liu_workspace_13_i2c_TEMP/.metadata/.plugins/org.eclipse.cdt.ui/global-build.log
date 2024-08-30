@@ -1,0 +1,2223 @@
+15:22:25 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7936	   1072	  56528	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+15:22:26 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7936	   1072	  56528	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+15:53:08 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+./main1.o: In function `main':
+D:\libero_tests\I2C_smart_build\SoftConsole\SF2_GNU_SC4_I2C_master_slave\Debug/../main1.c:90: multiple definition of `main'
+./main.o:D:\libero_tests\I2C_smart_build\SoftConsole\SF2_GNU_SC4_I2C_master_slave\Debug/../main.c:115: first defined here
+collect2.exe: error: ld returned 1 exit status
+makefile:52: recipe for target 'I2C_master_slave.elf' failed
+make: *** [I2C_master_slave.elf] Error 1
+15:53:30 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7936	   1072	  56528	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+15:53:41 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+./drivers/CoreI2C/core_i2c.o: In function `I2C_write_read':
+D:\libero_tests\I2C_smart_build\SoftConsole\SF2_GNU_SC4_I2C_master_slave\Debug/../drivers/CoreI2C/core_i2c.c:414: undefined reference to `I2C_enable_irq'
+collect2.exe: error: ld returned 1 exit status
+makefile:52: recipe for target 'I2C_master_slave.elf' failed
+make: *** [I2C_master_slave.elf] Error 1
+15:54:22 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7920	   1072	  56544	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+15:54:31 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7920	   1072	  56544	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+15:57:55 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+./drivers/CoreI2C/core_i2c.o: In function `I2C_write_read':
+D:\libero_tests\I2C_smart_build\SoftConsole\SF2_GNU_SC4_I2C_master_slave\Debug/../drivers/CoreI2C/core_i2c.c:414: undefined reference to `I2C_enable_irq'
+collect2.exe: error: ld returned 1 exit status
+makefile:52: recipe for target 'I2C_master_slave.elf' failed
+make: *** [I2C_master_slave.elf] Error 1
+15:59:49 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7936	   1072	  56528	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:13:27 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_i2c/mss_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_i2c/mss_i2c.d" -MT"drivers/mss_i2c/mss_i2c.o" -c -o "drivers/mss_i2c/mss_i2c.o" "../drivers/mss_i2c/mss_i2c.c"
+Finished building: ../drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7936	   1072	  56528	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:27:28 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../main2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main2.d" -MT"main2.o" -c -o "main2.o" "../main2.c"
+Finished building: ../main2.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7040	   1072	  57424	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:28:25 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7040	   1072	  57424	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:41:14 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:42:00 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:42:41 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:50:10 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_i2c/mss_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_i2c/mss_i2c.d" -MT"drivers/mss_i2c/mss_i2c.o" -c -o "drivers/mss_i2c/mss_i2c.o" "../drivers/mss_i2c/mss_i2c.c"
+Finished building: ../drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building file: ../main2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main2.d" -MT"main2.o" -c -o "main2.o" "../main2.c"
+Finished building: ../main2.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:50:45 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:51:12 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+16:51:41 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:20:29 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:22:37 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:30:00 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_i2c/mss_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_i2c/mss_i2c.d" -MT"drivers/mss_i2c/mss_i2c.o" -c -o "drivers/mss_i2c/mss_i2c.o" "../drivers/mss_i2c/mss_i2c.c"
+Finished building: ../drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building file: ../main2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main2.d" -MT"main2.o" -c -o "main2.o" "../main2.c"
+Finished building: ../main2.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:32:41 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:41:14 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_i2c/mss_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_i2c/mss_i2c.d" -MT"drivers/mss_i2c/mss_i2c.o" -c -o "drivers/mss_i2c/mss_i2c.o" "../drivers/mss_i2c/mss_i2c.c"
+Finished building: ../drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building file: ../main2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main2.d" -MT"main2.o" -c -o "main2.o" "../main2.c"
+Finished building: ../main2.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:42:05 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:44:11 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_i2c/mss_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_i2c/mss_i2c.d" -MT"drivers/mss_i2c/mss_i2c.o" -c -o "drivers/mss_i2c/mss_i2c.o" "../drivers/mss_i2c/mss_i2c.c"
+Finished building: ../drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building file: ../main2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main2.d" -MT"main2.o" -c -o "main2.o" "../main2.c"
+Finished building: ../main2.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:48:16 **** Clean-only build of configuration Debug for project I2C_master_slave ****
+make clean 
+rm -rf  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o  I2C_master_slave.hex  I2C_master_slave.siz  ./hal/CortexM3/GNU/hal.d ./hal/CortexM3/GNU/hw_reg_access.d  ./CMSIS/startup_gcc/startup_m2sxxx.d  ./hal/CortexM3/cortex_nvic.d  ./drivers_config/sys_config/sys_config.d  ./drivers/mss_uart/mss_uart.d  ./drivers/mss_sys_services/mss_comblk.d ./drivers/mss_sys_services/mss_sys_services.d  ./drivers/mss_nvm/mss_nvm.d  ./drivers/mss_i2c/mss_i2c.d  ./drivers/mss_hpdma/mss_hpdma.d  ./drivers/CoreI2C/core_i2c.d ./drivers/CoreI2C/i2c_interrupt.d  ./CMSIS/startup_gcc/newlib_stubs.d  ./CMSIS/system_m2sxxx.d  ./main.d ./main1.d ./main2.d  I2C_master_slave.elf
+rm: can't remove 'I2C_master_slave.elf': Permission denied
+makefile:72: recipe for target 'clean' failed
+make: [clean] Error 1 (ignored)
+ 
+17:48:16 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_i2c/mss_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_i2c/mss_i2c.d" -MT"drivers/mss_i2c/mss_i2c.o" -c -o "drivers/mss_i2c/mss_i2c.o" "../drivers/mss_i2c/mss_i2c.c"
+Finished building: ../drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building file: ../main2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main2.d" -MT"main2.o" -c -o "main2.o" "../main2.c"
+Finished building: ../main2.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:52:58 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7104	   1072	  57360	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+17:58:48 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7216	   1072	  57248	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+18:07:01 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'i2c_init':
+../main.c:18:5: error: incompatible type for argument 1 of 'I2C_init'
+     I2C_init(g_core_i2c,I2C_BASE_ADDR,0x4E,I2C_PCLK_DIV_256);
+     ^
+In file included from ../main.c:1:0:
+../drivers/CoreI2C/core_i2c.h:718:6: note: expected 'struct i2c_instance_t *' but argument is of type 'i2c_instance_t'
+ void I2C_init
+      ^
+../main.c: In function 'i2c_read_register':
+../main.c:27:12: error: void value not ignored as it ought to be
+     status = I2C_write(&g_core_i2c, slave_addr, &reg_addr, 1, I2C_RELEASE_BUS);
+            ^
+../main.c:34:12: error: void value not ignored as it ought to be
+     status = I2C_read(&g_core_i2c, slave_addr, &rx_data, 1, I2C_RELEASE_BUS);
+            ^
+make: *** [main.o] Error 1
+subdir.mk:24: recipe for target 'main.o' failed
+18:07:38 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'i2c_read_register':
+../main.c:27:12: error: void value not ignored as it ought to be
+     status = I2C_write(&g_core_i2c, slave_addr, &reg_addr, 1, I2C_RELEASE_BUS);
+            ^
+../main.c:34:12: error: void value not ignored as it ought to be
+     status = I2C_read(&g_core_i2c, slave_addr, &rx_data, 1, I2C_RELEASE_BUS);
+            ^
+subdir.mk:24: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+18:08:27 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'i2c_read_register':
+../main.c:35:12: error: void value not ignored as it ought to be
+     status = I2C_read(&g_core_i2c, slave_addr, &rx_data, 1, I2C_RELEASE_BUS);
+            ^
+make: *** [main.o] Error 1
+subdir.mk:24: recipe for target 'main.o' failed
+18:08:57 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8000	   1072	  56464	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+18:10:04 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8000	   1072	  56464	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+18:13:55 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8000	   1072	  56464	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+18:21:28 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'i2c_init':
+../main.c:19:5: warning: implicit declaration of function 'I2C_enable_interrupts' [-Wimplicit-function-declaration]
+     I2C_enable_interrupts(&g_core_i2c);
+     ^
+../main.c:20:6: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+      NVIC_EnableIRQ(I2C_IRQn);
+      ^
+../main.c:20:21: error: 'I2C_IRQn' undeclared (first use in this function)
+      NVIC_EnableIRQ(I2C_IRQn);
+                     ^
+../main.c:20:21: note: each undeclared identifier is reported only once for each function it appears in
+subdir.mk:24: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+18:21:40 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'i2c_init':
+../main.c:19:5: warning: implicit declaration of function 'I2C_enable_interrupts' [-Wimplicit-function-declaration]
+     I2C_enable_interrupts(&g_core_i2c);
+     ^
+../main.c:20:6: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+      NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+      ^
+../main.c:20:21: error: 'FabricIrq0_IRQHandler' undeclared (first use in this function)
+      NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+                     ^
+../main.c:20:21: note: each undeclared identifier is reported only once for each function it appears in
+../main.c: At top level:
+../main.c:65:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '}' token
+ }
+ ^
+subdir.mk:24: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+18:21:41 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'i2c_init':
+../main.c:19:5: warning: implicit declaration of function 'I2C_enable_interrupts' [-Wimplicit-function-declaration]
+     I2C_enable_interrupts(&g_core_i2c);
+     ^
+../main.c:20:6: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+      NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+      ^
+../main.c:20:21: error: 'FabricIrq0_IRQHandler' undeclared (first use in this function)
+      NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+                     ^
+../main.c:20:21: note: each undeclared identifier is reported only once for each function it appears in
+../main.c: At top level:
+../main.c:65:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '}' token
+ }
+ ^
+subdir.mk:24: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+18:21:42 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'i2c_init':
+../main.c:19:5: warning: implicit declaration of function 'I2C_enable_interrupts' [-Wimplicit-function-declaration]
+     I2C_enable_interrupts(&g_core_i2c);
+     ^
+../main.c:20:6: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+      NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+      ^
+../main.c:20:21: error: 'FabricIrq0_IRQHandler' undeclared (first use in this function)
+      NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+                     ^
+../main.c:20:21: note: each undeclared identifier is reported only once for each function it appears in
+../main.c: At top level:
+../main.c:65:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '}' token
+ }
+ ^
+make: *** [main.o] Error 1
+subdir.mk:24: recipe for target 'main.o' failed
+18:22:01 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'i2c_init':
+../main.c:19:5: warning: implicit declaration of function 'I2C_enable_interrupts' [-Wimplicit-function-declaration]
+     I2C_enable_interrupts(&g_core_i2c);
+     ^
+../main.c:20:6: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+      NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+      ^
+../main.c:20:21: error: 'FabricIrq0_IRQHandler' undeclared (first use in this function)
+      NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+                     ^
+../main.c:20:21: note: each undeclared identifier is reported only once for each function it appears in
+../main.c: At top level:
+../main.c:65:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '}' token
+ }
+ ^
+subdir.mk:24: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+18:23:39 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'i2c_init':
+../main.c:26:20: error: 'FabricIrq0_IRQHandler' undeclared (first use in this function)
+     NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+                    ^
+../main.c:26:20: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:27:5: warning: implicit declaration of function 'I2C_enable_interrupts' [-Wimplicit-function-declaration]
+     I2C_enable_interrupts(&g_core_i2c);
+     ^
+../main.c: At top level:
+../main.c:73:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '}' token
+ }
+ ^
+subdir.mk:24: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+18:24:44 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8000	   1072	  56464	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+18:29:28 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+../drivers/CoreI2C/i2c_interrupt.c: In function 'I2C_enable_irq':
+../drivers/CoreI2C/i2c_interrupt.c:35:5: warning: implicit declaration of function 'I2C_set_interrupt_mask' [-Wimplicit-function-declaration]
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:35:38: error: 'I2C_INT_TX_READY' undeclared (first use in this function)
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+                                      ^
+../drivers/CoreI2C/i2c_interrupt.c:35:38: note: each undeclared identifier is reported only once for each function it appears in
+../drivers/CoreI2C/i2c_interrupt.c:35:57: error: 'I2C_INT_RX_READY' undeclared (first use in this function)
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+                                                         ^
+../drivers/CoreI2C/i2c_interrupt.c:35:76: error: 'I2C_INT_ERROR' undeclared (first use in this function)
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+                                                                            ^
+../drivers/CoreI2C/i2c_interrupt.c:38:5: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+     NVIC_EnableIRQ(I2C_IRQn); // Replace I2C_IRQn with the actual interrupt number
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:38:20: error: 'I2C_IRQn' undeclared (first use in this function)
+     NVIC_EnableIRQ(I2C_IRQn); // Replace I2C_IRQn with the actual interrupt number
+                    ^
+../drivers/CoreI2C/i2c_interrupt.c: At top level:
+../drivers/CoreI2C/i2c_interrupt.c:42:6: warning: conflicting types for 'I2C_set_interrupt_mask'
+ void I2C_set_interrupt_mask(i2c_instance_t *this_i2c, uint32_t interrupt_mask) {
+      ^
+../drivers/CoreI2C/i2c_interrupt.c:35:5: note: previous implicit declaration of 'I2C_set_interrupt_mask' was here
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+     ^
+../drivers/CoreI2C/i2c_interrupt.c: In function 'I2C_set_interrupt_mask':
+../drivers/CoreI2C/i2c_interrupt.c:45:13: error: 'i2c_instance_t' has no member named 'INT_MASK_REG'
+     this_i2c->INT_MASK_REG = interrupt_mask;
+             ^
+make: *** [drivers/CoreI2C/i2c_interrupt.o] Error 1
+drivers/CoreI2C/subdir.mk:21: recipe for target 'drivers/CoreI2C/i2c_interrupt.o' failed
+18:30:18 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+../drivers/CoreI2C/i2c_interrupt.c: In function 'I2C_enable_irq':
+../drivers/CoreI2C/i2c_interrupt.c:35:5: warning: implicit declaration of function 'I2C_set_interrupt_mask' [-Wimplicit-function-declaration]
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:35:38: error: 'I2C_INT_TX_READY' undeclared (first use in this function)
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+                                      ^
+../drivers/CoreI2C/i2c_interrupt.c:35:38: note: each undeclared identifier is reported only once for each function it appears in
+../drivers/CoreI2C/i2c_interrupt.c:35:57: error: 'I2C_INT_RX_READY' undeclared (first use in this function)
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+                                                         ^
+../drivers/CoreI2C/i2c_interrupt.c:35:76: error: 'I2C_INT_ERROR' undeclared (first use in this function)
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+                                                                            ^
+../drivers/CoreI2C/i2c_interrupt.c:38:5: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+     NVIC_EnableIRQ(I2C_IRQn); // Replace I2C_IRQn with the actual interrupt number
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:38:20: error: 'I2C_IRQn' undeclared (first use in this function)
+     NVIC_EnableIRQ(I2C_IRQn); // Replace I2C_IRQn with the actual interrupt number
+                    ^
+../drivers/CoreI2C/i2c_interrupt.c: At top level:
+../drivers/CoreI2C/i2c_interrupt.c:42:6: warning: conflicting types for 'I2C_set_interrupt_mask'
+ void I2C_set_interrupt_mask(i2c_instance_t *this_i2c, uint32_t interrupt_mask) {
+      ^
+../drivers/CoreI2C/i2c_interrupt.c:35:5: note: previous implicit declaration of 'I2C_set_interrupt_mask' was here
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+     ^
+../drivers/CoreI2C/i2c_interrupt.c: In function 'I2C_set_interrupt_mask':
+../drivers/CoreI2C/i2c_interrupt.c:45:13: error: 'i2c_instance_t' has no member named 'INT_MASK_REG'
+     this_i2c->INT_MASK_REG = interrupt_mask;
+             ^
+drivers/CoreI2C/subdir.mk:21: recipe for target 'drivers/CoreI2C/i2c_interrupt.o' failed
+make: *** [drivers/CoreI2C/i2c_interrupt.o] Error 1
+18:31:02 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+../drivers/CoreI2C/i2c_interrupt.c: In function 'I2C_enable_irq':
+../drivers/CoreI2C/i2c_interrupt.c:28:5: warning: implicit declaration of function 'I2C_set_interrupt_mask' [-Wimplicit-function-declaration]
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:31:5: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+     NVIC_EnableIRQ(I2C_IRQn); // Replace I2C_IRQn with the actual interrupt number
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:31:20: error: 'I2C_IRQn' undeclared (first use in this function)
+     NVIC_EnableIRQ(I2C_IRQn); // Replace I2C_IRQn with the actual interrupt number
+                    ^
+../drivers/CoreI2C/i2c_interrupt.c:31:20: note: each undeclared identifier is reported only once for each function it appears in
+drivers/CoreI2C/subdir.mk:21: recipe for target 'drivers/CoreI2C/i2c_interrupt.o' failed
+make: *** [drivers/CoreI2C/i2c_interrupt.o] Error 1
+18:31:52 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+../drivers/CoreI2C/i2c_interrupt.c: In function 'I2C_enable_irq':
+../drivers/CoreI2C/i2c_interrupt.c:28:5: warning: implicit declaration of function 'I2C_set_interrupt_mask' [-Wimplicit-function-declaration]
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:31:5: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+     NVIC_EnableIRQ(FabricIrq0_IRQn); // Replace I2C_IRQn with the actual interrupt number
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:31:20: error: 'FabricIrq0_IRQn' undeclared (first use in this function)
+     NVIC_EnableIRQ(FabricIrq0_IRQn); // Replace I2C_IRQn with the actual interrupt number
+                    ^
+../drivers/CoreI2C/i2c_interrupt.c:31:20: note: each undeclared identifier is reported only once for each function it appears in
+drivers/CoreI2C/subdir.mk:21: recipe for target 'drivers/CoreI2C/i2c_interrupt.o' failed
+make: *** [drivers/CoreI2C/i2c_interrupt.o] Error 1
+18:32:52 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+../drivers/CoreI2C/i2c_interrupt.c: In function 'I2C_enable_irq':
+../drivers/CoreI2C/i2c_interrupt.c:28:5: warning: implicit declaration of function 'I2C_set_interrupt_mask' [-Wimplicit-function-declaration]
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:31:5: warning: implicit declaration of function 'NVIC_EnableIRQ' [-Wimplicit-function-declaration]
+     NVIC_EnableIRQ(FabricIrq0_IRQn); // Replace I2C_IRQn with the actual interrupt number
+     ^
+../drivers/CoreI2C/i2c_interrupt.c:31:20: error: 'FabricIrq0_IRQn' undeclared (first use in this function)
+     NVIC_EnableIRQ(FabricIrq0_IRQn); // Replace I2C_IRQn with the actual interrupt number
+                    ^
+../drivers/CoreI2C/i2c_interrupt.c:31:20: note: each undeclared identifier is reported only once for each function it appears in
+drivers/CoreI2C/subdir.mk:21: recipe for target 'drivers/CoreI2C/i2c_interrupt.o' failed
+make: *** [drivers/CoreI2C/i2c_interrupt.o] Error 1
+18:33:40 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+../drivers/CoreI2C/i2c_interrupt.c: In function 'I2C_enable_irq':
+../drivers/CoreI2C/i2c_interrupt.c:29:5: warning: implicit declaration of function 'I2C_set_interrupt_mask' [-Wimplicit-function-declaration]
+     I2C_set_interrupt_mask(this_i2c, I2C_INT_TX_READY | I2C_INT_RX_READY | I2C_INT_ERROR);
+     ^
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+./drivers/CoreI2C/i2c_interrupt.o: In function `I2C_enable_irq':
+D:\libero_tests\I2C_smart_build\SoftConsole\SF2_GNU_SC4_I2C_master_slave\Debug/../drivers/CoreI2C/i2c_interrupt.c:29: undefined reference to `I2C_set_interrupt_mask'
+collect2.exe: error: ld returned 1 exit status
+make: *** [I2C_master_slave.elf] Error 1
+makefile:52: recipe for target 'I2C_master_slave.elf' failed
+18:33:44 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+arm-none-eabi-objcopy:I2C_master_slave.elf: File format not recognized
+makefile:59: recipe for target 'I2C_master_slave.hex' failed
+make: *** [I2C_master_slave.hex] Error 1
+18:34:20 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+arm-none-eabi-objcopy:I2C_master_slave.elf: File format not recognized
+makefile:59: recipe for target 'I2C_master_slave.hex' failed
+make: *** [I2C_master_slave.hex] Error 1
+18:35:21 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_i2c/mss_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_i2c/mss_i2c.d" -MT"drivers/mss_i2c/mss_i2c.o" -c -o "drivers/mss_i2c/mss_i2c.o" "../drivers/mss_i2c/mss_i2c.c"
+Finished building: ../drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building file: ../main2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main2.d" -MT"main2.o" -c -o "main2.o" "../main2.c"
+Finished building: ../main2.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8000	   1072	  56464	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+18:35:59 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8000	   1072	  56464	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+18:58:11 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7984	   1072	  56480	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+18:59:22 **** Clean-only build of configuration Debug for project I2C_master_slave ****
+make clean 
+rm -rf  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o  I2C_master_slave.hex  I2C_master_slave.siz  ./hal/CortexM3/GNU/hal.d ./hal/CortexM3/GNU/hw_reg_access.d  ./CMSIS/startup_gcc/startup_m2sxxx.d  ./hal/CortexM3/cortex_nvic.d  ./drivers_config/sys_config/sys_config.d  ./drivers/mss_uart/mss_uart.d  ./drivers/mss_sys_services/mss_comblk.d ./drivers/mss_sys_services/mss_sys_services.d  ./drivers/mss_nvm/mss_nvm.d  ./drivers/mss_i2c/mss_i2c.d  ./drivers/mss_hpdma/mss_hpdma.d  ./drivers/CoreI2C/core_i2c.d ./drivers/CoreI2C/i2c_interrupt.d  ./CMSIS/startup_gcc/newlib_stubs.d  ./CMSIS/system_m2sxxx.d  ./main.d ./main1.d ./main2.d  I2C_master_slave.elf
+rm: can't remove 'I2C_master_slave.elf': Permission denied
+makefile:72: recipe for target 'clean' failed
+make: [clean] Error 1 (ignored)
+ 
+18:59:22 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_i2c/mss_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_i2c/mss_i2c.d" -MT"drivers/mss_i2c/mss_i2c.o" -c -o "drivers/mss_i2c/mss_i2c.o" "../drivers/mss_i2c/mss_i2c.c"
+Finished building: ../drivers/mss_i2c/mss_i2c.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building file: ../main2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main2.d" -MT"main2.o" -c -o "main2.o" "../main2.c"
+Finished building: ../main2.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7952	   1072	  56512	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+19:06:06 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+../drivers/CoreI2C/core_i2c.c:88:22: error: unknown type name 'i2c_instance_t'
+ void I2C_enable_irq( i2c_instance_t * this_i2c );
+                      ^
+../drivers/CoreI2C/core_i2c.c:89:23: error: unknown type name 'i2c_instance_t'
+ void I2C_disable_irq( i2c_instance_t * this_i2c );
+                       ^
+../drivers/CoreI2C/core_i2c.c:90:38: error: unknown type name 'i2c_instance_t'
+ static void enable_slave_if_required(i2c_instance_t * this_i2c);
+                                      ^
+../drivers/CoreI2C/core_i2c.c:98:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:101:5: error: unknown type name 'i2c_clock_divider_t'
+     i2c_clock_divider_t ser_clock_speed
+     ^
+../drivers/CoreI2C/core_i2c.c:154:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c_channel,
+     ^
+../drivers/CoreI2C/core_i2c.c:155:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:156:5: error: unknown type name 'i2c_channel_number_t'
+     i2c_channel_number_t channel_number,
+     ^
+../drivers/CoreI2C/core_i2c.c:157:5: error: unknown type name 'i2c_clock_divider_t'
+     i2c_clock_divider_t ser_clock_speed
+     ^
+../drivers/CoreI2C/core_i2c.c:208:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:274:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:342:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:424:1: error: unknown type name 'i2c_status_t'
+ i2c_status_t I2C_get_status
+ ^
+../drivers/CoreI2C/core_i2c.c:426:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:440:1: error: unknown type name 'i2c_status_t'
+ i2c_status_t I2C_wait_complete
+ ^
+../drivers/CoreI2C/core_i2c.c:442:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:471:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:514:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:540:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:566:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:591:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:592:5: error: unknown type name 'i2c_slave_wr_handler_t'
+     i2c_slave_wr_handler_t handler
+     ^
+../drivers/CoreI2C/core_i2c.c:614:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:644:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:669:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:687:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:716:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:739:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:756:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:773:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1259:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1275:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:1305:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:1335:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1357:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1379:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1400:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1421:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1443:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1476:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:1489:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+drivers/CoreI2C/subdir.mk:21: recipe for target 'drivers/CoreI2C/core_i2c.o' failed
+make: *** [drivers/CoreI2C/core_i2c.o] Error 1
+19:07:02 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+../drivers/CoreI2C/core_i2c.c:88:22: error: unknown type name 'i2c_instance_t'
+ void I2C_enable_irq( i2c_instance_t * this_i2c );
+                      ^
+../drivers/CoreI2C/core_i2c.c:89:23: error: unknown type name 'i2c_instance_t'
+ void I2C_disable_irq( i2c_instance_t * this_i2c );
+                       ^
+../drivers/CoreI2C/core_i2c.c:90:38: error: unknown type name 'i2c_instance_t'
+ static void enable_slave_if_required(i2c_instance_t * this_i2c);
+                                      ^
+../drivers/CoreI2C/core_i2c.c:98:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:101:5: error: unknown type name 'i2c_clock_divider_t'
+     i2c_clock_divider_t ser_clock_speed
+     ^
+../drivers/CoreI2C/core_i2c.c:154:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c_channel,
+     ^
+../drivers/CoreI2C/core_i2c.c:155:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:156:5: error: unknown type name 'i2c_channel_number_t'
+     i2c_channel_number_t channel_number,
+     ^
+../drivers/CoreI2C/core_i2c.c:157:5: error: unknown type name 'i2c_clock_divider_t'
+     i2c_clock_divider_t ser_clock_speed
+     ^
+../drivers/CoreI2C/core_i2c.c:208:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:274:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:342:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:424:1: error: unknown type name 'i2c_status_t'
+ i2c_status_t I2C_get_status
+ ^
+../drivers/CoreI2C/core_i2c.c:426:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:440:1: error: unknown type name 'i2c_status_t'
+ i2c_status_t I2C_wait_complete
+ ^
+../drivers/CoreI2C/core_i2c.c:442:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:471:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:514:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:540:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:566:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:591:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:592:5: error: unknown type name 'i2c_slave_wr_handler_t'
+     i2c_slave_wr_handler_t handler
+     ^
+../drivers/CoreI2C/core_i2c.c:614:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:644:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:669:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:687:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:716:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:739:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:756:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:773:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1259:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1275:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:1305:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:1335:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1357:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1379:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1400:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1421:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1443:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1476:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:1489:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+drivers/CoreI2C/subdir.mk:21: recipe for target 'drivers/CoreI2C/core_i2c.o' failed
+make: *** [drivers/CoreI2C/core_i2c.o] Error 1
+19:07:24 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+../drivers/CoreI2C/core_i2c.c:88:22: error: unknown type name 'i2c_instance_t'
+ void I2C_enable_irq( i2c_instance_t * this_i2c );
+                      ^
+../drivers/CoreI2C/core_i2c.c:89:23: error: unknown type name 'i2c_instance_t'
+ void I2C_disable_irq( i2c_instance_t * this_i2c );
+                       ^
+../drivers/CoreI2C/core_i2c.c:90:38: error: unknown type name 'i2c_instance_t'
+ static void enable_slave_if_required(i2c_instance_t * this_i2c);
+                                      ^
+../drivers/CoreI2C/core_i2c.c:98:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:101:5: error: unknown type name 'i2c_clock_divider_t'
+     i2c_clock_divider_t ser_clock_speed
+     ^
+../drivers/CoreI2C/core_i2c.c:154:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c_channel,
+     ^
+../drivers/CoreI2C/core_i2c.c:155:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:156:5: error: unknown type name 'i2c_channel_number_t'
+     i2c_channel_number_t channel_number,
+     ^
+../drivers/CoreI2C/core_i2c.c:157:5: error: unknown type name 'i2c_clock_divider_t'
+     i2c_clock_divider_t ser_clock_speed
+     ^
+../drivers/CoreI2C/core_i2c.c:208:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:274:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:342:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:424:1: error: unknown type name 'i2c_status_t'
+ i2c_status_t I2C_get_status
+ ^
+../drivers/CoreI2C/core_i2c.c:426:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:440:1: error: unknown type name 'i2c_status_t'
+ i2c_status_t I2C_wait_complete
+ ^
+../drivers/CoreI2C/core_i2c.c:442:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:471:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:514:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:540:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:566:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:591:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:592:5: error: unknown type name 'i2c_slave_wr_handler_t'
+     i2c_slave_wr_handler_t handler
+     ^
+../drivers/CoreI2C/core_i2c.c:614:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:644:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:669:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:687:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:716:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:739:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:756:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:773:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1259:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1275:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:1305:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:1335:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1357:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1379:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1400:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1421:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1443:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+../drivers/CoreI2C/core_i2c.c:1476:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c,
+     ^
+../drivers/CoreI2C/core_i2c.c:1489:5: error: unknown type name 'i2c_instance_t'
+     i2c_instance_t * this_i2c
+     ^
+make: *** [drivers/CoreI2C/core_i2c.o] Error 1
+drivers/CoreI2C/subdir.mk:21: recipe for target 'drivers/CoreI2C/core_i2c.o' failed
+19:07:51 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../drivers/CoreI2C/core_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/core_i2c.d" -MT"drivers/CoreI2C/core_i2c.o" -c -o "drivers/CoreI2C/core_i2c.o" "../drivers/CoreI2C/core_i2c.c"
+Finished building: ../drivers/CoreI2C/core_i2c.c
+ 
+Building file: ../drivers/CoreI2C/i2c_interrupt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreI2C/i2c_interrupt.d" -MT"drivers/CoreI2C/i2c_interrupt.o" -c -o "drivers/CoreI2C/i2c_interrupt.o" "../drivers/CoreI2C/i2c_interrupt.c"
+Finished building: ../drivers/CoreI2C/i2c_interrupt.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building file: ../main2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main2.d" -MT"main2.o" -c -o "main2.o" "../main2.c"
+Finished building: ../main2.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7136	   1072	  57328	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+19:08:08 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7136	   1072	  57328	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+19:09:44 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7040	   1072	  57424	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+19:10:36 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7040	   1072	  57424	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+19:11:31 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7040	   1072	  57424	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+19:12:19 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7040	   1072	  57424	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 
+10:26:59 **** Incremental Build of configuration Debug for project I2C_master_slave ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../drivers/CoreI2C -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: I2C_master_slave.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"I2C_master_slave.map" -o "I2C_master_slave.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreI2C/core_i2c.o ./drivers/CoreI2C/i2c_interrupt.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./main2.o   
+Finished building target: I2C_master_slave.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "I2C_master_slave.elf"  "I2C_master_slave.hex"
+Finished building: I2C_master_slave.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "I2C_master_slave.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7040	   1072	  57424	  65536	  10000	I2C_master_slave.elf
+Finished building: I2C_master_slave.siz
+ 

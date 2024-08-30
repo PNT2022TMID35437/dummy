@@ -1,0 +1,1986 @@
+11:52:51 **** Build of configuration Debug for project polled_uart ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: polled_uart.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"polled_uart.map" -o "polled_uart.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: polled_uart.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "polled_uart.elf"  "polled_uart.hex"
+Finished building: polled_uart.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5264	   1104	  59168	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+11:52:54 **** Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/w25q64fvssig/w25q64fvssig.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/w25q64fvssig/w25q64fvssig.d" -MT"drivers/w25q64fvssig/w25q64fvssig.o" -c -o "drivers/w25q64fvssig/w25q64fvssig.o" "../drivers/w25q64fvssig/w25q64fvssig.c"
+Finished building: ../drivers/w25q64fvssig/w25q64fvssig.c
+ 
+Building file: ../drivers/mss_spi/mss_spi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_spi/mss_spi.d" -MT"drivers/mss_spi/mss_spi.o" -c -o "drivers/mss_spi/mss_spi.o" "../drivers/mss_spi/mss_spi.c"
+Finished building: ../drivers/mss_spi/mss_spi.c
+ 
+Building file: ../drivers/mss_pdma/mss_pdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_pdma/mss_pdma.d" -MT"drivers/mss_pdma/mss_pdma.o" -c -o "drivers/mss_pdma/mss_pdma.o" "../drivers/mss_pdma/mss_pdma.c"
+Finished building: ../drivers/mss_pdma/mss_pdma.c
+ 
+Building file: ../drivers/mss_gpio/mss_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_gpio/mss_gpio.d" -MT"drivers/mss_gpio/mss_gpio.o" -c -o "drivers/mss_gpio/mss_gpio.o" "../drivers/mss_gpio/mss_gpio.c"
+Finished building: ../drivers/mss_gpio/mss_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../main1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main1.d" -MT"main1.o" -c -o "main1.o" "../main1.c"
+Finished building: ../main1.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+./main.o: In function `main':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../main.c:52: undefined reference to `MSS_UART_init'
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../main.c:115: undefined reference to `MSS_UART_polled_tx'
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../main.c:117: undefined reference to `g_mss_uart0'
+collect2.exe: error: ld returned 1 exit status
+makefile:50: recipe for target 'spi_flash_pdma_example.elf' failed
+make: *** [spi_flash_pdma_example.elf] Error 1
+11:53:33 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5264	   1104	  59168	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+11:53:34 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"mss_uart.d" -MT"mss_uart.o" -c -o "mss_uart.o" "../mss_uart.c"
+Finished building: ../mss_uart.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./mss_uart.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  13248	   2144	  50144	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+11:53:41 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5264	   1104	  59168	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+11:53:41 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  13248	   2144	  50144	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+12:14:15 **** Build of configuration Debug for project SF2_simple_gpio ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/CoreGPIO -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/CoreGPIO -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/CoreGPIO/core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/CoreGPIO -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreGPIO/core_gpio.d" -MT"drivers/CoreGPIO/core_gpio.o" -c -o "drivers/CoreGPIO/core_gpio.o" "../drivers/CoreGPIO/core_gpio.c"
+Finished building: ../drivers/CoreGPIO/core_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/CoreGPIO -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/CoreGPIO -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/CoreGPIO -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: SF2_simple_gpio.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"SF2_simple_gpio.map" -o "SF2_simple_gpio.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: SF2_simple_gpio.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "SF2_simple_gpio.elf"  "SF2_simple_gpio.hex"
+Finished building: SF2_simple_gpio.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_simple_gpio.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3008	   1072	  61456	  65536	  10000	SF2_simple_gpio.elf
+Finished building: SF2_simple_gpio.siz
+ 
+12:14:16 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5264	   1104	  59168	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+12:14:17 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"core_gpio.d" -MT"core_gpio.o" -c -o "core_gpio.o" "../core_gpio.c"
+Finished building: ../core_gpio.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c:26:1: error: unknown type name 'gpio_instance_t'
+ gpio_instance_t g_gpio;
+ ^
+../main.c: In function 'main':
+../main.c:51:5: warning: implicit declaration of function 'GPIO_init' [-Wimplicit-function-declaration]
+     GPIO_init( &g_gpio,    0x30000000, GPIO_APB_32_BITS_BUS );
+     ^
+../main.c:51:40: error: 'GPIO_APB_32_BITS_BUS' undeclared (first use in this function)
+     GPIO_init( &g_gpio,    0x30000000, GPIO_APB_32_BITS_BUS );
+                                        ^
+../main.c:51:40: note: each undeclared identifier is reported only once for each function it appears in
+../main.c:58:5: warning: implicit declaration of function 'GPIO_config' [-Wimplicit-function-declaration]
+     GPIO_config( &g_gpio, GPIO_0, GPIO_OUTPUT_MODE );
+     ^
+../main.c:58:27: error: 'GPIO_0' undeclared (first use in this function)
+     GPIO_config( &g_gpio, GPIO_0, GPIO_OUTPUT_MODE );
+                           ^
+../main.c:58:35: error: 'GPIO_OUTPUT_MODE' undeclared (first use in this function)
+     GPIO_config( &g_gpio, GPIO_0, GPIO_OUTPUT_MODE );
+                                   ^
+subdir.mk:27: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+12:14:45 **** Incremental Build of configuration Debug for project SF2_simple_gpio ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_simple_gpio.elf"
+   text	   data	    bss	    dec	    hex	filename
+   3008	   1072	  61456	  65536	  10000	SF2_simple_gpio.elf
+Finished building: SF2_simple_gpio.siz
+ 
+12:14:45 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5264	   1104	  59168	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+12:14:45 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./core_gpio.o ./main.o ./main1.o ./mss_uart.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  13696	   2144	  49696	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+12:27:44 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./core_gpio.o ./main.o ./main1.o ./mss_uart.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14080	   2144	  49312	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+12:28:16 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14080	   2144	  49312	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+12:31:09 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./core_gpio.o ./main.o ./main1.o ./mss_uart.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14080	   2144	  49312	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:33:28 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./core_gpio.o ./main.o ./main1.o ./mss_uart.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14016	   8480	  43040	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:35:08 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14016	   8480	  43040	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:40:38 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14016	   8480	  43040	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:43:17 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14016	   8480	  43040	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:45:18 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14016	   8480	  43040	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:45:50 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14016	   8480	  43040	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:46:41 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14016	   8480	  43040	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:47:21 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14016	   8480	  43040	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:47:43 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  14016	   8480	  43040	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:48:27 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/w25q64fvssig/w25q64fvssig.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/w25q64fvssig/w25q64fvssig.d" -MT"drivers/w25q64fvssig/w25q64fvssig.o" -c -o "drivers/w25q64fvssig/w25q64fvssig.o" "../drivers/w25q64fvssig/w25q64fvssig.c"
+Finished building: ../drivers/w25q64fvssig/w25q64fvssig.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_spi/mss_spi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_spi/mss_spi.d" -MT"drivers/mss_spi/mss_spi.o" -c -o "drivers/mss_spi/mss_spi.o" "../drivers/mss_spi/mss_spi.c"
+Finished building: ../drivers/mss_spi/mss_spi.c
+ 
+Building file: ../drivers/mss_pdma/mss_pdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_pdma/mss_pdma.d" -MT"drivers/mss_pdma/mss_pdma.o" -c -o "drivers/mss_pdma/mss_pdma.o" "../drivers/mss_pdma/mss_pdma.c"
+Finished building: ../drivers/mss_pdma/mss_pdma.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/mss_gpio/mss_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_gpio/mss_gpio.d" -MT"drivers/mss_gpio/mss_gpio.o" -c -o "drivers/mss_gpio/mss_gpio.o" "../drivers/mss_gpio/mss_gpio.c"
+Finished building: ../drivers/mss_gpio/mss_gpio.c
+ 
+Building file: ../drivers/CoreGPIO/core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreGPIO/core_gpio.d" -MT"drivers/CoreGPIO/core_gpio.o" -c -o "drivers/CoreGPIO/core_gpio.o" "../drivers/CoreGPIO/core_gpio.c"
+Finished building: ../drivers/CoreGPIO/core_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"core_gpio.d" -MT"core_gpio.o" -c -o "core_gpio.o" "../core_gpio.c"
+Finished building: ../core_gpio.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building file: ../mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"mss_uart.d" -MT"mss_uart.o" -c -o "mss_uart.o" "../mss_uart.c"
+Finished building: ../mss_uart.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./core_gpio.o ./main.o ./main1.o ./mss_uart.o   
+./core_gpio.o: In function `GPIO_disable_irq':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:37: multiple definition of `GPIO_init'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:37: first defined here
+./core_gpio.o: In function `GPIO_set_output':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:85: multiple definition of `GPIO_config'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:85: first defined here
+./core_gpio.o: In function `GPIO_set_outputs':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:114: multiple definition of `GPIO_set_outputs'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:114: first defined here
+./core_gpio.o: In function `GPIO_get_outputs':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:193: multiple definition of `GPIO_get_outputs'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:193: first defined here
+./core_gpio.o: In function `GPIO_get_inputs':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:156: multiple definition of `GPIO_get_inputs'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:156: first defined here
+./core_gpio.o: In function `GPIO_set_output':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:232: multiple definition of `GPIO_set_output'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:232: first defined here
+./core_gpio.o: In function `GPIO_drive_inout':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:334: multiple definition of `GPIO_drive_inout'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:334: first defined here
+./core_gpio.o: In function `GPIO_enable_irq':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:387: multiple definition of `GPIO_enable_irq'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:387: first defined here
+./core_gpio.o: In function `GPIO_disable_irq':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:411: multiple definition of `GPIO_disable_irq'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:411: first defined here
+./core_gpio.o: In function `GPIO_clear_irq':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:435: multiple definition of `GPIO_clear_irq'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:435: first defined here
+./core_gpio.o: In function `GPIO_get_irq_sources':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:470: multiple definition of `GPIO_get_irq_sources'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:470: first defined here
+./core_gpio.o: In function `GPIO_clear_all_irq_sources':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../core_gpio.c:508: multiple definition of `GPIO_clear_all_irq_sources'
+./drivers/CoreGPIO/core_gpio.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/CoreGPIO/core_gpio.c:508: first defined here
+./mss_uart.o: In function `MSS_UART_init':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:105: multiple definition of `MSS_UART_init'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:105: first defined here
+./mss_uart.o: In function `MSS_UART_lin_init':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:135: multiple definition of `MSS_UART_lin_init'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:135: first defined here
+./mss_uart.o: In function `MSS_UART_irda_init':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:166: multiple definition of `MSS_UART_irda_init'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:166: first defined here
+./mss_uart.o: In function `MSS_UART_smartcard_init':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:201: multiple definition of `MSS_UART_smartcard_init'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:201: first defined here
+./mss_uart.o: In function `MSS_UART_polled_tx':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:235: multiple definition of `MSS_UART_polled_tx'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:235: first defined here
+./mss_uart.o: In function `MSS_UART_polled_tx_string':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:290: multiple definition of `MSS_UART_polled_tx_string'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:290: first defined here
+./mss_uart.o: In function `MSS_UART_irq_tx':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:344: multiple definition of `MSS_UART_irq_tx'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:344: first defined here
+./mss_uart.o: In function `MSS_UART_tx_complete':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:379: multiple definition of `MSS_UART_tx_complete'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:379: first defined here
+./mss_uart.o: In function `MSS_UART_get_rx':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:411: multiple definition of `MSS_UART_get_rx'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:411: first defined here
+./mss_uart.o: In function `MSS_UART_enable_irq':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:445: multiple definition of `MSS_UART_enable_irq'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:445: first defined here
+./mss_uart.o: In function `MSS_UART_disable_irq':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:486: multiple definition of `MSS_UART_disable_irq'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:486: first defined here
+./mss_uart.o: In function `MSS_UART_set_rx_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:530: multiple definition of `MSS_UART_set_rx_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:530: first defined here
+./mss_uart.o: In function `MSS_UART_set_loopback':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:565: multiple definition of `MSS_UART_set_loopback'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:565: first defined here
+./mss_uart.o: In function `UART0_IRQHandler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:619: multiple definition of `UART0_IRQHandler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:619: first defined here
+./mss_uart.o: In function `UART1_IRQHandler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:633: multiple definition of `UART1_IRQHandler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:633: first defined here
+./mss_uart.o: In function `MSS_UART_set_rxstatus_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:646: multiple definition of `MSS_UART_set_rxstatus_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:646: first defined here
+./mss_uart.o: In function `MSS_UART_set_tx_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:675: multiple definition of `MSS_UART_set_tx_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:675: first defined here
+./mss_uart.o: In function `MSS_UART_set_modemstatus_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:708: multiple definition of `MSS_UART_set_modemstatus_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:708: first defined here
+./mss_uart.o: In function `MSS_UART_fill_tx_fifo':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:738: multiple definition of `MSS_UART_fill_tx_fifo'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:738: first defined here
+./mss_uart.o: In function `MSS_UART_get_rx_status':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:783: multiple definition of `MSS_UART_get_rx_status'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:783: first defined here
+./mss_uart.o: In function `MSS_UART_get_modem_status':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:814: multiple definition of `MSS_UART_get_modem_status'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:814: first defined here
+./mss_uart.o: In function `MSS_UART_get_tx_status':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:846: multiple definition of `MSS_UART_get_tx_status'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:846: first defined here
+./mss_uart.o: In function `MSS_UART_set_break':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:874: multiple definition of `MSS_UART_set_break'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:874: first defined here
+./mss_uart.o: In function `MSS_UART_clear_break':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:891: multiple definition of `MSS_UART_clear_break'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:891: first defined here
+./mss_uart.o: In function `MSS_UART_set_pidpei_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:909: multiple definition of `MSS_UART_set_pidpei_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:909: first defined here
+./mss_uart.o: In function `MSS_UART_set_linbreak_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:938: multiple definition of `MSS_UART_set_linbreak_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:938: first defined here
+./mss_uart.o: In function `MSS_UART_set_linsync_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:967: multiple definition of `MSS_UART_set_linsync_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:967: first defined here
+./mss_uart.o: In function `MSS_UART_set_nack_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:996: multiple definition of `MSS_UART_set_nack_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:996: first defined here
+./mss_uart.o: In function `MSS_UART_set_rx_timeout_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1025: multiple definition of `MSS_UART_set_rx_timeout_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1025: first defined here
+./mss_uart.o: In function `MSS_UART_enable_half_duplex':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1053: multiple definition of `MSS_UART_enable_half_duplex'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1053: first defined here
+./mss_uart.o: In function `MSS_UART_disable_half_duplex':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1070: multiple definition of `MSS_UART_disable_half_duplex'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1070: first defined here
+./mss_uart.o: In function `MSS_UART_set_rx_endian':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1088: multiple definition of `MSS_UART_set_rx_endian'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1088: first defined here
+./mss_uart.o: In function `MSS_UART_set_tx_endian':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1110: multiple definition of `MSS_UART_set_tx_endian'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1110: first defined here
+./mss_uart.o: In function `MSS_UART_set_filter_length':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1132: multiple definition of `MSS_UART_set_filter_length'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1132: first defined here
+./mss_uart.o: In function `MSS_UART_enable_afm':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1152: multiple definition of `MSS_UART_enable_afm'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1152: first defined here
+./mss_uart.o: In function `MSS_UART_disable_afm':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1170: multiple definition of `MSS_UART_disable_afm'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1170: first defined here
+./mss_uart.o: In function `MSS_UART_enable_afclear':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1189: multiple definition of `MSS_UART_enable_afclear'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1189: first defined here
+./mss_uart.o: In function `MSS_UART_disable_afclear':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1209: multiple definition of `MSS_UART_disable_afclear'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1209: first defined here
+./mss_uart.o: In function `MSS_UART_enable_rx_timeout':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1228: multiple definition of `MSS_UART_enable_rx_timeout'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1228: first defined here
+./mss_uart.o: In function `MSS_UART_disable_rx_timeout':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1248: multiple definition of `MSS_UART_disable_rx_timeout'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1248: first defined here
+./mss_uart.o: In function `MSS_UART_enable_tx_time_guard':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1267: multiple definition of `MSS_UART_enable_tx_time_guard'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1267: first defined here
+./mss_uart.o: In function `MSS_UART_disable_tx_time_guard':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1287: multiple definition of `MSS_UART_disable_tx_time_guard'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1287: first defined here
+./mss_uart.o: In function `MSS_UART_set_address':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1306: multiple definition of `MSS_UART_set_address'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1306: first defined here
+./mss_uart.o: In function `MSS_UART_set_ready_mode':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1324: multiple definition of `MSS_UART_set_ready_mode'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1324: first defined here
+./mss_uart.o: In function `MSS_UART_set_usart_mode':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1442: multiple definition of `MSS_UART_set_usart_mode'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1442: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [spi_flash_pdma_example.elf] Error 1
+makefile:55: recipe for target 'spi_flash_pdma_example.elf' failed
+15:48:51 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o ./mss_uart.o   
+./mss_uart.o: In function `MSS_UART_init':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:105: multiple definition of `MSS_UART_init'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:105: first defined here
+./mss_uart.o: In function `MSS_UART_lin_init':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:135: multiple definition of `MSS_UART_lin_init'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:135: first defined here
+./mss_uart.o: In function `MSS_UART_irda_init':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:166: multiple definition of `MSS_UART_irda_init'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:166: first defined here
+./mss_uart.o: In function `MSS_UART_smartcard_init':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:201: multiple definition of `MSS_UART_smartcard_init'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:201: first defined here
+./mss_uart.o: In function `MSS_UART_polled_tx':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:235: multiple definition of `MSS_UART_polled_tx'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:235: first defined here
+./mss_uart.o: In function `MSS_UART_polled_tx_string':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:290: multiple definition of `MSS_UART_polled_tx_string'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:290: first defined here
+./mss_uart.o: In function `MSS_UART_irq_tx':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:344: multiple definition of `MSS_UART_irq_tx'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:344: first defined here
+./mss_uart.o: In function `MSS_UART_tx_complete':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:379: multiple definition of `MSS_UART_tx_complete'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:379: first defined here
+./mss_uart.o: In function `MSS_UART_get_rx':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:411: multiple definition of `MSS_UART_get_rx'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:411: first defined here
+./mss_uart.o: In function `MSS_UART_enable_irq':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:445: multiple definition of `MSS_UART_enable_irq'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:445: first defined here
+./mss_uart.o: In function `MSS_UART_disable_irq':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:486: multiple definition of `MSS_UART_disable_irq'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:486: first defined here
+./mss_uart.o: In function `MSS_UART_set_rx_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:530: multiple definition of `MSS_UART_set_rx_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:530: first defined here
+./mss_uart.o: In function `MSS_UART_set_loopback':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:565: multiple definition of `MSS_UART_set_loopback'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:565: first defined here
+./mss_uart.o: In function `UART0_IRQHandler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:619: multiple definition of `UART0_IRQHandler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:619: first defined here
+./mss_uart.o: In function `UART1_IRQHandler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:633: multiple definition of `UART1_IRQHandler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:633: first defined here
+./mss_uart.o: In function `MSS_UART_set_rxstatus_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:646: multiple definition of `MSS_UART_set_rxstatus_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:646: first defined here
+./mss_uart.o: In function `MSS_UART_set_tx_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:675: multiple definition of `MSS_UART_set_tx_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:675: first defined here
+./mss_uart.o: In function `MSS_UART_set_modemstatus_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:708: multiple definition of `MSS_UART_set_modemstatus_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:708: first defined here
+./mss_uart.o: In function `MSS_UART_fill_tx_fifo':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:738: multiple definition of `MSS_UART_fill_tx_fifo'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:738: first defined here
+./mss_uart.o: In function `MSS_UART_get_rx_status':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:783: multiple definition of `MSS_UART_get_rx_status'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:783: first defined here
+./mss_uart.o: In function `MSS_UART_get_modem_status':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:814: multiple definition of `MSS_UART_get_modem_status'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:814: first defined here
+./mss_uart.o: In function `MSS_UART_get_tx_status':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:846: multiple definition of `MSS_UART_get_tx_status'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:846: first defined here
+./mss_uart.o: In function `MSS_UART_set_break':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:874: multiple definition of `MSS_UART_set_break'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:874: first defined here
+./mss_uart.o: In function `MSS_UART_clear_break':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:891: multiple definition of `MSS_UART_clear_break'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:891: first defined here
+./mss_uart.o: In function `MSS_UART_set_pidpei_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:909: multiple definition of `MSS_UART_set_pidpei_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:909: first defined here
+./mss_uart.o: In function `MSS_UART_set_linbreak_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:938: multiple definition of `MSS_UART_set_linbreak_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:938: first defined here
+./mss_uart.o: In function `MSS_UART_set_linsync_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:967: multiple definition of `MSS_UART_set_linsync_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:967: first defined here
+./mss_uart.o: In function `MSS_UART_set_nack_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:996: multiple definition of `MSS_UART_set_nack_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:996: first defined here
+./mss_uart.o: In function `MSS_UART_set_rx_timeout_handler':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1025: multiple definition of `MSS_UART_set_rx_timeout_handler'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1025: first defined here
+./mss_uart.o: In function `MSS_UART_enable_half_duplex':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1053: multiple definition of `MSS_UART_enable_half_duplex'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1053: first defined here
+./mss_uart.o: In function `MSS_UART_disable_half_duplex':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1070: multiple definition of `MSS_UART_disable_half_duplex'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1070: first defined here
+./mss_uart.o: In function `MSS_UART_set_rx_endian':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1088: multiple definition of `MSS_UART_set_rx_endian'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1088: first defined here
+./mss_uart.o: In function `MSS_UART_set_tx_endian':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1110: multiple definition of `MSS_UART_set_tx_endian'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1110: first defined here
+./mss_uart.o: In function `MSS_UART_set_filter_length':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1132: multiple definition of `MSS_UART_set_filter_length'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1132: first defined here
+./mss_uart.o: In function `MSS_UART_enable_afm':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1152: multiple definition of `MSS_UART_enable_afm'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1152: first defined here
+./mss_uart.o: In function `MSS_UART_disable_afm':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1170: multiple definition of `MSS_UART_disable_afm'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1170: first defined here
+./mss_uart.o: In function `MSS_UART_enable_afclear':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1189: multiple definition of `MSS_UART_enable_afclear'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1189: first defined here
+./mss_uart.o: In function `MSS_UART_disable_afclear':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1209: multiple definition of `MSS_UART_disable_afclear'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1209: first defined here
+./mss_uart.o: In function `MSS_UART_enable_rx_timeout':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1228: multiple definition of `MSS_UART_enable_rx_timeout'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1228: first defined here
+./mss_uart.o: In function `MSS_UART_disable_rx_timeout':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1248: multiple definition of `MSS_UART_disable_rx_timeout'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1248: first defined here
+./mss_uart.o: In function `MSS_UART_enable_tx_time_guard':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1267: multiple definition of `MSS_UART_enable_tx_time_guard'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1267: first defined here
+./mss_uart.o: In function `MSS_UART_disable_tx_time_guard':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1287: multiple definition of `MSS_UART_disable_tx_time_guard'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1287: first defined here
+makefile:55: recipe for target 'spi_flash_pdma_example.elf' failed
+./mss_uart.o: In function `MSS_UART_set_address':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1306: multiple definition of `MSS_UART_set_address'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1306: first defined here
+./mss_uart.o: In function `MSS_UART_set_ready_mode':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1324: multiple definition of `MSS_UART_set_ready_mode'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1324: first defined here
+./mss_uart.o: In function `MSS_UART_set_usart_mode':
+D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../mss_uart.c:1442: multiple definition of `MSS_UART_set_usart_mode'
+./drivers/mss_uart/mss_uart.o:D:\libero_tests\SPI_MSS\SoftConsole\SF2_GNU_SC4_SPI_Flash\Debug/../drivers/mss_uart/mss_uart.c:1442: first defined here
+collect2.exe: error: ld returned 1 exit status
+make: *** [spi_flash_pdma_example.elf] Error 1
+15:48:59 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16032	   8480	  41024	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:49:03 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16032	   8480	  41024	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:50:29 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16032	   8480	  41024	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:51:10 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16032	   8480	  41024	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:51:34 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16032	   8480	  41024	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:55:56 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16032	   8480	  41024	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+15:59:13 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:244:55: error: expected ';' before ')' token
+     MSS_UART_polled_tx(gp_my_uart, g_flash_rd_buf, 10));
+                                                       ^
+../main.c:244:55: error: expected statement before ')' token
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+15:59:19 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16032	   8480	  41024	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:01:00 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16032	   8480	  41024	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:02:57 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:03:59 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:05:50 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/w25q64fvssig/w25q64fvssig.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/w25q64fvssig/w25q64fvssig.d" -MT"drivers/w25q64fvssig/w25q64fvssig.o" -c -o "drivers/w25q64fvssig/w25q64fvssig.o" "../drivers/w25q64fvssig/w25q64fvssig.c"
+Finished building: ../drivers/w25q64fvssig/w25q64fvssig.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_spi/mss_spi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_spi/mss_spi.d" -MT"drivers/mss_spi/mss_spi.o" -c -o "drivers/mss_spi/mss_spi.o" "../drivers/mss_spi/mss_spi.c"
+Finished building: ../drivers/mss_spi/mss_spi.c
+ 
+Building file: ../drivers/mss_pdma/mss_pdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_pdma/mss_pdma.d" -MT"drivers/mss_pdma/mss_pdma.o" -c -o "drivers/mss_pdma/mss_pdma.o" "../drivers/mss_pdma/mss_pdma.c"
+Finished building: ../drivers/mss_pdma/mss_pdma.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/mss_gpio/mss_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_gpio/mss_gpio.d" -MT"drivers/mss_gpio/mss_gpio.o" -c -o "drivers/mss_gpio/mss_gpio.o" "../drivers/mss_gpio/mss_gpio.c"
+Finished building: ../drivers/mss_gpio/mss_gpio.c
+ 
+Building file: ../drivers/CoreGPIO/core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreGPIO/core_gpio.d" -MT"drivers/CoreGPIO/core_gpio.o" -c -o "drivers/CoreGPIO/core_gpio.o" "../drivers/CoreGPIO/core_gpio.c"
+Finished building: ../drivers/CoreGPIO/core_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:07:12 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:07:29 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:11:38 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:13:30 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:15:32 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:15:42 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:25:06 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/w25q64fvssig/w25q64fvssig.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/w25q64fvssig/w25q64fvssig.d" -MT"drivers/w25q64fvssig/w25q64fvssig.o" -c -o "drivers/w25q64fvssig/w25q64fvssig.o" "../drivers/w25q64fvssig/w25q64fvssig.c"
+Finished building: ../drivers/w25q64fvssig/w25q64fvssig.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_spi/mss_spi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_spi/mss_spi.d" -MT"drivers/mss_spi/mss_spi.o" -c -o "drivers/mss_spi/mss_spi.o" "../drivers/mss_spi/mss_spi.c"
+Finished building: ../drivers/mss_spi/mss_spi.c
+ 
+Building file: ../drivers/mss_pdma/mss_pdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_pdma/mss_pdma.d" -MT"drivers/mss_pdma/mss_pdma.o" -c -o "drivers/mss_pdma/mss_pdma.o" "../drivers/mss_pdma/mss_pdma.c"
+Finished building: ../drivers/mss_pdma/mss_pdma.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/mss_gpio/mss_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_gpio/mss_gpio.d" -MT"drivers/mss_gpio/mss_gpio.o" -c -o "drivers/mss_gpio/mss_gpio.o" "../drivers/mss_gpio/mss_gpio.c"
+Finished building: ../drivers/mss_gpio/mss_gpio.c
+ 
+Building file: ../drivers/CoreGPIO/core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreGPIO/core_gpio.d" -MT"drivers/CoreGPIO/core_gpio.o" -c -o "drivers/CoreGPIO/core_gpio.o" "../drivers/CoreGPIO/core_gpio.c"
+Finished building: ../drivers/CoreGPIO/core_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:27:43 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:183:43: error: expected expression before 'const'
+     MSS_UART_polled_tx_string(gp_my_uart, const uint8_t*("Hello"));
+                                           ^
+subdir.mk:21: recipe for target 'main.o' failed
+make: *** [main.o] Error 1
+16:28:37 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:30:58 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:32:20 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:36:20 **** Build of configuration Debug for project polled_uart ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: polled_uart.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"polled_uart.map" -o "polled_uart.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: polled_uart.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "polled_uart.elf"  "polled_uart.hex"
+Finished building: polled_uart.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5264	   1104	  59168	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+16:36:21 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:37:01 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_spi/mss_spi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_spi/mss_spi.d" -MT"drivers/mss_spi/mss_spi.o" -c -o "drivers/mss_spi/mss_spi.o" "../drivers/mss_spi/mss_spi.c"
+Finished building: ../drivers/mss_spi/mss_spi.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreGPIO/core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreGPIO/core_gpio.d" -MT"drivers/CoreGPIO/core_gpio.o" -c -o "drivers/CoreGPIO/core_gpio.o" "../drivers/CoreGPIO/core_gpio.c"
+Finished building: ../drivers/CoreGPIO/core_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: polled_uart.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"polled_uart.map" -o "polled_uart.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: polled_uart.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "polled_uart.elf"  "polled_uart.hex"
+Finished building: polled_uart.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8720	   1104	  55712	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+16:37:03 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:38:36 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: polled_uart.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"polled_uart.map" -o "polled_uart.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: polled_uart.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "polled_uart.elf"  "polled_uart.hex"
+Finished building: polled_uart.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8064	   1104	  56368	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+16:38:37 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:43:58 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_spi/mss_spi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_spi/mss_spi.d" -MT"drivers/mss_spi/mss_spi.o" -c -o "drivers/mss_spi/mss_spi.o" "../drivers/mss_spi/mss_spi.c"
+Finished building: ../drivers/mss_spi/mss_spi.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreGPIO/core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreGPIO/core_gpio.d" -MT"drivers/CoreGPIO/core_gpio.o" -c -o "drivers/CoreGPIO/core_gpio.o" "../drivers/CoreGPIO/core_gpio.c"
+Finished building: ../drivers/CoreGPIO/core_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: polled_uart.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"polled_uart.map" -o "polled_uart.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: polled_uart.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "polled_uart.elf"  "polled_uart.hex"
+Finished building: polled_uart.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8064	   1104	  56368	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+16:44:00 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:55:05 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8064	   1104	  56368	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+16:55:05 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:55:32 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_spi/mss_spi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_spi/mss_spi.d" -MT"drivers/mss_spi/mss_spi.o" -c -o "drivers/mss_spi/mss_spi.o" "../drivers/mss_spi/mss_spi.c"
+Finished building: ../drivers/mss_spi/mss_spi.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/CoreGPIO/core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreGPIO/core_gpio.d" -MT"drivers/CoreGPIO/core_gpio.o" -c -o "drivers/CoreGPIO/core_gpio.o" "../drivers/CoreGPIO/core_gpio.c"
+Finished building: ../drivers/CoreGPIO/core_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_uart -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: polled_uart.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"polled_uart.map" -o "polled_uart.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: polled_uart.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "polled_uart.elf"  "polled_uart.hex"
+Finished building: polled_uart.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8064	   1104	  56368	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+16:55:34 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:57:50 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8064	   1104	  56368	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+16:57:50 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../hal/CortexM3/GNU/hal.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hal.d" -MT"hal/CortexM3/GNU/hal.o" -c -o "hal/CortexM3/GNU/hal.o" "../hal/CortexM3/GNU/hal.S"
+Finished building: ../hal/CortexM3/GNU/hal.S
+ 
+Building file: ../hal/CortexM3/GNU/hw_reg_access.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"hal/CortexM3/GNU/hw_reg_access.d" -MT"hal/CortexM3/GNU/hw_reg_access.o" -c -o "hal/CortexM3/GNU/hw_reg_access.o" "../hal/CortexM3/GNU/hw_reg_access.S"
+Finished building: ../hal/CortexM3/GNU/hw_reg_access.S
+ 
+Building file: ../hal/CortexM3/cortex_nvic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"hal/CortexM3/cortex_nvic.d" -MT"hal/CortexM3/cortex_nvic.o" -c -o "hal/CortexM3/cortex_nvic.o" "../hal/CortexM3/cortex_nvic.c"
+Finished building: ../hal/CortexM3/cortex_nvic.c
+ 
+Building file: ../drivers_config/sys_config/sys_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers_config/sys_config/sys_config.d" -MT"drivers_config/sys_config/sys_config.o" -c -o "drivers_config/sys_config/sys_config.o" "../drivers_config/sys_config/sys_config.c"
+Finished building: ../drivers_config/sys_config/sys_config.c
+ 
+Building file: ../drivers/w25q64fvssig/w25q64fvssig.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/w25q64fvssig/w25q64fvssig.d" -MT"drivers/w25q64fvssig/w25q64fvssig.o" -c -o "drivers/w25q64fvssig/w25q64fvssig.o" "../drivers/w25q64fvssig/w25q64fvssig.c"
+Finished building: ../drivers/w25q64fvssig/w25q64fvssig.c
+ 
+Building file: ../drivers/mss_uart/mss_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_uart/mss_uart.d" -MT"drivers/mss_uart/mss_uart.o" -c -o "drivers/mss_uart/mss_uart.o" "../drivers/mss_uart/mss_uart.c"
+Finished building: ../drivers/mss_uart/mss_uart.c
+ 
+Building file: ../drivers/mss_sys_services/mss_comblk.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_comblk.d" -MT"drivers/mss_sys_services/mss_comblk.o" -c -o "drivers/mss_sys_services/mss_comblk.o" "../drivers/mss_sys_services/mss_comblk.c"
+Finished building: ../drivers/mss_sys_services/mss_comblk.c
+ 
+Building file: ../drivers/mss_sys_services/mss_sys_services.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_sys_services/mss_sys_services.d" -MT"drivers/mss_sys_services/mss_sys_services.o" -c -o "drivers/mss_sys_services/mss_sys_services.o" "../drivers/mss_sys_services/mss_sys_services.c"
+Finished building: ../drivers/mss_sys_services/mss_sys_services.c
+ 
+Building file: ../drivers/mss_spi/mss_spi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_spi/mss_spi.d" -MT"drivers/mss_spi/mss_spi.o" -c -o "drivers/mss_spi/mss_spi.o" "../drivers/mss_spi/mss_spi.c"
+Finished building: ../drivers/mss_spi/mss_spi.c
+ 
+Building file: ../drivers/mss_pdma/mss_pdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_pdma/mss_pdma.d" -MT"drivers/mss_pdma/mss_pdma.o" -c -o "drivers/mss_pdma/mss_pdma.o" "../drivers/mss_pdma/mss_pdma.c"
+Finished building: ../drivers/mss_pdma/mss_pdma.c
+ 
+Building file: ../drivers/mss_nvm/mss_nvm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_nvm/mss_nvm.d" -MT"drivers/mss_nvm/mss_nvm.o" -c -o "drivers/mss_nvm/mss_nvm.o" "../drivers/mss_nvm/mss_nvm.c"
+Finished building: ../drivers/mss_nvm/mss_nvm.c
+ 
+Building file: ../drivers/mss_hpdma/mss_hpdma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_hpdma/mss_hpdma.d" -MT"drivers/mss_hpdma/mss_hpdma.o" -c -o "drivers/mss_hpdma/mss_hpdma.o" "../drivers/mss_hpdma/mss_hpdma.c"
+Finished building: ../drivers/mss_hpdma/mss_hpdma.c
+ 
+Building file: ../drivers/mss_gpio/mss_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/mss_gpio/mss_gpio.d" -MT"drivers/mss_gpio/mss_gpio.o" -c -o "drivers/mss_gpio/mss_gpio.o" "../drivers/mss_gpio/mss_gpio.c"
+Finished building: ../drivers/mss_gpio/mss_gpio.c
+ 
+Building file: ../drivers/CoreGPIO/core_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"drivers/CoreGPIO/core_gpio.d" -MT"drivers/CoreGPIO/core_gpio.o" -c -o "drivers/CoreGPIO/core_gpio.o" "../drivers/CoreGPIO/core_gpio.c"
+Finished building: ../drivers/CoreGPIO/core_gpio.c
+ 
+Building file: ../CMSIS/startup_gcc/newlib_stubs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/startup_gcc/newlib_stubs.d" -MT"CMSIS/startup_gcc/newlib_stubs.o" -c -o "CMSIS/startup_gcc/newlib_stubs.o" "../CMSIS/startup_gcc/newlib_stubs.c"
+Finished building: ../CMSIS/startup_gcc/newlib_stubs.c
+ 
+Building file: ../CMSIS/startup_gcc/startup_m2sxxx.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -x assembler-with-cpp -MMD -MP -MF"CMSIS/startup_gcc/startup_m2sxxx.d" -MT"CMSIS/startup_gcc/startup_m2sxxx.o" -c -o "CMSIS/startup_gcc/startup_m2sxxx.o" "../CMSIS/startup_gcc/startup_m2sxxx.S"
+Finished building: ../CMSIS/startup_gcc/startup_m2sxxx.S
+ 
+Building file: ../CMSIS/system_m2sxxx.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"CMSIS/system_m2sxxx.d" -MT"CMSIS/system_m2sxxx.o" -c -o "CMSIS/system_m2sxxx.o" "../CMSIS/system_m2sxxx.c"
+Finished building: ../CMSIS/system_m2sxxx.c
+ 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16240	   8480	  40816	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:59:14 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8064	   1104	  56368	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+16:59:14 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -I../drivers/mss_pdma -I../drivers/mss_spi -I../drivers/w25q64fvssig -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: spi_flash_pdma_example.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"spi_flash_pdma_example.map" -o "spi_flash_pdma_example.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/w25q64fvssig/w25q64fvssig.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_spi/mss_spi.o  ./drivers/mss_pdma/mss_pdma.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o ./main1.o   
+Finished building target: spi_flash_pdma_example.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "spi_flash_pdma_example.elf"  "spi_flash_pdma_example.hex"
+Finished building: spi_flash_pdma_example.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15200	   8480	  41856	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 
+16:59:48 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8064	   1104	  56368	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+16:59:48 **** Incremental Build of configuration Debug for project spi_flash_pdma_example ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "spi_flash_pdma_example.elf"
+   text	   data	    bss	    dec	    hex	filename
+  15200	   8480	  41856	  65536	  10000	spi_flash_pdma_example.elf
+Finished building: spi_flash_pdma_example.siz
+ 

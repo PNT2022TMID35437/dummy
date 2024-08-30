@@ -1,0 +1,22 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO111 :"d:\libero_tests\i2c_smart_build\component\work\mss_sys_i2c_sb\fabosc_0\mss_sys_i2c_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.MSS_sys_i2c_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.MSS_sys_i2c_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\i2c_smart_build\component\work\mss_sys_i2c_sb\fabosc_0\mss_sys_i2c_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.MSS_sys_i2c_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.MSS_sys_i2c_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\i2c_smart_build\component\work\mss_sys_i2c_sb\fabosc_0\mss_sys_i2c_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.MSS_sys_i2c_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.MSS_sys_i2c_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\i2c_smart_build\component\work\mss_sys_i2c_sb\fabosc_0\mss_sys_i2c_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.MSS_sys_i2c_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.MSS_sys_i2c_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: BZ173 :"d:\libero_tests\i2c_smart_build\component\actel\directcore\corei2c\7.0.102\rtl\vlog\core\corei2creal.v":843:9:843:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2CREAL_Z3(verilog)) mapped in logic.
+@N: BZ173 :"d:\libero_tests\i2c_smart_build\component\actel\directcore\corei2c\7.0.102\rtl\vlog\core\corei2creal.v":843:9:843:12|ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2CREAL_Z3(verilog)) mapped in logic.
+@N: MO106 :"d:\libero_tests\i2c_smart_build\component\actel\directcore\corei2c\7.0.102\rtl\vlog\core\corei2creal.v":843:9:843:12|Found ROM sersta_write_proc\.sersta_2[4:0] (in view: work.COREI2CREAL_Z3(verilog)) with 29 words by 5 bits.
+@N: BZ173 :"d:\libero_tests\i2c_smart_build\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM CoreAPB3_0.iPSELS_raw_2[0] (in view: work.MSS_sys_i2c_sb(verilog)) mapped in logic.
+@N: MO106 :"d:\libero_tests\i2c_smart_build\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM CoreAPB3_0.iPSELS_raw_2[0] (in view: work.MSS_sys_i2c_sb(verilog)) with 1 words by 1 bit.
+@N: BN362 :"d:\libero_tests\i2c_smart_build\component\actel\directcore\corei2c\7.0.102\rtl\vlog\core\corei2creal.v":1946:3:1946:8|Removing sequential instance COREI2C_0_0.I2C_NUM_GENERATION\[0\]\.ui2c.fsmsync[7] (in view: work.MSS_sys_i2c_sb(verilog)) because it does not drive other instances.
+@N: FP130 |Promoting Net MSS_HPMS_READY_int_arst on CLKINT  I_106 
+@N: FP130 |Promoting Net CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_107 
+@N: FP130 |Promoting Net CORERESETP_0.sm0_areset_n_arst on CLKINT  I_108 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT615 |Found clock FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
+@N: MT615 |Found clock CCC_0/GL0 with period 10.00ns 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

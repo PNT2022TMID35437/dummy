@@ -1,0 +1,951 @@
+#Build: Synplify Pro (R) V-2023.09M, Build 146R, Jan  4 2024
+#install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: DESKTOP-9J7KET5
+
+# Fri Aug 23 12:29:08 2024
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
+@I::"D:\libero_tests\DUMMY_2\component\work\CoreAPB3_C3\CoreAPB3_C3.v" (library work)
+@I::"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v" (library work)
+@I::"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0.v" (library work)
+@I::"D:\libero_tests\DUMMY_2\component\work\DUMMY1_MSS\DUMMY1_MSS_syn.v" (library work)
+@W: CG100 :"D:\libero_tests\DUMMY_2\component\work\DUMMY1_MSS\DUMMY1_MSS_syn.v":436:13:436:25|User defined pragma syn_black_box detected
+
+@I::"D:\libero_tests\DUMMY_2\component\work\DUMMY1_MSS\DUMMY1_MSS.v" (library work)
+@I::"D:\libero_tests\DUMMY_2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@W: CG100 :"D:\libero_tests\DUMMY_2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\DUMMY_2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":14:13:14:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\DUMMY_2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":27:13:27:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\DUMMY_2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":43:13:43:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\DUMMY_2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":55:13:55:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\DUMMY_2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":67:13:67:25|User defined pragma syn_black_box detected
+
+@I::"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v" (library work)
+@I::"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0.v" (library work)
+@I::"D:\libero_tests\DUMMY_2\component\work\DUMMY1\DUMMY1.v" (library work)
+Verilog syntax check successful!
+Selecting top level module DUMMY1
+@N: CG775 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 94MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b001000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b0
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b011100
+	UPR_NIBBLE_POSN=4'b0110
+	FAMILY=32'b00000000000000000000000000010011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000000
+	SL2=16'b0000000000000000
+	SL3=16'b0000000000000000
+	SL4=16'b0000000000000000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000000000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+@W: CG360 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+Running optimization stage 1 on CoreAPB3_Z1 .......
+Finished optimization stage 1 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\work\CoreAPB3_C3\CoreAPB3_C3.v":57:7:57:17|Synthesizing module CoreAPB3_C3 in library work.
+Running optimization stage 1 on CoreAPB3_C3 .......
+Finished optimization stage 1 on CoreAPB3_C3 (CPU Time 0h:00m:00s, Memory Used current: 94MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":23:7:23:40|Synthesizing module CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO in library work.
+
+	IO_NUM=32'b00000000000000000000000000000010
+	APB_WIDTH=32'b00000000000000000000000000001000
+	OE_TYPE=1'b0
+	INT_BUS=1'b1
+	FIXED_CONFIG_0=1'b1
+	FIXED_CONFIG_1=1'b1
+	FIXED_CONFIG_2=1'b0
+	FIXED_CONFIG_3=1'b0
+	FIXED_CONFIG_4=1'b0
+	FIXED_CONFIG_5=1'b0
+	FIXED_CONFIG_6=1'b0
+	FIXED_CONFIG_7=1'b0
+	FIXED_CONFIG_8=1'b0
+	FIXED_CONFIG_9=1'b0
+	FIXED_CONFIG_10=1'b0
+	FIXED_CONFIG_11=1'b0
+	FIXED_CONFIG_12=1'b0
+	FIXED_CONFIG_13=1'b0
+	FIXED_CONFIG_14=1'b0
+	FIXED_CONFIG_15=1'b0
+	FIXED_CONFIG_16=1'b0
+	FIXED_CONFIG_17=1'b0
+	FIXED_CONFIG_18=1'b0
+	FIXED_CONFIG_19=1'b0
+	FIXED_CONFIG_20=1'b0
+	FIXED_CONFIG_21=1'b0
+	FIXED_CONFIG_22=1'b0
+	FIXED_CONFIG_23=1'b0
+	FIXED_CONFIG_24=1'b0
+	FIXED_CONFIG_25=1'b0
+	FIXED_CONFIG_26=1'b0
+	FIXED_CONFIG_27=1'b0
+	FIXED_CONFIG_28=1'b0
+	FIXED_CONFIG_29=1'b0
+	FIXED_CONFIG_30=1'b0
+	FIXED_CONFIG_31=1'b0
+	IO_TYPE_0=2'b01
+	IO_TYPE_1=2'b00
+	IO_TYPE_2=2'b00
+	IO_TYPE_3=2'b00
+	IO_TYPE_4=2'b00
+	IO_TYPE_5=2'b00
+	IO_TYPE_6=2'b00
+	IO_TYPE_7=2'b00
+	IO_TYPE_8=2'b00
+	IO_TYPE_9=2'b00
+	IO_TYPE_10=2'b00
+	IO_TYPE_11=2'b00
+	IO_TYPE_12=2'b00
+	IO_TYPE_13=2'b00
+	IO_TYPE_14=2'b00
+	IO_TYPE_15=2'b00
+	IO_TYPE_16=2'b00
+	IO_TYPE_17=2'b00
+	IO_TYPE_18=2'b00
+	IO_TYPE_19=2'b00
+	IO_TYPE_20=2'b00
+	IO_TYPE_21=2'b00
+	IO_TYPE_22=2'b00
+	IO_TYPE_23=2'b00
+	IO_TYPE_24=2'b00
+	IO_TYPE_25=2'b00
+	IO_TYPE_26=2'b00
+	IO_TYPE_27=2'b00
+	IO_TYPE_28=2'b00
+	IO_TYPE_29=2'b00
+	IO_TYPE_30=2'b00
+	IO_TYPE_31=2'b00
+	IO_INT_TYPE_0=3'b111
+	IO_INT_TYPE_1=3'b010
+	IO_INT_TYPE_2=3'b111
+	IO_INT_TYPE_3=3'b111
+	IO_INT_TYPE_4=3'b111
+	IO_INT_TYPE_5=3'b111
+	IO_INT_TYPE_6=3'b111
+	IO_INT_TYPE_7=3'b111
+	IO_INT_TYPE_8=3'b111
+	IO_INT_TYPE_9=3'b111
+	IO_INT_TYPE_10=3'b111
+	IO_INT_TYPE_11=3'b111
+	IO_INT_TYPE_12=3'b111
+	IO_INT_TYPE_13=3'b111
+	IO_INT_TYPE_14=3'b111
+	IO_INT_TYPE_15=3'b111
+	IO_INT_TYPE_16=3'b111
+	IO_INT_TYPE_17=3'b111
+	IO_INT_TYPE_18=3'b111
+	IO_INT_TYPE_19=3'b111
+	IO_INT_TYPE_20=3'b111
+	IO_INT_TYPE_21=3'b111
+	IO_INT_TYPE_22=3'b111
+	IO_INT_TYPE_23=3'b111
+	IO_INT_TYPE_24=3'b111
+	IO_INT_TYPE_25=3'b111
+	IO_INT_TYPE_26=3'b111
+	IO_INT_TYPE_27=3'b111
+	IO_INT_TYPE_28=3'b111
+	IO_INT_TYPE_29=3'b111
+	IO_INT_TYPE_30=3'b111
+	IO_INT_TYPE_31=3'b111
+	IO_VAL_0=1'b0
+	IO_VAL_1=1'b0
+	IO_VAL_2=1'b0
+	IO_VAL_3=1'b0
+	IO_VAL_4=1'b0
+	IO_VAL_5=1'b0
+	IO_VAL_6=1'b0
+	IO_VAL_7=1'b0
+	IO_VAL_8=1'b0
+	IO_VAL_9=1'b0
+	IO_VAL_10=1'b0
+	IO_VAL_11=1'b0
+	IO_VAL_12=1'b0
+	IO_VAL_13=1'b0
+	IO_VAL_14=1'b0
+	IO_VAL_15=1'b0
+	IO_VAL_16=1'b0
+	IO_VAL_17=1'b0
+	IO_VAL_18=1'b0
+	IO_VAL_19=1'b0
+	IO_VAL_20=1'b0
+	IO_VAL_21=1'b0
+	IO_VAL_22=1'b0
+	IO_VAL_23=1'b0
+	IO_VAL_24=1'b0
+	IO_VAL_25=1'b0
+	IO_VAL_26=1'b0
+	IO_VAL_27=1'b0
+	IO_VAL_28=1'b0
+	IO_VAL_29=1'b0
+	IO_VAL_30=1'b0
+	IO_VAL_31=1'b0
+	FIXED_CONFIG=32'b11000000000000000000000000000000
+	IO_INT_TYPE=96'b111010111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+	IO_TYPE=64'b0100000000000000000000000000000000000000000000000000000000000000
+	IO_VAL=32'b00000000000000000000000000000000
+   Generated name = CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO_Z2
+@N: CG179 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":739:16:739:28|Removing redundant assignment.
+@N: CG179 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":646:15:646:26|Removing redundant assignment.
+Running optimization stage 1 on CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO_Z2 .......
+@W: CL169 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_both[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_neg[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":680:0:680:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.edge_both[0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":654:0:654:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.edge_neg[0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":317:12:317:17|Pruning unused register xhdl1.GEN_BITS[0].gpin3[0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":628:0:628:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.edge_pos_6[0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[0].gpin1_7[0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":304:12:304:17|Pruning unused register xhdl1.GEN_BITS[0].gpin2_7[0]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":706:0:706:5|Optimizing register bit xhdl1.GEN_BITS[0].APB_8.INTR_reg[0] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":706:0:706:5|Pruning unused register xhdl1.GEN_BITS[0].APB_8.INTR_reg[0]. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO_Z2 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0.v":153:7:153:17|Synthesizing module CoreGPIO_C0 in library work.
+Running optimization stage 1 on CoreGPIO_C0 .......
+Finished optimization stage 1 on CoreGPIO_C0 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\work\DUMMY1_MSS\DUMMY1_MSS_syn.v":5:7:5:13|Synthesizing module MSS_005 in library work.
+Running optimization stage 1 on MSS_005 .......
+Finished optimization stage 1 on MSS_005 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\work\DUMMY1_MSS\DUMMY1_MSS.v":9:7:9:16|Synthesizing module DUMMY1_MSS in library work.
+Running optimization stage 1 on DUMMY1_MSS .......
+Finished optimization stage 1 on DUMMY1_MSS (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
+Finished optimization stage 1 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ .......
+Finished optimization stage 1 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":5:7:5:25|Synthesizing module OSC_C0_OSC_C0_0_OSC in library work.
+Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
+@W: CL318 :"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":15:7:15:24|*Output RCOSC_25_50MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0.v":33:7:33:12|Synthesizing module OSC_C0 in library work.
+Running optimization stage 1 on OSC_C0 .......
+Finished optimization stage 1 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
+Running optimization stage 1 on SYSRESET .......
+Finished optimization stage 1 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 95MB peak: 95MB)
+@N: CG364 :"D:\libero_tests\DUMMY_2\component\work\DUMMY1\DUMMY1.v":9:7:9:12|Synthesizing module DUMMY1 in library work.
+Running optimization stage 1 on DUMMY1 .......
+Finished optimization stage 1 on DUMMY1 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+Running optimization stage 2 on DUMMY1 .......
+Finished optimization stage 2 on DUMMY1 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on SYSRESET .......
+Finished optimization stage 2 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on OSC_C0 .......
+Finished optimization stage 2 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on OSC_C0_OSC_C0_0_OSC .......
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":14:7:14:9|Input XTL is unused.
+Finished optimization stage 2 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on CLKINT .......
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on RCOSC_25_50MHZ .......
+Finished optimization stage 2 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
+Finished optimization stage 2 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on DUMMY1_MSS .......
+Finished optimization stage 2 on DUMMY1_MSS (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on MSS_005 .......
+Finished optimization stage 2 on MSS_005 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on CoreGPIO_C0 .......
+Finished optimization stage 2 on CoreGPIO_C0 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO_Z2 .......
+@W: CL246 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":182:26:182:31|Input port bits 7 to 2 of PWDATA[7:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"D:\libero_tests\DUMMY_2\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vlog\core\coregpio.v":186:26:186:32|Input port bit 0 of GPIO_IN[1:0] is unused
+
+Finished optimization stage 2 on CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO_Z2 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on CoreAPB3_C3 .......
+Finished optimization stage 2 on CoreAPB3_C3 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on CoreAPB3_Z1 .......
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":105:18:105:25|Input PRDATAS1 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":122:13:122:20|Input PREADYS1 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":123:13:123:20|Input PREADYS2 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":139:13:139:21|Input PSLVERRS1 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":140:13:140:21|Input PSLVERRS2 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\libero_tests\DUMMY_2\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+Finished optimization stage 2 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 2 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 102MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\libero_tests\DUMMY_2\synthesis\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 102MB peak: 102MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 23 12:29:09 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 93MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 23 12:29:10 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\libero_tests\DUMMY_2\synthesis\synwork\DUMMY1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 30MB peak: 30MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 23 12:29:10 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Fri Aug 23 12:29:11 2024
+
+###########################################################]
+Premap Report
+
+# Fri Aug 23 12:29:11 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 199MB)
+
+Reading constraint file: D:\libero_tests\DUMMY_2\designer\DUMMY1\synthesis.fdc
+@L: D:\libero_tests\DUMMY_2\synthesis\DUMMY1_scck.rpt 
+See clock summary report "D:\libero_tests\DUMMY_2\synthesis\DUMMY1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 194MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 196MB peak: 199MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 251MB peak: 251MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=10 on top level netlist DUMMY1 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                         Requested     Requested     Clock        Clock                Clock
+Level     Clock                                         Frequency     Period        Type         Group                Load 
+---------------------------------------------------------------------------------------------------------------------------
+0 -       OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      20.000        declared     default_clkgroup     8    
+===========================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                              Clock     Source                                                        Clock Pin                                Non-clock Pin     Non-clock Pin                                               
+Clock                                         Load      Pin                                                           Seq Example                              Seq Example       Comb Example                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     8         OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     DUMMY1_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+=============================================================================================================================================================================================================================================
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\libero_tests\DUMMY_2\synthesis\DUMMY1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+@W: MF511 |Found issues with constraints. Please check constraint checker report "D:\libero_tests\DUMMY_2\synthesis\DUMMY1_cck.rpt" .
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 165MB peak: 255MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Aug 23 12:29:12 2024
+
+###########################################################]
+Map & Optimize Report
+
+# Fri Aug 23 12:29:13 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 248MB peak: 248MB)
+
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\dummy_2\component\work\osc_c0\osc_c0_0\osc_c0_osc_c0_0_osc.v":15:7:15:24|Tristate driver RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) on net RCOSC_25_50MHZ_CCC (in view: work.OSC_C0_OSC_C0_0_OSC(verilog)) has its enable tied to GND.
+@N: BZ173 :"d:\libero_tests\dummy_2\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM CoreAPB3_C3_0.CoreAPB3_C3_0.iPSELS_raw_2[0] (in view: work.DUMMY1(verilog)) mapped in logic.
+@N: MO106 :"d:\libero_tests\dummy_2\component\actel\directcore\coreapb3\4.2.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM CoreAPB3_C3_0.CoreAPB3_C3_0.iPSELS_raw_2[0] (in view: work.DUMMY1(verilog)) with 1 words by 1 bit.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
+
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 253MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 253MB peak: 254MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    10.49ns		  16 /         7
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 206MB peak: 255MB)
+
+Writing Analyst data base D:\libero_tests\DUMMY_2\synthesis\synwork\DUMMY1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 255MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 255MB)
+
+@N: MT615 |Found clock OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Fri Aug 23 12:29:14 2024
+#
+
+
+Top view:               DUMMY1
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\libero_tests\DUMMY_2\designer\DUMMY1\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 11.810
+
+                                              Requested     Estimated     Requested     Estimated                Clock        Clock           
+Starting Clock                                Frequency     Frequency     Period        Period        Slack      Type         Group           
+----------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      122.1 MHz     20.000        8.190         11.810     declared     default_clkgroup
+==============================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                   Ending                                     |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT  |  20.000      11.810  |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                Starting                                                                                                                 Arrival           
+Instance                        Reference                                     Type        Pin                Net                                         Time        Slack 
+                                Clock                                                                                                                                      
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[6]      CoreAPB3_C3_0_APBmslave0_PADDR[6]           3.569       11.810
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[3]      CoreAPB3_C3_0_APBmslave0_PADDR[3]           3.676       11.886
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[1]      CoreAPB3_C3_0_APBmslave0_PADDR[1]           3.552       11.928
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[2]      CoreAPB3_C3_0_APBmslave0_PADDR[2]           3.599       12.006
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[7]      CoreAPB3_C3_0_APBmslave0_PADDR[7]           3.739       12.170
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[0]      CoreAPB3_C3_0_APBmslave0_PADDR[0]           3.833       12.185
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[5]      CoreAPB3_C3_0_APBmslave0_PADDR[5]           3.628       12.805
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[24]     DUMMY1_MSS_0_FIC_0_APB_MASTER_PADDR[24]     3.795       12.860
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[4]      CoreAPB3_C3_0_APBmslave0_PADDR[4]           3.611       12.865
+DUMMY1_MSS_0.MSS_ADLIB_INST     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_ADDR[27]     DUMMY1_MSS_0_FIC_0_APB_MASTER_PADDR[27]     3.611       13.001
+===========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                          Starting                                                                                                                   Required           
+Instance                                                                  Reference                                     Type        Pin                  Net                                         Time         Slack 
+                                                                          Clock                                                                                                                                         
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DUMMY1_MSS_0.MSS_ADLIB_INST                                               OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_RDATA[1]       DUMMY1_MSS_0_FIC_0_APB_MASTER_PRDATA[1]     19.636       11.810
+DUMMY1_MSS_0.MSS_ADLIB_INST                                               OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F_HM0_RDATA[0]       DUMMY1_MSS_0_FIC_0_APB_MASTER_PRDATA[0]     19.739       12.278
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[1\]\.APB_8\.INTR_reg[1]      OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE         D                    INTR_reg_46[1]                              19.745       12.377
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[1\]\.APB_8\.edge_pos[1]      OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE         EN                   un1_INTR_reg73                              19.663       12.406
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[0\]\.APB_8\.GPOUT_reg[0]     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE         EN                   GPOUT_reg69                                 19.663       12.628
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[1\]\.APB_8\.GPOUT_reg[1]     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE         EN                   GPOUT_reg69                                 19.663       12.628
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[1\]\.APB_8\.edge_pos[1]      OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE         D                    edge_pos_12[1]                              19.745       14.979
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[1\]\.APB_8\.GPOUT_reg[1]     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE         D                    CoreAPB3_C3_0_APBmslave0_PWDATA[1]          19.745       15.376
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[0\]\.APB_8\.GPOUT_reg[0]     OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     SLE         D                    CoreAPB3_C3_0_APBmslave0_PWDATA[0]          19.745       15.849
+DUMMY1_MSS_0.MSS_ADLIB_INST                                               OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT     MSS_005     F2H_INTERRUPT[0]     CoreGPIO_C0_0_INT_OR                        19.243       18.018
+========================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      20.000
+    - Setup time:                            0.364
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         19.636
+
+    - Propagation time:                      7.826
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     11.810
+
+    Number of logic level(s):                5
+    Starting point:                          DUMMY1_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[6]
+    Ending point:                            DUMMY1_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[1]
+    The start point is clocked by            OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK_BASE
+    The end   point is clocked by            OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT [rising] (rise=0.000 fall=10.000 period=20.000) on pin CLK_BASE
+
+Instance / Net                                                                                  Pin                Pin               Arrival     No. of    
+Name                                                                                Type        Name               Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+DUMMY1_MSS_0.MSS_ADLIB_INST                                                         MSS_005     F_HM0_ADDR[6]      Out     3.569     3.569 r     -         
+CoreAPB3_C3_0_APBmslave0_PADDR[6]                                                   Net         -                  -       0.248     -           1         
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[0\]\.APB_8\.un63_PRDATA_o_0_a2_0_3     CFG4        D                  In      -         3.817 r     -         
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[0\]\.APB_8\.un63_PRDATA_o_0_a2_0_3     CFG4        Y                  Out     0.326     4.144 f     -         
+un63_PRDATA_o_0_a2_0_3                                                              Net         -                  -       0.248     -           1         
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[0\]\.APB_8\.un63_PRDATA_o_0_a2_0       CFG3        B                  In      -         4.392 f     -         
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[0\]\.APB_8\.un63_PRDATA_o_0_a2_0       CFG3        Y                  Out     0.164     4.556 f     -         
+N_18                                                                                Net         -                  -       0.745     -           3         
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[0\]\.APB_8\.un7_PRDATA_o_0_a2          CFG3        C                  In      -         5.302 f     -         
+CoreGPIO_C0_0.CoreGPIO_C0_0.xhdl1\.GEN_BITS\[0\]\.APB_8\.un7_PRDATA_o_0_a2          CFG3        Y                  Out     0.210     5.511 f     -         
+un7_PRDATA_o                                                                        Net         -                  -       0.497     -           2         
+CoreGPIO_C0_0.CoreGPIO_C0_0.PRDATA_o_0_iv_0[1]                                      CFG4        D                  In      -         6.008 f     -         
+CoreGPIO_C0_0.CoreGPIO_C0_0.PRDATA_o_0_iv_0[1]                                      CFG4        Y                  Out     0.288     6.296 f     -         
+PRDATA_o_0_iv_0[1]                                                                  Net         -                  -       0.248     -           1         
+CoreAPB3_C3_0.CoreAPB3_C3_0.u_mux_p_to_b3.PRDATA[1]                                 CFG4        B                  In      -         6.545 f     -         
+CoreAPB3_C3_0.CoreAPB3_C3_0.u_mux_p_to_b3.PRDATA[1]                                 CFG4        Y                  Out     0.164     6.709 f     -         
+DUMMY1_MSS_0_FIC_0_APB_MASTER_PRDATA[1]                                             Net         -                  -       1.117     -           1         
+DUMMY1_MSS_0.MSS_ADLIB_INST                                                         MSS_005     F_HM0_RDATA[1]     In      -         7.826 f     -         
+===========================================================================================================================================================
+Total path delay (propagation time + setup) of 8.190 is 5.085(62.1%) logic and 3.105(37.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"d:/libero_tests/dummy_2/designer/dummy1/synthesis.fdc":8:0:8:0|Timing constraint (through [get_pins { SYSRESET_0.POWER_ON_RESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+---------------------------------------
+Resource Usage Report for DUMMY1 
+
+Mapping to part: m2s005vf400std
+Cell usage:
+CLKINT          1 use
+MSS_005         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG2           1 use
+CFG3           6 uses
+CFG4           8 uses
+
+
+Sequential Cells: 
+SLE            7 uses
+
+DSP Blocks:    0 of 11 (0%)
+
+I/O ports: 5
+I/O primitives: 3
+INBUF          1 use
+OUTBUF         2 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    15
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  7 + 0 + 0 + 0 = 7;
+Total number of LUTs after P&R:  15 + 0 + 0 + 0 = 15;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 124MB peak: 255MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Fri Aug 23 12:29:14 2024
+
+###########################################################]

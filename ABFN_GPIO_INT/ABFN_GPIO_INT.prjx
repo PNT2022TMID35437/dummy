@@ -1,0 +1,839 @@
+KEY LIBERO "2024.1"
+KEY CAPTURE "2024.1.0.3"
+KEY DEFAULT_IMPORT_LOC "D:\Microsemiprj\RTAX_mult_test\RTAX2000S\multipliers\hdl"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M500"
+KEY VendorTechnology_Package "vf400"
+KEY VendorTechnology_Speed "STD"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "IND"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_33"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M500"
+KEY VendorTechnology_TEMPR "IND"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "IND"
+KEY ProjectLocation "D:\libero_tests\ABFN_GPIO_INT"
+KEY ProjectDescription ""
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "ABFN_GPIO_INT::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREAPB3_LIB
+COREGPIO_LIB
+ENDLIST
+LIST LIBRARY_COREAPB3_LIB
+ALIAS=COREAPB3_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_COREGPIO_LIB
+ALIAS=COREGPIO_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724335193"
+SIZE="3259"
+PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
+PARENT="<project>\component\work\CoreAPB3_C1\CoreAPB3_C1.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1724335193"
+SIZE="2013"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\mti\scripts\wave_user.do,do"
+STATE="utd"
+TIME="1724334092"
+SIZE="912"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="4009"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="9540"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="2074"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="12455"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="82848"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="45675"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="12780"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="23829"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd,hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="6175"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd,hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="78872"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd,hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="5757"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd,hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="9523"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334092"
+SIZE="28895"
+LIBRARY="COREAPB3_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreGPIO\3.2.102\CoreGPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724336479"
+SIZE="1029"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreGPIO\3.2.102\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334323"
+SIZE="12779"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreGPIO\3.2.102\CoreGPIO.cxf"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreGPIO\3.2.102\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1724334323"
+SIZE="23828"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\Actel\DirectCore\CoreGPIO\3.2.102\CoreGPIO.cxf"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreInterrupt\1.1.101\CoreInterrupt.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724336180"
+SIZE="724"
+PARENT="<project>\component\work\CoreInterrupt_C0\CoreInterrupt_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\vhdl\u\CoreInterrupt.vhd,hdl"
+STATE="utd"
+TIME="1724336026"
+SIZE="16998"
+PARENT="<project>\component\Actel\DirectCore\CoreInterrupt\1.1.101\CoreInterrupt.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724335966"
+SIZE="682"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd,hdl"
+STATE="utd"
+TIME="1724333989"
+SIZE="2164"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.vhd,hdl"
+STATE="utd"
+TIME="1724333989"
+SIZE="2108"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\ABFN_GPIO_INT\ABFN_GPIO_INT.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724389761"
+SIZE="2376"
+ENDFILE
+VALUE "<project>\component\work\ABFN_GPIO_INT\ABFN_GPIO_INT.vhd,hdl"
+STATE="utd"
+TIME="1724389761"
+SIZE="10968"
+PARENT="<project>\component\work\ABFN_GPIO_INT\ABFN_GPIO_INT.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724334151"
+SIZE="10332"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.vhd,hdl"
+STATE="utd"
+TIME="1724334148"
+SIZE="14585"
+PARENT="<project>\component\work\CoreAPB3_C0\CoreAPB3_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C1\CoreAPB3_C1.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724335194"
+SIZE="8546"
+ENDFILE
+VALUE "<project>\component\work\CoreAPB3_C1\CoreAPB3_C1.vhd,hdl"
+STATE="utd"
+TIME="1724335193"
+SIZE="14446"
+PARENT="<project>\component\work\CoreAPB3_C1\CoreAPB3_C1.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724336482"
+SIZE="12957"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0.vhd,hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="19230"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\bfmtovec_compile.do,do"
+STATE="utd"
+TIME="1724336479"
+SIZE="1218"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724336479"
+SIZE="4734"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="6075"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbl.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="8419"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahblapb.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="11172"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbslave.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="2477"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbslaveext.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="22272"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="4112"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="9695"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="2203"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="12558"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apbtoapb.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="4110"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="82950"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="46038"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\components.vhd,hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="7377"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd,hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="39653"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio_pkg.vhd,hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="3188"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+STATE="utd"
+TIME="1724336479"
+SIZE="16843"
+LIBRARY="COREGPIO_LIB"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+MODULE_UNDER_TEST="testbench"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\wave_vhdl.do,do"
+STATE="utd"
+TIME="1724336479"
+SIZE="1559"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\CoreInterrupt_C0\CoreInterrupt_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724336181"
+SIZE="10438"
+ENDFILE
+VALUE "<project>\component\work\CoreInterrupt_C0\CoreInterrupt_C0.vhd,hdl"
+STATE="utd"
+TIME="1724336180"
+SIZE="9313"
+PARENT="<project>\component\work\CoreInterrupt_C0\CoreInterrupt_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\GPIO_INT\GPIO_INT.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724334445"
+SIZE="838"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724335967"
+SIZE="2517"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.vhd,hdl"
+STATE="utd"
+TIME="1724335966"
+SIZE="4151"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1724335966"
+SIZE="460"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd,hdl"
+STATE="utd"
+TIME="1724335966"
+SIZE="1526"
+PARENT="<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+STATE="utd"
+TIME="1724334092"
+SIZE="1229"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+STATE="utd"
+TIME="1724334092"
+SIZE="8016"
+PARENT="<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\CoreAPB3.cxf"
+ENDFILE
+VALUE "<project>\simulation\coregpio_usertb_apb_master.bfm,sim"
+STATE="utd"
+TIME="1724334323"
+SIZE="2823"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+ENDFILE
+VALUE "<project>\simulation\coregpio_usertb_include.bfm,sim"
+STATE="utd"
+TIME="1724334323"
+SIZE="23755"
+PARENT="<project>\component\work\CoreGPIO_C0\CoreGPIO_C0_0\CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO.cxf"
+ENDFILE
+VALUE "<project>\simulation\CoreInterrupt_scriptlet.bfm,sim"
+STATE="utd"
+TIME="1724336026"
+SIZE="744"
+PARENT="<project>\component\Actel\DirectCore\CoreInterrupt\1.1.101\CoreInterrupt.cxf"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1724389761"
+SIZE="637"
+PARENT="<project>\component\work\ABFN_GPIO_INT\ABFN_GPIO_INT.cxf"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "CoreAPB3::coreapb3_lib"
+FILE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd,hdl"
+LIST Other_Association
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\mti\scripts\wave_user.do,do"
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+LIST CoreAPB3
+VALUE "<project>\simulation\bfmtovec_compile.tcl,sim"
+VALUE "<project>\simulation\coreapb3_usertb_master.bfm,sim"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_package.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_main.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apb.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\test\user\testbench.vhd,tb_hdl"
+VALUE "<project>\component\Actel\DirectCore\CoreAPB3\4.2.100\mti\scripts\wave_user.do,do"
+ENDLIST
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_v2024.1\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;Project Summary:ABFN_GPIO_INT.log
+SmartDesign;ABFN_GPIO_INT;0
+SmartDesign;GPIO_INT;0
+Constraint Manager;Constraint Manager;0
+StartPage;StartPage;0
+ACTIVEVIEW;GPIO_INT
+ENDLIST
+LIST ModuleSubBlockList
+LIST "ABFN_GPIO_INT::work","component\work\ABFN_GPIO_INT\ABFN_GPIO_INT.cxf","TRUE","FALSE"
+SUBBLOCK "CoreAPB3_C1::work","component\work\CoreAPB3_C1\CoreAPB3_C1.vhd","TRUE","FALSE"
+SUBBLOCK "CoreGPIO_C0::work","component\work\CoreGPIO_C0\CoreGPIO_C0.vhd","TRUE","FALSE"
+SUBBLOCK "OSC_C0::work","component\work\OSC_C0\OSC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "ABFN_GPIO_INT_MSS::work","","FALSE","FALSE"
+ENDLIST
+LIST "ABFN_GPIO_INT_MSS::work","","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3_C0::work","component\work\CoreAPB3_C0\CoreAPB3_C0.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3_C1::work","component\work\CoreAPB3_C1\CoreAPB3_C1.vhd","TRUE","FALSE"
+SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreGPIO_C0::work","component\work\CoreGPIO_C0\CoreGPIO_C0.vhd","TRUE","FALSE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreInterrupt::work","component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\vhdl\u\CoreInterrupt.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreInterrupt_C0::work","component\work\CoreInterrupt_C0\CoreInterrupt_C0.vhd","TRUE","FALSE"
+SUBBLOCK "CoreInterrupt::work","component\Actel\DirectCore\CoreInterrupt\1.1.101\rtl\vhdl\u\CoreInterrupt.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "GPIO_INT::work","component\work\GPIO_INT\GPIO_INT.cxf","TRUE","FALSE"
+ENDLIST
+LIST "OSC_C0::work","component\work\OSC_C0\OSC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "components::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\components.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+SUBBLOCK "COREAPB3_MUXPTOB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+SUBBLOCK "coreapb3_iaddr_reg::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreapb3_iaddr_reg::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREAPB3_MUXPTOB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3_muxptob3.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bfm_misc::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfM_packAGE::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_package.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio_test::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apb::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "BFMA1i1lI::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+SUBBLOCK "bFM_maiN::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apbSLAve::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apBSLaveeXT::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFM_apBSLaveeXT::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bFM_maiN::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "BFMA1i1lI::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\test\user\testbench.vhd","FALSE","TRUE"
+SUBBLOCK "CoreAPB3::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\core\coreapb3.vhd","FALSE","FALSE"
+SUBBLOCK "BFM_apb::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "BFM_apbSLAve::coreapb3_lib","component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_components::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\components.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd","FALSE","FALSE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_coregpio_pkg::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio_pkg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "bfm_misc::coregpio_lib","component\Actel\DirectCore\CoreGPIO\3.2.102\rtl\vhdl\amba_bfm\misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio::coregpio_lib","component\Actel\DirectCore\CoreGPIO\3.2.102\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "bfm_textio_test::coregpio_lib","component\Actel\DirectCore\CoreGPIO\3.2.102\rtl\vhdl\amba_bfm\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_bfm_AHbl::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbl.vhd","FALSE","TRUE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_bFM_maiN::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_BFM_ahBLApb::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahblapb.vhd","FALSE","TRUE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_BFMA1i1lI::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_bFM_maiN::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_BFM_ahbSLAve::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbslave.vhd","FALSE","TRUE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_bfM_AHbslaVEext::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_Bfm_aPB2apb::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apbtoapb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_BFM_apbSLAve::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apbslave.vhd","FALSE","TRUE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_BFM_apBSLaveeXT::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_bfM_packAGE::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_package.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_BFMA1i1lI::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "coreparameters::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_bfM_AHbslaVEext::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_BFM_apb::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_BFMA1i1lI::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_bFM_maiN::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_BFM_apBSLaveeXT::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apbslaveext.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_bFM_maiN::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_BFMA1i1lI::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_ahbtoapb.vhd","FALSE","TRUE"
+ENDLIST
+LIST "CoreGPIO_C0_CoreGPIO_C0_0_bFM_maiN::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_main.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbench::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\test\user\testbench.vhd","FALSE","TRUE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_CoreGPIO::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\core\coregpio.vhd","FALSE","FALSE"
+SUBBLOCK "CoreGPIO_C0_CoreGPIO_C0_0_BFM_apb::coregpio_lib","component\work\CoreGPIO_C0\CoreGPIO_C0_0\rtl\vhdl\amba_bfm\bfm_apb.vhd","FALSE","TRUE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST

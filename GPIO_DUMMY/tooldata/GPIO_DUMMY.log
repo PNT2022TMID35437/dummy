@@ -1,0 +1,16 @@
+Project Name: GPIO_DUMMY
+Location: D:\libero_tests\GPIO_DUMMY
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S005-VF400I
+Family         : SmartFusion2
+Die            : M2S005
+Package        : 400 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : IND

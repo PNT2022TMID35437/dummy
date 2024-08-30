@@ -1,0 +1,18 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Tue Aug 27 19:33:47 2024
+Project   :  D:\libero_tests\I2C_TEMP1
+Component :  COREI2C_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/I2C_TEMP1/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/core/corei2creal.v
+    D:/libero_tests/I2C_TEMP1/component/work/COREI2C_C0/COREI2C_C0_0/rtl/vlog/core/corei2c.v
+    D:/libero_tests/I2C_TEMP1/component/work/COREI2C_C0/COREI2C_C0.v
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/I2C_TEMP1/component/Actel/DirectCore/COREI2C/7.2.101/rtl/vlog/test/user/i2c_spk.v
+    D:/libero_tests/I2C_TEMP1/component/work/COREI2C_C0/COREI2C_C0_0/rtl/vlog/test/user/tb_user_corei2c.v
+    D:/libero_tests/I2C_TEMP1/component/work/COREI2C_C0/COREI2C_C0_0/coreparameters.v
+

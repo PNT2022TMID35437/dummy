@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\libero_tests\I2C_1\designer\IIC\IIC_fp\IIC.pro'
+PDB file 'D:\libero_tests\I2C_1\designer\IIC\IIC.pdb' has been loaded successfully.
+DESIGN : IIC;  CHECKSUM : 676D;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\libero_tests\I2C_1\designer\IIC\IIC.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\libero_tests\I2C_1\designer\IIC\IIC.ppd'; file programs Fabric.
+Fabric component bitstream digest: c9046083abeca1a4f7cf72efae8e47602411f6fc3f606355766bd83d770001da
+Entire bitstream digest: 9036bbc3a6a1f9d7f195ca45b095937188846678b4f043a2b68689e37f3f1079
+Finished: Mon Aug 26 11:03:00 2024 (Elapsed time 00:00:02)
+
+Project saved.
+Project closed.

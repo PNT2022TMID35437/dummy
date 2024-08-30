@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  UART_ABFN  -multisrs  D:\libero_tests\ABFN_UART\synthesis\synwork\UART_ABFN_comp.srs  -osyn  D:\libero_tests\ABFN_UART\synthesis\synwork\UART_ABFN_mult.srs  -log  D:\libero_tests\ABFN_UART\synthesis\synlog\UART_ABFN_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top UART_ABFN -multisrs ..\synwork\UART_ABFN_comp.srs -osyn ..\synwork\UART_ABFN_mult.srs -log ..\synlog\UART_ABFN_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\uart_abfn_comp.srs|io:i|time:1723102402|size:42171|exec:0|csum:51A754A8D0CA5E9D8E49B8B769A3E7E4
+file:..\synwork\uart_abfn_mult.srs|io:o|time:1723102404|size:2663|exec:0|csum:
+file:..\synlog\uart_abfn_multi_srs_gen.srr|io:o|time:1723102404|size:1152|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

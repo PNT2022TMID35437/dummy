@@ -1,0 +1,44 @@
+
+fsm_encoding {121089410897} onehot
+
+fsm_state_encoding {121089410897} 000 {0000001}
+
+fsm_state_encoding {121089410897} 001 {0000010}
+
+fsm_state_encoding {121089410897} 010 {0000100}
+
+fsm_state_encoding {121089410897} 011 {0001000}
+
+fsm_state_encoding {121089410897} 100 {0010000}
+
+fsm_state_encoding {121089410897} 101 {0100000}
+
+fsm_state_encoding {121089410897} 110 {1000000}
+
+fsm_registers {121089410897} {sm0_state[6]}  {sm0_state[5]}  {sm0_state[4]}  {sm0_state[3]}  {sm0_state[2]}  {sm0_state[1]}  {sm0_state[0]} 
+
+fsm_encoding {1511201122} onehot
+
+fsm_state_encoding {1511201122} tx_idle {000001}
+
+fsm_state_encoding {1511201122} tx_load {000010}
+
+fsm_state_encoding {1511201122} start_bit {000100}
+
+fsm_state_encoding {1511201122} tx_data_bits {001000}
+
+fsm_state_encoding {1511201122} parity_bit {010000}
+
+fsm_state_encoding {1511201122} tx_stop_bit {100000}
+
+fsm_registers {1511201122} {xmit_state[5]}  {xmit_state[4]}  {xmit_state[3]}  {xmit_state[2]}  {xmit_state[1]}  {xmit_state[0]} 
+
+fsm_encoding {1425502551} sequential
+
+fsm_state_encoding {1425502551} 00 {00}
+
+fsm_state_encoding {1425502551} 01 {01}
+
+fsm_state_encoding {1425502551} 10 {10}
+
+fsm_registers {1425502551} {rx_state[1]}  {rx_state[0]} 

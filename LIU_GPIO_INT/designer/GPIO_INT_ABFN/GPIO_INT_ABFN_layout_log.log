@@ -1,0 +1,78 @@
+INFO: Reading User SDC file D:\libero_tests\LIU_GPIO_INT\constraint\GPIO_INT_ABFN_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file D:\libero_tests\LIU_GPIO_INT\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 5 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2024.1.0 
+Design: GPIO_INT_ABFN                   Started: Thu Aug 22 18:38:26 2024
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: GPIO_INT_ABFN                   
+Finished: Thu Aug 22 18:38:32 2024
+Total CPU Time:     00:00:05            Total Elapsed Time: 00:00:06
+Total Memory Usage: 299.9 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\libero_tests\LIU_GPIO_INT\designer\GPIO_INT_ABFN\GPIO_INT_ABFNStarted: Thu Aug 22 18:38:34 2024
+
+
+Router completed successfully.
+
+Design: D:\libero_tests\LIU_GPIO_INT\designer\GPIO_INT_ABFN\GPIO_INT_ABFN
+Finished: Thu Aug 22 18:38:35 2024
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:01
+Total Memory Usage: 257.9 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 327  | 6060  | 5.40       |
+| DFF           | 274  | 6060  | 4.52       |
+| I/O Register  | 0    | 507   | 0.00       |
+| Logic Element | 351  | 6060  | 5.79       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  5    | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+

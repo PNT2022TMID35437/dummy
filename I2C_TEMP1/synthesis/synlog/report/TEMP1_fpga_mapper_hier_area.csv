@@ -1,0 +1,12 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. TEMP1, 98, 350, 12, 0, 0, 0, 0, 2, 6
+.	. COREI2C_C0, 98, 339, 12, 0, 0, 0, 0, 0, 0
+.	.	. COREI2C_C0_COREI2C_C0_0_COREI2C_Z2, 98, 339, 12, 0, 0, 0, 0, 0, 0
+.	.	.	. COREI2C_COREI2CREAL_Z3, 88, 335, 12, 0, 0, 0, 0, 0, 0
+.	. CoreAPB3_C0, 0, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreAPB3_Z1, 0, 11, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. COREAPB3_MUXPTOB3, 0, 9, 0, 0, 0, 0, 0, 0, 0
+.	. OSC_C0, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. OSC_C0_OSC_C0_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	. TEMP1_MSS, 0, 0, 0, 0, 0, 0, 0, 0, 2

@@ -1,0 +1,113 @@
+/*******************************************************************************
+ * (c) Copyright 2015 Microsemi SoC Products Group.  All rights reserved.
+ *
+ *  Simple CoreGPIO example program flashing LEDs on the target hardware.
+ *
+ * Please refer to the file README.txt for further details about this example.
+ *
+ * SVN $Revision: 8017 $
+ * SVN $Date: 2015-10-13 13:19:09 +0530 (Tue, 13 Oct 2015) $
+ */
+#include "platform.h"
+#include "drivers/CoreGPIO/core_gpio.h"
+
+/*
+ * Delay loop down counter load value.
+ */
+
+
+/*
+ * CoreGPIO instance data.
+ */
+gpio_instance_t g_gpio;
+
+static void sleep();
+
+/*-------------------------------------------------------------------------*//**
+ * main() function.
+ */
+int main()
+{
+
+	uint32_t gpio_inp;
+    /**************************************************************************
+     * Initialize the CoreGPIO driver with the base address of the CoreGPIO
+     * instance to use and the initial state of the outputs. 
+     *************************************************************************/ 
+    GPIO_init( &g_gpio, COREGPIO_BASE_ADDR, GPIO_APB_32_BITS_BUS );
+    
+    /**************************************************************************
+     * Configure the GPIOs.
+     *************************************************************************/     
+    GPIO_config( &g_gpio, GPIO_0, GPIO_INPUT_MODE );
+    GPIO_config( &g_gpio, GPIO_1, GPIO_OUTPUT_MODE );
+//    GPIO_config( &g_gpio, GPIO_2, GPIO_OUTPUT_MODE );
+//    GPIO_config( &g_gpio, GPIO_3, GPIO_OUTPUT_MODE );
+//    GPIO_config( &g_gpio, GPIO_4, GPIO_INPUT_MODE );
+//    GPIO_config( &g_gpio, GPIO_5, GPIO_INPUT_MODE );
+    
+    /*
+     * Set initial delay used to blink the LED.
+     */
+
+
+
+    /*
+     * Infinite loop.
+     */
+    for(;;)
+    {
+
+        /*
+         * Decrement delay counter.
+         */
+
+        
+        /*
+         * Check if delay expired.
+         */gpio_inp=GPIO_get_inputs(&g_gpio);
+    		if (gpio_inp==1){
+
+
+    			GPIO_set_output( &g_gpio, GPIO_1,1 );
+    			//sleep(1000);
+    			}
+    		else
+    			GPIO_set_output( &g_gpio, GPIO_1,0 );
+//    			sleep(1000);
+
+
+            /*
+             * Reload delay counter.
+             */
+
+            
+            /*
+             * Toggle GPIO output pattern by doing an exclusive OR of all
+             * pattern bits with ones.
+             */
+
+           //GPIO_set_output( &g_gpio, GPIO_0,1 );
+          // sleep(1000);//
+           // GPIO_set_output( &g_gpio, GPIO_0,1 );
+
+            //GPIO_set_output( &g_gpio, GPIO_1,1 );
+           //GPIO_set_output( &g_gpio, GPIO_1,0 );
+
+
+
+
+    }
+    
+}
+
+static void sleep(uint32_t n)
+{
+    volatile uint32_t delay_count = n*5000u;
+
+    while(delay_count > 0u)
+    {
+        --delay_count;
+    }
+}
+

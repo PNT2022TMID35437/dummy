@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Fri Aug 23 13:08:55 2024
+Project   :  D:\libero_tests\DUMMY_2
+Component :  DUMMY1
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/DUMMY_2/component/work/DUMMY1/DUMMY1.v
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/DUMMY_2/component/work/DUMMY1/subsystem.bfm
+

@@ -1,0 +1,45 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\libero_tests\\Ethernet_dummy\\synthesis\\synwork\\eth_dummy_comp.srs|-top|eth_dummy|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|D:\\libero_tests\\Ethernet_dummy\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"D:\\libero_tests\\Ethernet_dummy\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1720505688
+#CUR:"D:\\libero_tests\\Ethernet_dummy\\component\\work\\OSC_C0\\OSC_C0_0\\OSC_C0_OSC_C0_0_OSC.v":1724854618
+#CUR:"D:\\libero_tests\\Ethernet_dummy\\component\\work\\OSC_C0\\OSC_C0.v":1724854618
+#CUR:"D:\\libero_tests\\Ethernet_dummy\\component\\work\\eth_dummy_MSS\\eth_dummy_MSS_syn.v":1724854808
+#CUR:"D:\\libero_tests\\Ethernet_dummy\\component\\work\\eth_dummy_MSS\\eth_dummy_MSS.v":1724854808
+#CUR:"D:\\libero_tests\\Ethernet_dummy\\component\\work\\eth_dummy\\eth_dummy.v":1724854812
+0			"D:\libero_tests\Ethernet_dummy\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+1			"D:\libero_tests\Ethernet_dummy\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v" verilog
+2			"D:\libero_tests\Ethernet_dummy\component\work\OSC_C0\OSC_C0.v" verilog
+3			"D:\libero_tests\Ethernet_dummy\component\work\eth_dummy_MSS\eth_dummy_MSS_syn.v" verilog
+4			"D:\libero_tests\Ethernet_dummy\component\work\eth_dummy_MSS\eth_dummy_MSS.v" verilog
+5			"D:\libero_tests\Ethernet_dummy\component\work\eth_dummy\eth_dummy.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 1
+3 -1
+4 3
+5 2 4
+#Dependency Lists(Users Of)
+0 1
+1 2
+2 5
+3 4
+4 5
+5 -1
+#Design Unit to File Association
+module work eth_dummy 5
+module work eth_dummy_MSS 4
+module work MSS_005 3
+module work OSC_C0 2
+module work OSC_C0_OSC_C0_0_OSC 1
+module work XTLOSC_FAB 0
+module work RCOSC_25_50MHZ_FAB 0
+module work RCOSC_1MHZ_FAB 0
+module work XTLOSC 0
+module work RCOSC_25_50MHZ 0
+module work RCOSC_1MHZ 0

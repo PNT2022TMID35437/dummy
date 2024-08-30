@@ -1,0 +1,5 @@
+Detailed Resource Usage
+Module Name,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet,RCOSC_50MHZ
+MSS_sys_i2c_sb_0/CCC_0/Primitives,0,1,1,0,0,0
+MSS_sys_i2c_sb_0/FABOSC_0/Primitives,0,0,0,0,0,1
+MSS_sys_i2c_sb_0/MSS_sys_i2c_sb_MSS_0/Primitives,2,0,0,1,0,0

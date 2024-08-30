@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>GPIOOOO</design>
+	<target_verilog>D:\libero_tests\DUMMY_GPIO_MSS\synthesis\GPIOOOO.vm</target_verilog>
+</SynplifyOutput>

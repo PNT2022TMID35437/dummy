@@ -1,0 +1,81 @@
+INFO: Reading User SDC file D:\libero_tests\I2C_TEMP1\constraint\TEMP1_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file D:\libero_tests\I2C_TEMP1\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 4 fixed I/O macros, 2 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2024.1.0 
+Design: TEMP1                           Started: Tue Aug 27 17:38:53 2024
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: TEMP1                           
+Finished: Tue Aug 27 17:39:00 2024
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:07
+Total Memory Usage: 291.3 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\libero_tests\I2C_TEMP1\designer\TEMP1\TEMP1Started: Tue Aug 27 17:39:02 2024
+
+
+Router completed successfully.
+
+Design: D:\libero_tests\I2C_TEMP1\designer\TEMP1\TEMP1
+Finished: Tue Aug 27 17:39:03 2024
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:01
+Total Memory Usage: 258.6 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 1
+  Worst minimum delay slack: -1.638 ns
+Info: Iteration 2:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 366  | 6060  | 6.04       |
+| DFF           | 98   | 6060  | 1.62       |
+| I/O Register  | 0    | 507   | 0.00       |
+| Logic Element | 367  | 6060  | 6.06       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  4    | 66.67%     |
+| Placed |  2    | 33.33%     |
++--------+-------+------------+
+

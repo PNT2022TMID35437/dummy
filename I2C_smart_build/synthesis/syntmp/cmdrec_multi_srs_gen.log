@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  MSS_sys_i2c_sb  -multisrs  D:\libero_tests\I2C_smart_build\synthesis\synwork\MSS_sys_i2c_sb_comp.srs  -osyn  D:\libero_tests\I2C_smart_build\synthesis\synwork\MSS_sys_i2c_sb_mult.srs  -log  D:\libero_tests\I2C_smart_build\synthesis\synlog\MSS_sys_i2c_sb_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top MSS_sys_i2c_sb -multisrs ..\synwork\MSS_sys_i2c_sb_comp.srs -osyn ..\synwork\MSS_sys_i2c_sb_mult.srs -log ..\synlog\MSS_sys_i2c_sb_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\mss_sys_i2c_sb_comp.srs|io:i|time:1724737887|size:94210|exec:0|csum:4D13DD4A8B2D1144E04B64E678CA9038
+file:..\synwork\mss_sys_i2c_sb_mult.srs|io:o|time:1724737888|size:14158|exec:0|csum:
+file:..\synlog\mss_sys_i2c_sb_multi_srs_gen.srr|io:o|time:1724737888|size:1061|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

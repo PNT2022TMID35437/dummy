@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Thu Aug  8 13:03:12 2024
+Project   :  D:\libero_tests\ABFN_UART
+Component :  UART_ABFN
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/ABFN_UART/component/work/UART_ABFN/UART_ABFN.v
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/ABFN_UART/component/work/UART_ABFN/subsystem.bfm
+

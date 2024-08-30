@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "11:40:32    19-Aug-2024",
+	"Working Directory" : "D:/libero_tests/LIU_GPIO_1/synthesis",
+	"Install" : "C:/Microchip/Libero_SoC_v2024.1/SynplifyPro"
+},
+"synthesis" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "11:40:22",
+   "Runtime" : "10s",
+   "Executable Run Time" : "08s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "11:40:22",
+      "Runtime" : "10s",
+      "Executable Run Time" : "08s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "11:40:22",
+         "Runtime" : "06s",
+         "Executable Run Time" : "05s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "11:40:22",
+            "Runtime" : "04s",
+            "Executable Run Time" : "03s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "D:/libero_tests/LIU_GPIO_1/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "11:40:22",
+               "Run Time" : "04s",
+               "Exe Run Time" : "03s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "D:/libero_tests/LIU_GPIO_1/synthesis",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "11:40:26",
+               "Run Time" : "00s",
+               "Exe Run Time" : "00s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "D:/libero_tests/LIU_GPIO_1/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "11:40:26",
+            "Run Time" : "02s",
+            "Exe Run Time" : "02s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "11:40:29",
+         "Runtime" : "03s",
+         "Executable Run Time" : "03s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_generic.exe",
+            "Run Directory" : "D:/libero_tests/LIU_GPIO_1/synthesis",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "11:40:29",
+            "Run Time" : "03s",
+            "Exe Run Time" : "03s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

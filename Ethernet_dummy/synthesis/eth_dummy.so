@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>eth_dummy</design>
+	<target_verilog>D:\libero_tests\Ethernet_dummy\synthesis\eth_dummy.vm</target_verilog>
+</SynplifyOutput>

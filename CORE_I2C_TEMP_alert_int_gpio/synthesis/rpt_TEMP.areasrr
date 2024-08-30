@@ -1,0 +1,262 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S005VF400STD (Microchip)
+
+--------------------------------------------------------------------
+########   Utilization report for  Top level view:   TEMP   ########
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      137                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TEMP:	137 (22.64 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           418                100 %                
+ARI1          10                 100 %                
+BLACK BOX     4                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block TEMP:	432 (71.40 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block TEMP:	2 (0.33 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       12                 100 %                
+=================================================
+Total IO PADS in the block TEMP:	12 (1.98 % Utilization)
+
+-------------------------------------------------------------
+########   Utilization report for  cell:   TEMP_sb   ########
+Instance path:   TEMP.TEMP_sb                                
+=============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      137                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TEMP.TEMP_sb:	137 (22.64 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           418                100 %                
+ARI1          10                 100 %                
+BLACK BOX     4                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block TEMP.TEMP_sb:	432 (71.40 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block TEMP.TEMP_sb:	2 (0.33 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       6                  50 %                 
+=================================================
+Total IO PADS in the block TEMP.TEMP_sb:	6 (0.99 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   COREI2C_Z3   ########
+Instance path:   TEMP_sb.COREI2C_Z3                             
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      96                 70.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TEMP_sb.COREI2C_Z3:	96 (15.87 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      345                82.5 %               
+ARI1     10                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block TEMP_sb.COREI2C_Z3:	355 (58.68 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   COREI2CREAL_Z4   ########
+Instance path:   COREI2C_Z3.COREI2CREAL_Z4                          
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      88                 64.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block COREI2C_Z3.COREI2CREAL_Z4:	88 (14.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      332                79.4 %               
+ARI1     10                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block COREI2C_Z3.COREI2CREAL_Z4:	342 (56.53 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreAPB3_Z1   ########
+Instance path:   TEMP_sb.CoreAPB3_Z1                             
+=================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      11                 2.63 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TEMP_sb.CoreAPB3_Z1:	11 (1.82 % Utilization)
+
+-----------------------------------------------------------------------
+########   Utilization report for  cell:   COREAPB3_MUXPTOB3   ########
+Instance path:   CoreAPB3_Z1.COREAPB3_MUXPTOB3                         
+=======================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      8                  1.91 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAPB3_Z1.COREAPB3_MUXPTOB3:	8 (1.32 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreGPIO_Z2   ########
+Instance path:   TEMP_sb.CoreGPIO_Z2                             
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      32                 23.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TEMP_sb.CoreGPIO_Z2:	32 (5.29 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      60                 14.4 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TEMP_sb.CoreGPIO_Z2:	60 (9.92 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z5   ########
+Instance path:   TEMP_sb.CoreResetP_Z5                             
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  6.57 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TEMP_sb.CoreResetP_Z5:	9 (1.49 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  0.4780 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block TEMP_sb.CoreResetP_Z5:	2 (0.33 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block TEMP_sb.CoreResetP_Z5:	1 (0.17 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   TEMP_sb_CCC_0_FCCC   ########
+Instance path:   TEMP_sb.TEMP_sb_CCC_0_FCCC                             
+========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block TEMP_sb.TEMP_sb_CCC_0_FCCC:	1 (0.17 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block TEMP_sb.TEMP_sb_CCC_0_FCCC:	1 (0.17 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   TEMP_sb_FABOSC_0_OSC   ########
+Instance path:   TEMP_sb.TEMP_sb_FABOSC_0_OSC                             
+==========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block TEMP_sb.TEMP_sb_FABOSC_0_OSC:	1 (0.17 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   TEMP_sb_MSS   ########
+Instance path:   TEMP_sb.TEMP_sb_MSS                             
+=================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block TEMP_sb.TEMP_sb_MSS:	1 (0.17 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       4                  33.3 %               
+=================================================
+Total IO PADS in the block TEMP_sb.TEMP_sb_MSS:	4 (0.66 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

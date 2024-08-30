@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Thu Aug 22 17:57:32 2024
+Project   :  D:\libero_tests\ABFN_GPIO_UART_FAB_INT
+Component :  FAB_INT
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/ABFN_GPIO_UART_FAB_INT/component/work/FAB_INT/FAB_INT.v
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/ABFN_GPIO_UART_FAB_INT/component/work/FAB_INT/subsystem.bfm
+    D:/libero_tests/ABFN_GPIO_UART_FAB_INT/component/work/FAB_INT/subsystem.bfm
+

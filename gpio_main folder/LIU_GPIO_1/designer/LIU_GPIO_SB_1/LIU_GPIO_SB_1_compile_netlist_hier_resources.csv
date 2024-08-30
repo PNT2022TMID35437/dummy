@@ -1,0 +1,15 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,PLLs and CCCs,Chip Globals,MSS,10/100/1000 Ethernet
+LIU_GPIO_SB_1_sb_0/CCC_0/Primitives,0,0,1,1,1,0,0
+LIU_GPIO_SB_1_sb_0/CORERESETP_0/Primitives,2,9,0,0,1,0,0
+LIU_GPIO_SB_1_sb_0/CoreAPB3_0/Primitives,4,0,0,0,0,0,0
+LIU_GPIO_SB_1_sb_0/CoreAPB3_0/u_mux_p_to_b3/Primitives,24,0,0,0,0,0,0
+LIU_GPIO_SB_1_sb_0/CoreGPIO_0_0/Primitives,877,512,0,0,0,0,0
+LIU_GPIO_SB_1_sb_0/CoreUARTapb_0_0/Primitives,21,24,0,0,0,0,0
+LIU_GPIO_SB_1_sb_0/CoreUARTapb_0_0/uUART/Primitives,1,9,0,0,0,0,0
+LIU_GPIO_SB_1_sb_0/CoreUARTapb_0_0/uUART/make_CLOCK_GEN/Primitives,24,19,0,0,0,0,0
+LIU_GPIO_SB_1_sb_0/CoreUARTapb_0_0/uUART/make_RX/Primitives,56,38,0,0,0,0,0
+LIU_GPIO_SB_1_sb_0/CoreUARTapb_0_0/uUART/make_TX/Primitives,29,21,0,0,0,0,0
+LIU_GPIO_SB_1_sb_0/LIU_GPIO_SB_1_sb_MSS_0/Primitives,14,0,0,0,0,1,0
+LIU_GPIO_SB_1_sb_0/Primitives,3,0,0,0,0,0,0
+Primitives/Primitives,0,0,66,0,0,0,0

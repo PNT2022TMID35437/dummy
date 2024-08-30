@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>FABRIC_UART</design>
+	<target_verilog>D:\libero_tests\UART_ABFN_FAB\synthesis\FABRIC_UART.vm</target_verilog>
+</SynplifyOutput>

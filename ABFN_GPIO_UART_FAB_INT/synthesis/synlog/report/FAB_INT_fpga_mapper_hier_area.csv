@@ -1,0 +1,22 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. FAB_INT, 213, 217, 69, 0, 0, 0, 2, 2, 7
+.	. FAB_INT_sb, 213, 217, 69, 0, 0, 0, 2, 2, 0
+.	.	. CoreAPB3_Z1, 0, 31, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. COREAPB3_MUXPTOB3, 0, 27, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreGPIO_Z2, 17, 25, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreResetP_Z3, 9, 2, 0, 0, 0, 0, 0, 1, 0
+.	.	. FAB_INT_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. FAB_INT_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_1s_0s_0s_0s_0s_0s_0s, 187, 157, 69, 0, 0, 0, 2, 0, 0
+.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s, 163, 134, 61, 0, 0, 0, 2, 0, 0
+.	.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_Clock_gen_0s, 19, 10, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s, 37, 58, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s, 23, 24, 5, 0, 0, 0, 0, 0, 0
+.	.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_fifo_256x8, 30, 8, 21, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_fifo_ctrl_128, 30, 8, 21, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_ram128x8_pa4, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_fifo_256x8_0, 30, 7, 21, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_fifo_ctrl_128_0, 30, 7, 21, 0, 0, 0, 1, 0, 0
+.	.	.	.	.	.	. FAB_INT_sb_CoreUARTapb_0_0_ram128x8_pa4_0, 0, 0, 0, 0, 0, 0, 1, 0, 0
+.	.	. FAB_INT_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
+.	.	. FAB_INT_sb_MSS, 0, 2, 0, 0, 0, 0, 0, 0, 0

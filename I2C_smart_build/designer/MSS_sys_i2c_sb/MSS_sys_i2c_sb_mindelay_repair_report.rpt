@@ -1,0 +1,43 @@
+-------------------------------------
+ External Hold Repair Report 
+-------------------------------------
+ Iteration 1  
+ Total I/O input ports improved: 0       
+-------------------------------------
+
+
+
+-------------------------
+ Min-delay Repair Report 
+-------------------------
+ Iteration 1  
+ Total paths eligible for improvement: 1       
+ Total paths improved: 0       
+-------------------------
+
+Path 1
+------------------------
+From: CCC_0/CCC_INST/INST_CCC_IP:GL0
+  To: COREI2C_0_0/BCLK_ff0:D
+Operating Conditions: WORST
+------------------------
+Path min-delay slack:       -52 ps
+------------------------
+... None of the following nets could be modified:
+      CCC_0/GL0_net
+      CCC_0/GL0_INST/U0_RGB1_RGB4_rgbr_net_1
+      CCC_0/GL0_INST/U0_YNn_GSouth
+
+
+Note:
+    [1]: A net cannot be modified for repair if:
+         - it is hardwired, preserved, or global;
+         - the sink pin is a clock pin;
+         - the sink pin has negative max-delay slack allowance;
+
+    [2]: A location is not feasible for inserting a delay buffer if the estimated minimum delay to be inserted might exceed the max-delay slack allowance of the sink pin.
+
+    [3]: The I/O delay taps cannot be used to fix hold violations in RTG4 design if it is a MSIO or MSIOD that drives a GB.
+
+
+

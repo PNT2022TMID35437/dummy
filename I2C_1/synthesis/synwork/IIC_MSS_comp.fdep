@@ -1,0 +1,20 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\libero_tests\\I2C_1\\synthesis\\synwork\\IIC_MSS_comp.srs|-top|IIC_MSS|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|D:\\libero_tests\\I2C_1\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"D:\\libero_tests\\I2C_1\\component\\work\\IIC_MSS\\IIC_MSS_syn.v":1724651157
+#CUR:"D:\\libero_tests\\I2C_1\\component\\work\\IIC_MSS\\IIC_MSS.v":1724651157
+0			"D:\libero_tests\I2C_1\component\work\IIC_MSS\IIC_MSS_syn.v" verilog
+1			"D:\libero_tests\I2C_1\component\work\IIC_MSS\IIC_MSS.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+#Dependency Lists(Users Of)
+0 1
+1 -1
+#Design Unit to File Association
+module work IIC_MSS 1
+module work MSS_005 0

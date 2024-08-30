@@ -1,0 +1,134 @@
+/*******************************************************************************
+ * (c) Copyright 2015 Microsemi SoC Products Group.  All rights reserved.
+ *
+ * SmartFusion2 microcontroller subsystem (MSS) GPIO interrupt example.
+ *
+ * Please refer to the file README.txt for further details about this example.
+ *
+ * SVN $Revision: 7923 $
+ * SVN $Date: 2015-10-01 11:37:48 +0530 (Thu, 01 Oct 2015) $
+ */
+#include "drivers/mss_gpio/mss_gpio.h"
+#include "drivers/mss_uart/mss_uart.h"
+#include "CMSIS/system_m2sxxx.h"
+
+/*==============================================================================
+  Messages displayed over the UART.
+ */
+uint8_t rx_buffer[2];
+unsigned char tx_buffer[]="Lights ON";
+unsigned char tx_buffer1[]="Lights OFF";
+unsigned char tx_buffer2[]="Blinking completed";
+/*==============================================================================
+  Private functions.
+ */
+static void display_greeting(void);
+
+/*==============================================================================
+  UART selection.
+  Replace the line below with this one if you want to use UART0 instead of
+  UART1:
+  mss_uart_instance_t * const gp_my_uart = &g_mss_uart1;
+ */
+mss_uart_instance_t * const gp_my_uart = &g_mss_uart0;
+
+/*==============================================================================
+ * main() function.
+ */
+int main()
+{
+    /*
+     * Initialize MSS GPIOs.
+     */
+    MSS_GPIO_init();
+    
+    /*
+     * MMUART initialization
+     */
+    MSS_UART_init(gp_my_uart,
+                  MSS_UART_115200_BAUD,
+                  MSS_UART_DATA_8_BITS | MSS_UART_NO_PARITY | MSS_UART_ONE_STOP_BIT);
+    
+
+    /*
+     * Configure MSS GPIOs.
+     */
+    MSS_GPIO_config(MSS_GPIO_31 , MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_LEVEL_LOW);
+//    MSS_GPIO_config(MSS_GPIO_9 , MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_EDGE_NEGATIVE);
+//    MSS_GPIO_config(MSS_GPIO_10 , MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_EDGE_BOTH);
+//    MSS_GPIO_config(MSS_GPIO_11 , MSS_GPIO_INPUT_MODE | MSS_GPIO_IRQ_LEVEL_LOW);
+    
+    /*
+     * Enable interrupts.
+     */
+    MSS_GPIO_enable_irq(MSS_GPIO_31);
+//    MSS_GPIO_enable_irq(MSS_GPIO_9);
+//    MSS_GPIO_enable_irq(MSS_GPIO_10);
+//    MSS_GPIO_enable_irq(MSS_GPIO_11);
+    
+    /*
+     * Infinite loop. Wait for interrupts to occur.
+     */
+    for(;;)
+    {
+    	if(rx_buffer[0]=='O')
+    	{
+    		MSS_GPIO_set_output(MSS_GPIO_0,1);
+    		delay();
+    	}
+    	else if (rx_buffer[0]=='B')
+    	{
+    		blink();
+    	}
+    	rx_buffer[0]=0;
+    	rx_buffer[1]=0;
+    }
+}
+
+/*==============================================================================
+  GPIO 8 interrupt service routine.
+ */
+void GPIO31_IRQHandler(void)
+{
+
+    MSS_UART_polled_tx_string(gp_my_uart, g_edge_positive_irq_msg);
+    MSS_GPIO_clear_irq(MSS_GPIO_31);
+};
+
+/*==============================================================================
+  GPIO 9 interrupt service routine.
+ */
+void GPIO9_IRQHandler(void)
+{
+    MSS_UART_polled_tx_string(gp_my_uart, g_edge_negative_irq_msg);
+    MSS_GPIO_clear_irq(MSS_GPIO_9);
+};
+
+/*==============================================================================
+  GPIO 10 interrupt service routine.
+ */
+void GPIO10_IRQHandler(void)
+{
+    MSS_UART_polled_tx_string(gp_my_uart, g_edge_neg_pos_irq_msg);
+    MSS_GPIO_clear_irq(MSS_GPIO_10);
+};
+
+/*==============================================================================
+  GPIO 11 interrupt service routine.
+ */
+void GPIO11_IRQHandler(void)
+{
+    MSS_UART_polled_tx_string(gp_my_uart, g_level_low_irq_msg);
+    MSS_GPIO_clear_irq(MSS_GPIO_11);
+};
+
+
+/*==============================================================================
+  Display greeting message when application is started.
+ */
+static void display_greeting(void)
+{
+    MSS_UART_polled_tx_string(gp_my_uart, g_greeting_msg);
+    MSS_UART_polled_tx_string(gp_my_uart, g_instructions_msg);
+}
+

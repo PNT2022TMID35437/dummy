@@ -1,0 +1,11 @@
+10:57:22 **** Incremental Build of configuration Debug for project SF2_polled_tx_string ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_polled_tx_string.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4560	   1136	  59840	  65536	  10000	SF2_polled_tx_string.elf
+Finished building: SF2_polled_tx_string.siz
+ 
+
+10:57:22 Build Finished (took 190ms)
+

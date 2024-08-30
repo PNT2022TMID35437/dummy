@@ -1,0 +1,62 @@
+/*******************************************************************************
+ * (c) Copyright 2015 Microsemi SoC Products Group.  All rights reserved.
+ *
+ * CoreUARTapb polled string transmit example.
+ *
+ * Please refer to the file README.txt for further details about this example.
+ * 
+ * SVN $Revision: 8013 $
+ * SVN $Date: 2015-10-13 13:15:00 +0530 (Tue, 13 Oct 2015) $
+ */
+#include "hal.h"
+#include "platform.h"
+#include "core_uart_apb.h"
+#include "m2sxxx.h"
+
+/******************************************************************************
+ * Baud value to achieve a 57600 baud rate with a 71MHz system clock.
+ * This value is calculated using the following equation:
+ *      BAUD_VALUE = (CLOCK / (16 * BAUD_RATE)) - 1
+ *****************************************************************************/
+#define BAUD_VALUE_57600    76
+
+/******************************************************************************
+ * CoreUARTapb instance data.
+ *****************************************************************************/
+UART_instance_t g_uart;
+
+/******************************************************************************
+ * This message will be transmitted over the UART to HyperTerminal.
+ *****************************************************************************/
+uint8_t g_message[] =
+"\n\r\n\r\n\rThis example uses the CoreUARTapb driver to transmit a \
+zero-terminated string in polled mode. This message has to be longer than \
+256 characters in order to ensure this text gets loaded into the UART FIFO \
+until loading is suspended as a result of polling the transmit ready (TXRDY)\
+status. FIFO loading resumes when polling TXRDY indicates that more space is \
+available. Please remember that the CoreUARTapb transmitter FIFO is 256 bytes\
+long when enabled. Have a nice day and please remember: Power Matters!";
+
+/******************************************************************************
+ * main function.
+ *****************************************************************************/
+int main( void )
+{
+    /**************************************************************************
+     * Initialize CoreUARTapb with its base address, baud value, and line
+     * configuration.
+     *************************************************************************/
+    UART_init( &g_uart, COREUARTAPB0_BASE_ADDR, BAUD_VALUE_57600, (DATA_8_BITS | NO_PARITY) );
+
+
+    /**************************************************************************
+     * Infinite Loop.
+     *************************************************************************/
+    while(1)
+    {
+        /**********************************************************************
+         * Initiate message transmit continuously
+         *********************************************************************/
+        UART_polled_tx_string( &g_uart, g_message );
+    }
+}

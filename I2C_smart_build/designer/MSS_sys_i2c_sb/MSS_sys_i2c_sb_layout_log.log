@@ -1,0 +1,78 @@
+INFO: Reading User SDC file D:\libero_tests\I2C_smart_build\constraint\MSS_sys_i2c_sb_derived_constraints.sdc.
+INFO: The option "Abort flow if errors are found in SDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated SDC files. Please uncheck the option to ignore the errors and continue running the tool.
+
+No errors or warnings found.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+I/O Register Combining   : ON
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+
+INFO: Reading User PDC file D:\libero_tests\I2C_smart_build\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 4 fixed I/O macros, 7 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2024.1.0 
+Design: MSS_sys_i2c_sb                  Started: Tue Aug 27 11:30:47 2024
+
+Initializing Normal-Effort Timing-Driven Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: MSS_sys_i2c_sb                  
+Finished: Tue Aug 27 11:30:54 2024
+Total CPU Time:     00:00:06            Total Elapsed Time: 00:00:07
+Total Memory Usage: 291.0 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: D:\libero_tests\I2C_smart_build\designer\MSS_sys_i2c_sb\MSS_sys_i2c_sbStarted: Tue Aug 27 11:30:55 2024
+
+
+Router completed successfully.
+
+Design: D:\libero_tests\I2C_smart_build\designer\MSS_sys_i2c_sb\MSS_sys_i2c_sb
+Finished: Tue Aug 27 11:30:57 2024
+Total CPU Time:     00:00:01            Total Elapsed Time: 00:00:02
+Total Memory Usage: 258.4 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 1
+  Worst minimum delay slack: -0.052 ns
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 381  | 6060  | 6.29       |
+| DFF           | 162  | 6060  | 2.67       |
+| I/O Register  | 0    | 507   | 0.00       |
+| Logic Element | 426  | 6060  | 7.03       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  4    | 36.36%     |
+| Placed |  7    | 63.64%     |
++--------+-------+------------+
+

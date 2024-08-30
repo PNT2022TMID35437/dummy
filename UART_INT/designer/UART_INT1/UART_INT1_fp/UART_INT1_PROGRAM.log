@@ -1,0 +1,42 @@
+Software Version: 2024.1.0.3
+Programmer 'S20085DKKI' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'S20085DKKI' : FlashPro5
+Opened 'D:\libero_tests\UART_INT\designer\UART_INT1\UART_INT1_fp\UART_INT1.pro'
+The 'open_project' command succeeded.
+Info: Programming is already enabled for device 'M2S005'.
+The 'enable_device' command succeeded.
+PPD file 'D:/libero_tests/UART_INT/designer/UART_INT1/UART_INT1.ppd' has been loaded successfully.
+DESIGN : UART_INT1;  CHECKSUM : 770B;  PDB_VERSION : 1.0
+The 'set_programming_file' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'S20085DKKI' : Scan Chain...
+Programmer 'S20085DKKI' : JTAG TCK / SPI SCK frequency = 1 MHz
+programmer 'S20085DKKI' : Check Chain...
+programmer 'S20085DKKI' : Scan and Check Chain PASSED.
+programmer 'S20085DKKI' : device 'M2S005' : Executing action PROGRAM
+Programmer 'S20085DKKI' : JTAG TCK / SPI SCK frequency = 4 MHz
+programmer 'S20085DKKI' : device 'M2S005' : Family: SmartFusion2
+programmer 'S20085DKKI' : device 'M2S005' : Product:      M2S005
+programmer 'S20085DKKI' : device 'M2S005' : Cortex-M3 Enabled (M3_ALLOWED = 1)
+programmer 'S20085DKKI' : device 'M2S005' : Programming Interface Protocol: JTAG
+programmer 'S20085DKKI' : device 'M2S005' : EXPORT ISC_ENABLE_RESULT[32] = 007b6444
+programmer 'S20085DKKI' : device 'M2S005' : EXPORT CRCERR[1] = 0
+programmer 'S20085DKKI' : device 'M2S005' : EXPORT EDCERR[1] = 0
+programmer 'S20085DKKI' : device 'M2S005' : Programming FPGA Array...
+programmer 'S20085DKKI' : device 'M2S005' : EXPORT Fabric component digest[256] = 061101471be0c4f9407360bb57243518bdcce30f6a24328c23d42254350823ef
+programmer 'S20085DKKI' : device 'M2S005' : ===================================================================================
+programmer 'S20085DKKI' : device 'M2S005' : EXPORT DSN[128] = 6d8a0b878e54cb45699b7d3edc54eb1a
+programmer 'S20085DKKI' : device 'M2S005' : ===================================================================================
+programmer 'S20085DKKI' : device 'M2S005' : Finished: Fri Aug 23 17:31:58 2024 (Elapsed time 00:00:18)
+programmer 'S20085DKKI' : device 'M2S005' : Executing action PROGRAM PASSED.
+programmer 'S20085DKKI' : Chain programming PASSED.
+Chain Programming Finished: Fri Aug 23 17:31:58 2024 (Elapsed time 00:00:18)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.
+The 'close_project' command succeeded.
+The Execute Script command succeeded.

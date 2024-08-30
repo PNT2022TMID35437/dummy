@@ -1,0 +1,16 @@
+@P:  Worst Slack : 10.088
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : 100.9 MHz
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : 9.912
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : 10.088
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : 19.201
+@P: TEMP1 Part : m2s005vf400std
+@P: TEMP1 Register bits  : 98 
+@P: TEMP1 DSP Blocks  : 0
+@P: TEMP1 I/O primitives : 6
+@P:  CPU Time : 0h:00m:02s

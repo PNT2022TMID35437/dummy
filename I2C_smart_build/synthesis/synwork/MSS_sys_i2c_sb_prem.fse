@@ -1,0 +1,74 @@
+
+fsm_encoding {103173331736} onehot
+
+fsm_state_encoding {103173331736} FSMMOD0 {0000001}
+
+fsm_state_encoding {103173331736} FSMMOD1 {0000010}
+
+fsm_state_encoding {103173331736} FSMMOD2 {0000100}
+
+fsm_state_encoding {103173331736} FSMMOD3 {0001000}
+
+fsm_state_encoding {103173331736} FSMMOD4 {0010000}
+
+fsm_state_encoding {103173331736} FSMMOD5 {0100000}
+
+fsm_state_encoding {103173331736} 110 {1000000}
+
+fsm_registers {103173331736} {fsmmod[6]}  {fsmmod[5]}  {fsmmod[4]}  {fsmmod[3]}  {fsmmod[2]}  {fsmmod[1]}  {fsmmod[0]} 
+
+fsm_encoding {101946319468} onehot
+
+fsm_state_encoding {101946319468} FSMSYNC0 {00000001}
+
+fsm_state_encoding {101946319468} FSMSYNC1 {00000010}
+
+fsm_state_encoding {101946319468} FSMSYNC2 {00000100}
+
+fsm_state_encoding {101946319468} FSMSYNC3 {00001000}
+
+fsm_state_encoding {101946319468} FSMSYNC4 {00010000}
+
+fsm_state_encoding {101946319468} FSMSYNC5 {00100000}
+
+fsm_state_encoding {101946319468} FSMSYNC6 {01000000}
+
+fsm_state_encoding {101946319468} 111 {10000000}
+
+fsm_registers {101946319468} {fsmsync[7]}  {fsmsync[6]}  {fsmsync[5]}  {fsmsync[4]}  {fsmsync[3]}  {fsmsync[2]}  {fsmsync[1]}  {fsmsync[0]} 
+
+fsm_encoding {102902329027} onehot
+
+fsm_state_encoding {102902329027} FSMDET0 {0000001}
+
+fsm_state_encoding {102902329027} FSMDET1 {0000010}
+
+fsm_state_encoding {102902329027} FSMDET2 {0000100}
+
+fsm_state_encoding {102902329027} FSMDET3 {0001000}
+
+fsm_state_encoding {102902329027} FSMDET4 {0010000}
+
+fsm_state_encoding {102902329027} FSMDET5 {0100000}
+
+fsm_state_encoding {102902329027} 110 {1000000}
+
+fsm_registers {102902329027} {fsmdet[6]}  {fsmdet[5]}  {fsmdet[4]}  {fsmdet[3]}  {fsmdet[2]}  {fsmdet[1]}  {fsmdet[0]} 
+
+fsm_encoding {131089410895} onehot
+
+fsm_state_encoding {131089410895} 000 {0000001}
+
+fsm_state_encoding {131089410895} 001 {0000010}
+
+fsm_state_encoding {131089410895} 010 {0000100}
+
+fsm_state_encoding {131089410895} 011 {0001000}
+
+fsm_state_encoding {131089410895} 100 {0010000}
+
+fsm_state_encoding {131089410895} 101 {0100000}
+
+fsm_state_encoding {131089410895} 110 {1000000}
+
+fsm_registers {131089410895} {sm0_state[6]}  {sm0_state[5]}  {sm0_state[4]}  {sm0_state[3]}  {sm0_state[2]}  {sm0_state[1]}  {sm0_state[0]} 

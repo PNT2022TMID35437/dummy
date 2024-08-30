@@ -1,0 +1,33 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Tue Jul  9 11:39:01 2024
+Project   :  D:\libero_tests\hello
+Component :  hello_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/hello/component/work/hello_MSS/hello_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/libero_tests/hello/component/work/hello_MSS/hello_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/libero_tests/hello/component/work/hello_MSS/hello_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/hello/component/work/hello_MSS/CM3_compile_bfm.tcl
+    D:/libero_tests/hello/component/work/hello_MSS/user.bfm
+    D:/libero_tests/hello/component/work/hello_MSS/test.bfm
+    D:/libero_tests/hello/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    D:/libero_tests/hello/component/work/hello_MSS/sys_config_mss_clocks.h
+    D:/libero_tests/hello/component/work/hello_MSS/sys_config_mddr_define.h
+
+Configuration files to be used for all Simulation tools:
+    D:/libero_tests/hello/component/work/hello_MSS/MDDR_init.bfm
+
+Configuration files to be used for Power Analysis:
+    D:/libero_tests/hello/component/work/hello_MSS/MDDR_init.reg
+

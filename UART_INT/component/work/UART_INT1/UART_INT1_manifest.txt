@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Fri Aug 23 17:29:30 2024
+Project   :  D:\libero_tests\UART_INT
+Component :  UART_INT1
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/UART_INT/component/work/UART_INT1/UART_INT1.v
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/UART_INT/component/work/UART_INT1/subsystem.bfm
+    D:/libero_tests/UART_INT/component/work/UART_INT1/subsystem.bfm
+

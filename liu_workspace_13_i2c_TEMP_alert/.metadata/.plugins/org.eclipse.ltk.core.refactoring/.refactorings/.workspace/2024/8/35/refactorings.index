@@ -1,0 +1,7 @@
+1724837541543	Delete resource 'polled_uart'
+1724837545356	Delete resource 'SF2_simple_gpio'
+1724837754438	Delete resource 'SF2_simple_gpio'
+1724839152846	Delete resource 'I2C_master_slave/core_gpio.c'
+1724839535288	Delete resource 'I2C_master_slave/core_gpio.h'
+1724839538433	Delete resource 'I2C_master_slave/coregpio_regs.h'
+1724843111721	Delete resource 'polled_uart'

@@ -1,0 +1,522 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S005VF400STD (Microchip)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   UART_GPIO_FAB_SB   ########
+================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      203                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB:	203 (39.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           187                100 %                
+ARI1          69                 100 %                
+BLACK BOX     9                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB:	265 (50.96 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB:	2 (0.38 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block UART_GPIO_FAB_SB:	2 (0.38 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       6                  100 %                
+=================================================
+Total IO PADS in the block UART_GPIO_FAB_SB:	6 (1.15 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb   ########
+Instance path:   UART_GPIO_FAB_SB.UART_GPIO_FAB_SB_sb                    
+=========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      203                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB.UART_GPIO_FAB_SB_sb:	203 (39.04 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           187                100 %                
+ARI1          69                 100 %                
+BLACK BOX     9                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB.UART_GPIO_FAB_SB_sb:	265 (50.96 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB.UART_GPIO_FAB_SB_sb:	2 (0.38 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block UART_GPIO_FAB_SB.UART_GPIO_FAB_SB_sb:	2 (0.38 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreAPB3_Z1   ########
+Instance path:   UART_GPIO_FAB_SB_sb.CoreAPB3_Z1                 
+=================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      14                 7.49 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb.CoreAPB3_Z1:	14 (2.69 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAPB3_MUXPTOB3_0   ########
+Instance path:   CoreAPB3_Z1.COREAPB3_MUXPTOB3_0                         
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      10                 5.35 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAPB3_Z1.COREAPB3_MUXPTOB3_0:	10 (1.92 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreGPIO_Z3   ########
+Instance path:   UART_GPIO_FAB_SB_sb.CoreGPIO_Z3                 
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.4930 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb.CoreGPIO_Z3:	1 (0.19 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      6                  3.21 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb.CoreGPIO_Z3:	6 (1.15 % Utilization)
+
+-----------------------------------------------------------------
+########   Utilization report for  cell:   CoreGPIO_Z4   ########
+Instance path:   UART_GPIO_FAB_SB_sb.CoreGPIO_Z4                 
+=================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      6                  2.96 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb.CoreGPIO_Z4:	6 (1.15 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      9                  4.81 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb.CoreGPIO_Z4:	9 (1.73 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z5   ########
+Instance path:   UART_GPIO_FAB_SB_sb.CoreResetP_Z5                 
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      9                  4.43 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb.CoreResetP_Z5:	9 (1.73 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      2                  1.07 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb.CoreResetP_Z5:	2 (0.38 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block UART_GPIO_FAB_SB_sb.CoreResetP_Z5:	1 (0.19 % Utilization)
+
+------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CCC_0_FCCC   ########
+Instance path:   UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_CCC_0_FCCC                 
+====================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_CCC_0_FCCC:	1 (0.19 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  50 %                 
+===================================================
+Total GLOBAL BUFFERS in the block UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_CCC_0_FCCC:	1 (0.19 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_26s_0s_0s_0s_0s_0s_0s   ########
+Instance path:   UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_26s_0s_0s_0s_0s_0s_0s                 
+=====================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      187                92.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_26s_0s_0s_0s_0s_0s_0s:	187 (35.96 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           156                83.4 %               
+ARI1          69                 100 %                
+BLACK BOX     2                  22.2 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_26s_0s_0s_0s_0s_0s_0s:	227 (43.65 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_26s_0s_0s_0s_0s_0s_0s:	2 (0.38 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s   ########                                           
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_26s_0s_0s_0s_0s_0s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s
+=============================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      163                80.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_26s_0s_0s_0s_0s_0s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s:	163 (31.35 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           129                69 %                 
+ARI1          61                 88.4 %               
+BLACK BOX     2                  22.2 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_26s_0s_0s_0s_0s_0s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s:	192 (36.92 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     2                  100 %                
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_26s_0s_0s_0s_0s_0s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s:	2 (0.38 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Clock_gen_0s   ########                        
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Clock_gen_0s
+==============================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      19                 9.36 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Clock_gen_0s:	19 (3.65 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      10                 5.35 %               
+ARI1     14                 20.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Clock_gen_0s:	24 (4.62 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s   ########                        
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s
+======================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      37                 18.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s:	37 (7.12 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      54                 28.9 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s:	54 (10.38 % Utilization)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s   ########                        
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s
+==================================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      23                 11.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s:	23 (4.42 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      24                 12.8 %               
+ARI1     5                  7.25 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s:	29 (5.58 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8   ########                        
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8
+============================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 14.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8:	30 (5.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           8                  4.28 %               
+ARI1          21                 30.4 %               
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8:	30 (5.77 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8:	1 (0.19 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128   ########          
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128
+=================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 14.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128:	30 (5.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           8                  4.28 %               
+ARI1          21                 30.4 %               
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128:	30 (5.77 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128:	1 (0.19 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_ram128x8_pa4   ########             
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_ram128x8_pa4
+===================================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_ram128x8_pa4:	1 (0.19 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_ram128x8_pa4:	1 (0.19 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8_0   ########                        
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8_0
+==============================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 14.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8_0:	30 (5.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           7                  3.74 %               
+ARI1          21                 30.4 %               
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8_0:	29 (5.58 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8_0:	1 (0.19 % Utilization)
+
+---------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128_0   ########            
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8_0.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128_0
+=====================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      30                 14.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8_0.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128_0:	30 (5.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           7                  3.74 %               
+ARI1          21                 30.4 %               
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8_0.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128_0:	29 (5.58 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_256x8_0.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128_0:	1 (0.19 % Utilization)
+
+-----------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_ram128x8_pa4_0   ########               
+Instance path:   UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128_0.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_ram128x8_pa4_0
+=======================================================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128_0.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_ram128x8_pa4_0:	1 (0.19 % Utilization)
+
+
+MEMORY ELEMENTS
+Name         Total elements     Utilization     Notes
+-----------------------------------------------------
+RAM64X18     1                  50 %                 
+=====================================================
+Total MEMORY ELEMENTS in the block UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_fifo_ctrl_128_0.UART_GPIO_FAB_SB_sb_CoreUARTapb_0_0_ram128x8_pa4_0:	1 (0.19 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_FABOSC_0_OSC   ########
+Instance path:   UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_FABOSC_0_OSC                 
+======================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_FABOSC_0_OSC:	1 (0.19 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   UART_GPIO_FAB_SB_sb_MSS   ########
+Instance path:   UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_MSS                 
+=============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  11.1 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block UART_GPIO_FAB_SB_sb.UART_GPIO_FAB_SB_sb_MSS:	1 (0.19 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

@@ -1,0 +1,33 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Thu Aug 22 19:12:31 2024
+Project   :  D:\libero_tests\ABFN_GPIO_INT
+Component :  CoreAPB3_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/components.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/CoreAPB3_C0/CoreAPB3_C0.vhd
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/wave_user.do
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec_compile.tcl
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.exe
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/bfmtovec.lin
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/mti/scripts/coreapb3_usertb_master.bfm
+
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/coreparameters.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/misc.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/textio.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_package.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_main.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_ahbtoapb.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_apb.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_apbslaveext.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/amba_bfm/bfm_apbslave.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/DirectCore/CoreAPB3/4.2.100/rtl/vhdl/test/user/testbench.vhd
+

@@ -1,0 +1,90 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\libero_tests\\CORE_I2C_TEMP - Copy\\synthesis\\synwork\\TEMP_comp.srs|-top|TEMP|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|D:\\libero_tests\\CORE_I2C_TEMP - Copy\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\work\\TEMP_sb\\CCC_0\\TEMP_sb_CCC_0_FCCC.v":1724835543
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1720505688
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\work\\TEMP_sb\\FABOSC_0\\TEMP_sb_FABOSC_0_OSC.v":1724835543
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\work\\TEMP_sb_MSS\\TEMP_sb_MSS_syn.v":1724835541
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\work\\TEMP_sb_MSS\\TEMP_sb_MSS.v":1724835541
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\Actel\\DirectCore\\COREI2C\\7.0.102\\rtl\\vlog\\core_obfuscated\\corei2creal.v":1724823520
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\Actel\\DirectCore\\COREI2C\\7.0.102\\rtl\\vlog\\core_obfuscated\\corei2c.v":1724823520
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\Actel\\DirectCore\\CoreGPIO\\3.0.120\\rtl\\vlog\\core\\coregpio.v":1724043182
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1723789588
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\Actel\\DirectCore\\CoreResetP\\7.1.100\\rtl\\vlog\\core\\coreresetp.v":1723789588
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core\\coreapb3_muxptob3.v":1723800459
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core\\coreapb3_iaddr_reg.v":1723800459
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\Actel\\DirectCore\\CoreAPB3\\4.1.100\\rtl\\vlog\\core\\coreapb3.v":1723800459
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\work\\TEMP_sb\\TEMP_sb.v":1724835543
+#CUR:"D:\\libero_tests\\CORE_I2C_TEMP - Copy\\component\\work\\TEMP\\TEMP.v":1724835631
+0			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\work\TEMP_sb\CCC_0\TEMP_sb_CCC_0_FCCC.v" verilog
+1			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+2			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\work\TEMP_sb\FABOSC_0\TEMP_sb_FABOSC_0_OSC.v" verilog
+3			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\work\TEMP_sb_MSS\TEMP_sb_MSS_syn.v" verilog
+4			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\work\TEMP_sb_MSS\TEMP_sb_MSS.v" verilog
+5			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2creal.v" verilog
+6			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\Actel\DirectCore\COREI2C\7.0.102\rtl\vlog\core_obfuscated\corei2c.v" verilog
+7			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v" verilog
+8			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+9			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" verilog
+10			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
+11			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
+12			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v" verilog
+13			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\work\TEMP_sb\TEMP_sb.v" verilog
+14			"D:\libero_tests\CORE_I2C_TEMP - Copy\component\work\TEMP\TEMP.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 1
+3 -1
+4 3
+5 -1
+6 5
+7 -1
+8 -1
+9 8
+10 -1
+11 -1
+12 11 10
+13 4 2 9 6 7 12 0
+14 13
+#Dependency Lists(Users Of)
+0 13
+1 2
+2 13
+3 4
+4 13
+5 6
+6 13
+7 13
+8 9
+9 13
+10 12
+11 12
+12 13
+13 14
+14 -1
+#Design Unit to File Association
+module COREAPB3_LIB CoreAPB3 12
+module COREAPB3_LIB coreapb3_iaddr_reg 11
+module COREAPB3_LIB COREAPB3_MUXPTOB3 10
+module work TEMP 14
+module work TEMP_sb 13
+module work CoreResetP 9
+module work coreresetp_pcie_hotreset 8
+module work CoreGPIO 7
+module work COREI2C 6
+module work COREI2CREAL 5
+module work TEMP_sb_MSS 4
+module work MSS_005 3
+module work TEMP_sb_FABOSC_0_OSC 2
+module work XTLOSC_FAB 1
+module work RCOSC_25_50MHZ_FAB 1
+module work RCOSC_1MHZ_FAB 1
+module work XTLOSC 1
+module work RCOSC_25_50MHZ 1
+module work RCOSC_1MHZ 1
+module work TEMP_sb_CCC_0_FCCC 0

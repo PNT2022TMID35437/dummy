@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+-Pin Report - Date: Thu Aug 29 16:53:47 2024 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2024.1
+-Version: 2024.1.0.3
+-Design Name: SPI
+-Family: SmartFusion2
+-Die: M2S005
+-Package: 400 VF
+-----------------------------------------------------------------
+
+Port         |Pin |Fixed |Function                                   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-------------|----|------|-------------------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+DEVRST_N      U17  Fixed  DEVRST_N                                    ---       
+MMUART_0_RXD  C19  Yes    MSIO17PB1/MMUART_0_RXD/GPIO_28_B/USB_STP_C  Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+MMUART_0_TXD  D18  Yes    MSI16NB1/MMUART_0_TXD/GPIO_27_B/USB_DIR_C   Bank1     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+SPI_0_CLK     P15  Yes    MSIO12PB2/SPI_0_CLK/USB_XCLK_A              Bank2     LVCMOS33   Inout                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                4                  5                 
+SPI_0_DI      N15  Yes    MSIO12NB2/SPI_0_SDI/GPIO_5_A/USB_DIR_A      Bank2     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+SPI_0_DO      L20  Yes    MSIO13PB2/SPI_0_SDO/GPIO_6_A/USB_STP_A      Bank2     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+SPI_0_SS0     L19  Yes    MSIO13NB2/SPI_0_SS0/GPIO_7_A/USB_NXT_A      Bank2     LVCMOS33   Inout                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                4                  5                 

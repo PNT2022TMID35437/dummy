@@ -1,0 +1,6 @@
+1724134264690	Delete resource 'NEW_UART'
+1724146988360	Delete resource 'SF2_polled/drivers/CoreUARTapb/Copy of core_uart_apb.c'
+1724147638519	Delete resource 'SF2_simple_blink/core_uart_apb.c'
+1724232837276	Delete resource 'gpio_interrupt'
+1724306918998	Delete resource 'SF2_interrupt_blink'
+1724309814041	Delete resource 'SF2_interrupt_blink/core_uart_apb.c'

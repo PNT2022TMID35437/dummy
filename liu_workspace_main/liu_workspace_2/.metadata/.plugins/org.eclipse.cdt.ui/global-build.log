@@ -1,0 +1,48 @@
+13:21:57 **** Incremental Build of configuration Debug for project SF2_simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4960	   1072	  59504	  65536	  10000	SF2_simple_blink.elf
+Finished building: SF2_simple_blink.siz
+ 
+13:30:42 **** Incremental Build of configuration Debug for project SF2_simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4960	   1072	  59504	  65536	  10000	SF2_simple_blink.elf
+Finished building: SF2_simple_blink.siz
+ 
+13:31:40 **** Incremental Build of configuration Debug for project SF2_simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4960	   1072	  59504	  65536	  10000	SF2_simple_blink.elf
+Finished building: SF2_simple_blink.siz
+ 
+13:34:29 **** Incremental Build of configuration Debug for project SF2_simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4960	   1072	  59504	  65536	  10000	SF2_simple_blink.elf
+Finished building: SF2_simple_blink.siz
+ 
+13:34:38 **** Incremental Build of configuration Debug for project SF2_simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4960	   1072	  59504	  65536	  10000	SF2_simple_blink.elf
+Finished building: SF2_simple_blink.siz
+ 
+13:34:39 **** Incremental Build of configuration Debug for project SF2_simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   4960	   1072	  59504	  65536	  10000	SF2_simple_blink.elf
+Finished building: SF2_simple_blink.siz
+ 

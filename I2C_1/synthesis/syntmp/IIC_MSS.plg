@@ -1,0 +1,11 @@
+@P:  Worst Slack : NA
+@P:  IIC_MSS|MCCC_CLK_BASE - Estimated Frequency : NA
+@P:  IIC_MSS|MCCC_CLK_BASE - Requested Frequency : 100.0 MHz
+@P:  IIC_MSS|MCCC_CLK_BASE - Estimated Period : NA
+@P:  IIC_MSS|MCCC_CLK_BASE - Requested Period : 10.000
+@P:  IIC_MSS|MCCC_CLK_BASE - Slack : NA
+@P: IIC_MSS Part : m2s005vf400std
+@P: IIC_MSS Register bits  : 0 
+@P: IIC_MSS DSP Blocks  : 0
+@P: IIC_MSS I/O primitives : 3
+@P:  CPU Time : 0h:00m:01s

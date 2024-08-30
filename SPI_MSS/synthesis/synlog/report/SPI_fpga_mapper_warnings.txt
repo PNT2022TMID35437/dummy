@@ -1,0 +1,1 @@
+@W: MT447 :"d:/libero_tests/spi_mss/designer/spi/synthesis.fdc":8:0:8:0|Timing constraint (through [get_pins { SYSRESET_0.POWER_ON_RESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 

@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\libero_tests\CORE_I2C_TEMP - Copy\designer\TEMP\TEMP_fp\TEMP.pro'
+PDB file 'D:\libero_tests\CORE_I2C_TEMP - Copy\designer\TEMP\TEMP.pdb' has been loaded successfully.
+DESIGN : TEMP;  CHECKSUM : B87C;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\libero_tests\CORE_I2C_TEMP - Copy\designer\TEMP\TEMP.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\libero_tests\CORE_I2C_TEMP - Copy\designer\TEMP\TEMP.ppd'; file programs Fabric.
+Fabric component bitstream digest: 45826f6ee367156192de4d43a5454c761bea6af6e616cc9bd0c9e4b1d7863b1c
+Entire bitstream digest: 705e241e5c9e8d0d234e18a096315f5be1fbf5df510e996c2eca1846b3b3ad9c
+Finished: Wed Aug 28 16:33:42 2024 (Elapsed time 00:00:02)
+
+Project saved.
+Project closed.

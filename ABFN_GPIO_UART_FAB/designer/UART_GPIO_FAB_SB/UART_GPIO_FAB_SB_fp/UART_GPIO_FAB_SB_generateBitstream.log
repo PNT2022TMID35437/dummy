@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\libero_tests\ABFN_GPIO_UART_FAB\designer\UART_GPIO_FAB_SB\UART_GPIO_FAB_SB_fp\UART_GPIO_FAB_SB.pro'
+PDB file 'D:\libero_tests\ABFN_GPIO_UART_FAB\designer\UART_GPIO_FAB_SB\UART_GPIO_FAB_SB.pdb' has been loaded successfully.
+DESIGN : UART_GPIO_FAB_SB;  CHECKSUM : F494;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\libero_tests\ABFN_GPIO_UART_FAB\designer\UART_GPIO_FAB_SB\UART_GPIO_FAB_SB.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\libero_tests\ABFN_GPIO_UART_FAB\designer\UART_GPIO_FAB_SB\UART_GPIO_FAB_SB.ppd'; file programs Fabric.
+Fabric component bitstream digest: ae64dbabbe4e8111eba4d508e63c2429ffd45a36bcfea36f5cdd02499cca4ac3
+Entire bitstream digest: bc3959e0f14a5690a5bcab4dcb38dcf07e1554ef57249eef8760a9642be40049
+Finished: Thu Aug 22 11:11:55 2024 (Elapsed time 00:00:02)
+
+Project saved.
+Project closed.

@@ -1,0 +1,81 @@
+#include <stdint.h>
+#include "mss_i2c.h"
+#include <stdio.h>
+
+// Define the I2C address of the INA226
+#define INA226_I2C_ADDRESS 0x40
+
+
+#define INA226_REG_CURRENT 0x01
+
+// Initialize the MSS I2C1 peripheral
+void I2C_Init(void) {
+    MSS_I2C_init(&g_mss_i2c1,0x40, MSS_I2C_PCLK_DIV_256);
+}
+
+// Function to read a 24-bit value from a specific register
+uint8_t INA226_ReadRegister16(uint8_t reg, uint32_t *value) {
+    uint8_t data[2]={0,0};
+    uint8_t returned_value_0;
+    // Write the register address and read 3 bytes of data (24 bits)
+    MSS_I2C_write_read(
+        &g_mss_i2c1,
+        INA226_I2C_ADDRESS,
+        &reg,
+        1,
+        data,
+        sizeof(data),
+        MSS_I2C_RELEASE_BUS
+  );
+
+    mss_i2c_status_t status =MSS_I2C_wait_complete(&g_mss_i2c1,0);
+    status=MSS_I2C_get_status(&g_mss_i2c1);
+
+    if (status == MSS_I2C_SUCCESS) {
+        *value = (data[0] << 8) | data[1];  // Combine 3 bytes into a 24-bit value
+        return 1;  // Success
+    } else {
+        return 0;  // Failure
+    }
+}
+
+
+
+int main(void) {
+    uint32_t shunt_volt_value;
+    uint8_t write_buf[2];
+    uint32_t config_value,cal_val;
+
+    write_buf[0]=0x02;
+    write_buf[1]=0x00;
+    uint8_t returned_val0=0;
+    // Initialize the I2C peripheral
+    I2C_Init();
+
+
+    INA226_ReadRegister16(0x00,&config_value);
+    // Read the 24-bit value from register 0x04
+    if (INA226_ReadRegister16(INA226_REG_CURRENT, &shunt_volt_value)) {
+        // Successfully read the value, process it
+        // For example, print or store it
+         printf("Shunt Voltage Value: 0x%06X\n", shunt_volt_value);
+    }
+    else {
+
+        printf("Failed to read register 0x04.\n");
+    }
+
+    INA226_ReadRegister16(0x05,&cal_val);
+    returned_val0=MSS_I2C_write( &g_mss_i2c1,
+           0x05,write_buf,sizeof(write_buf),MSS_I2C_RELEASE_BUS);
+    mss_i2c_status_t status=MSS_I2C_get_status(&g_mss_i2c1);
+
+
+    while (1)
+    {
+
+
+
+    }return 0;
+
+}

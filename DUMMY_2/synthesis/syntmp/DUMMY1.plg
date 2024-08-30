@@ -1,0 +1,11 @@
+@P:  Worst Slack : 10.602
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : 106.4 MHz
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : 9.398
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : 10.602
+@P: DUMMY1 Part : m2s005vf400std
+@P: DUMMY1 Register bits  : 32 
+@P: DUMMY1 DSP Blocks  : 0
+@P: DUMMY1 I/O primitives : 4
+@P:  CPU Time : 0h:00m:01s

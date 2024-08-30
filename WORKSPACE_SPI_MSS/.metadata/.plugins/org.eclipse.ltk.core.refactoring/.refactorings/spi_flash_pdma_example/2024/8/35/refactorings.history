@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;spi_flash_pdma_example/main.c&apos; to &apos;main1.c&apos;" description="Rename resource &apos;main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main.c" name="main1.c" stamp="1724912544837" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;spi_flash_pdma_example/Copy of main.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;Copy of main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Copy of main.c" name="main.c" stamp="1724912560236" updateReferences="true"/>
+</session>

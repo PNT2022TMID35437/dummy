@@ -1,0 +1,11 @@
+19:07:32 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+
+19:07:32 Build Finished (took 200ms)
+

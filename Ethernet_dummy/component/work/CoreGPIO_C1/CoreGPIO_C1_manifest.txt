@@ -1,0 +1,31 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Wed Aug 28 20:04:44 2024
+Project   :  D:\libero_tests\Ethernet_dummy
+Component :  CoreGPIO_C1
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/core/coregpio.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1.v
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/bfmtovec_compile.do
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/coregpio_usertb_apb_master.bfm
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/coregpio_usertb_include.bfm
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/wave_vlog.do
+
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_ahbl.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_apb.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_apbslave.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/amba_bfm/bfm_main.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/coreparameters.v
+    D:/libero_tests/Ethernet_dummy/component/work/CoreGPIO_C1/CoreGPIO_C1_0/rtl/vlog/test/user/testbench.v
+

@@ -1,0 +1,174 @@
+<html><body><samp><pre>
+<!@TC:1724047822>
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+
+# Written on Mon Aug 19 11:40:28 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "LIU_GPIO_SB_1"
+Constraint File(s):      "D:\libero_tests\LIU_GPIO_1\designer\LIU_GPIO_SB_1\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 4 issues in 3 out of 9 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                Ending                                                  |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+LIU_GPIO_SB_1_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     LIU_GPIO_SB_1_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     |     20.000           |     No paths         |     No paths         |     No paths                         
+LIU_GPIO_SB_1_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     LIU_GPIO_SB_1_sb_0/CCC_0/GL0                            |     20.000           |     No paths         |     No paths         |     No paths                         
+LIU_GPIO_SB_1_sb_0/CCC_0/GL0                            LIU_GPIO_SB_1_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     |     20.000           |     No paths         |     No paths         |     No paths                         
+LIU_GPIO_SB_1_sb_0/CCC_0/GL0                            LIU_GPIO_SB_1_sb_0/CCC_0/GL0                            |     320.000          |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+<a name=UnconstrainedStartEndPointsCCK27></a>Unconstrained Start/End Points</a>
+******************************
+
+p:DEVRST_N
+p:GPIO_IN[0]
+p:GPIO_IN[1]
+p:GPIO_IN[2]
+p:GPIO_IN[3]
+p:GPIO_IN[4]
+p:GPIO_IN[5]
+p:GPIO_IN[6]
+p:GPIO_IN[7]
+p:GPIO_IN[8]
+p:GPIO_IN[9]
+p:GPIO_IN[10]
+p:GPIO_IN[11]
+p:GPIO_IN[12]
+p:GPIO_IN[13]
+p:GPIO_IN[14]
+p:GPIO_IN[15]
+p:GPIO_IN[16]
+p:GPIO_IN[17]
+p:GPIO_IN[18]
+p:GPIO_IN[19]
+p:GPIO_IN[20]
+p:GPIO_IN[21]
+p:GPIO_IN[22]
+p:GPIO_IN[23]
+p:GPIO_IN[24]
+p:GPIO_IN[25]
+p:GPIO_IN[26]
+p:GPIO_IN[27]
+p:GPIO_IN[28]
+p:GPIO_IN[29]
+p:GPIO_IN[30]
+p:GPIO_IN[31]
+p:GPIO_OUT[0]
+p:GPIO_OUT[1]
+p:GPIO_OUT[2]
+p:GPIO_OUT[3]
+p:GPIO_OUT[4]
+p:GPIO_OUT[5]
+p:GPIO_OUT[6]
+p:GPIO_OUT[7]
+p:GPIO_OUT[8]
+p:GPIO_OUT[9]
+p:GPIO_OUT[10]
+p:GPIO_OUT[11]
+p:GPIO_OUT[12]
+p:GPIO_OUT[13]
+p:GPIO_OUT[14]
+p:GPIO_OUT[15]
+p:GPIO_OUT[16]
+p:GPIO_OUT[17]
+p:GPIO_OUT[18]
+p:GPIO_OUT[19]
+p:GPIO_OUT[20]
+p:GPIO_OUT[21]
+p:GPIO_OUT[22]
+p:GPIO_OUT[23]
+p:GPIO_OUT[24]
+p:GPIO_OUT[25]
+p:GPIO_OUT[26]
+p:GPIO_OUT[27]
+p:GPIO_OUT[28]
+p:GPIO_OUT[29]
+p:GPIO_OUT[30]
+p:GPIO_OUT[31]
+p:RX
+p:TX
+
+
+<a name=InapplicableconstraintsCCK28></a>Inapplicable constraints</a>
+************************
+
+set_false_path -through [get_nets { LIU_GPIO_SB_1_sb_0.CORERESETP_0.CONFIG1_DONE LIU_GPIO_SB_1_sb_0.CORERESETP_0.CONFIG2_DONE LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PERST_N LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PSEL LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PWRITE LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PRDATA[*] LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_RESET_F2M LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_M3_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]
+	@E::"d:/libero_tests/liu_gpio_1/designer/liu_gpio_sb_1/synthesis.fdc":13:0:13:0|Timing constraint (through [get_nets { LIU_GPIO_SB_1_sb_0.CORERESETP_0.CONFIG1_DONE LIU_GPIO_SB_1_sb_0.CORERESETP_0.CONFIG2_DONE LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PERST_N LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PSEL LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PWRITE LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PRDATA[*] LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_RESET_F2M LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_M3_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]) (false path) was not applied to the design because all of the '-through' objects specified by the constraint are driven by constants
+	@E:MF1038:"d:/libero_tests/liu_gpio_1/designer/liu_gpio_sb_1/synthesis.fdc":13:0:13:0|collection "[get_nets { LIU_GPIO_SB_1_sb_0.CORERESETP_0.CONFIG1_DONE LIU_GPIO_SB_1_sb_0.CORERESETP_0.CONFIG2_DONE LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PERST_N LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PSEL LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PWRITE LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PRDATA[*] LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_RESET_F2M LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_M3_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET LIU_GPIO_SB_1_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]" contains only objects driven by constants
+
+<a name=ApplicableConstraintsWithIssuesCCK29></a>Applicable constraints with issues</a>
+**********************************
+
+create_generated_clock -name LIU_GPIO_SB_1_sb_0/CCC_0/GL0 -multiply_by 7 -divide_by 224 -source [get_pins { LIU_GPIO_SB_1_sb_0.CCC_0.CCC_INST.CLK0_PAD }] [get_pins { LIU_GPIO_SB_1_sb_0.CCC_0.CCC_INST.GL0 }]
+	@W:MT688:"d:/libero_tests/liu_gpio_1/designer/liu_gpio_sb_1/synthesis.fdc":9:0:9:0|No path from master pin (-source) to source of clock LIU_GPIO_SB_1_sb_0/CCC_0/GL0 due to black box LIU_GPIO_SB_1_sb_0.CCC_0.CCC_INST
+set_false_path -through [get_pins { LIU_GPIO_SB_1_sb_0.LIU_GPIO_SB_1_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]
+	@W::"d:/libero_tests/liu_gpio_1/designer/liu_gpio_sb_1/synthesis.fdc":14:0:14:0|Timing constraint (through [get_pins { LIU_GPIO_SB_1_sb_0.LIU_GPIO_SB_1_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK30></a>Constraints with matching wildcard expressions</a>
+**********************************************
+
+set_false_path -from [get_cells { LIU_GPIO_SB_1_sb_0.CORERESETP_0.MSS_HPMS_READY_int LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PERST_N_re }] -to [get_cells { LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]
+	@N:MF891:"d:/libero_tests/liu_gpio_1/designer/liu_gpio_sb_1/synthesis.fdc":12:0:12:0|expression "[get_cells { LIU_GPIO_SB_1_sb_0.CORERESETP_0.MSS_HPMS_READY_int LIU_GPIO_SB_1_sb_0.CORERESETP_0.SDIF*_PERST_N_re }]" applies to objects:
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.MSS_HPMS_READY_int
+	@N:MF891:"d:/libero_tests/liu_gpio_1/designer/liu_gpio_sb_1/synthesis.fdc":12:0:12:0|expression "[get_cells { LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]" applies to objects:
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif0_areset_n_rcosc
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst_i
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif1_areset_n_rcosc
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_arst
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_arst_i
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif2_areset_n_rcosc
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_arst
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_arst_i
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif3_areset_n_rcosc
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_arst
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_arst_i
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1
+set_false_path -through [get_nets { LIU_GPIO_SB_1_sb_0.CORERESETP_0.ddr_settled LIU_GPIO_SB_1_sb_0.CORERESETP_0.count_ddr_enable LIU_GPIO_SB_1_sb_0.CORERESETP_0.release_sdif*_core LIU_GPIO_SB_1_sb_0.CORERESETP_0.count_sdif*_enable }]
+	@N:MF891:"d:/libero_tests/liu_gpio_1/designer/liu_gpio_sb_1/synthesis.fdc":10:0:10:0|expression "[get_nets { LIU_GPIO_SB_1_sb_0.CORERESETP_0.ddr_settled LIU_GPIO_SB_1_sb_0.CORERESETP_0.count_ddr_enable LIU_GPIO_SB_1_sb_0.CORERESETP_0.release_sdif*_core LIU_GPIO_SB_1_sb_0.CORERESETP_0.count_sdif*_enable }]" applies to objects:
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.ddr_settled
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.release_sdif0_core
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.release_sdif1_core
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.release_sdif2_core
+		LIU_GPIO_SB_1_sb_0.CORERESETP_0.release_sdif3_core
+
+<a name=LibraryReportCCK31></a>Library Report</a>
+**************
+
+
+# End of Constraint Checker Report
+
+</pre></samp></body></html>

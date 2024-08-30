@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\libero_tests\DUMMY_2\designer\DUMMY1\DUMMY1_fp\DUMMY1.pro'
+PDB file 'D:\libero_tests\DUMMY_2\designer\DUMMY1\DUMMY1.pdb' has been loaded successfully.
+DESIGN : DUMMY1;  CHECKSUM : 9059;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\libero_tests\DUMMY_2\designer\DUMMY1\DUMMY1.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\libero_tests\DUMMY_2\designer\DUMMY1\DUMMY1.ppd'; file programs Fabric.
+Fabric component bitstream digest: c4ef30239de87b7e78fede7a5128c5404393050ec3f95165d5d0085543c8acf2
+Entire bitstream digest: 58ef840d16e4eae9e7c8d1bb7bc6f64db3fbb89a0b7481b66580266262022018
+Finished: Fri Aug 23 13:11:39 2024 (Elapsed time 00:00:02)
+
+Project saved.
+Project closed.

@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\libero_tests\UART_ABFN_MSS\designer\MSS_U\MSS_U_fp\MSS_U.pro'
+PDB file 'D:\libero_tests\UART_ABFN_MSS\designer\MSS_U\MSS_U.pdb' has been loaded successfully.
+DESIGN : MSS_U;  CHECKSUM : 9A41;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\libero_tests\UART_ABFN_MSS\designer\MSS_U\MSS_U.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\libero_tests\UART_ABFN_MSS\designer\MSS_U\MSS_U.ppd'; file programs Fabric.
+Fabric component bitstream digest: 8940b977d4d7febc9815d9c8445a9cec1166cdd99897f1b9bde773f808c2aea0
+Entire bitstream digest: 6f0e62bf92a9183b6450dd0e431c621d6bfa17b369ed11e9f0dad21c3f4b3fa9
+Finished: Mon Aug 19 20:12:23 2024 (Elapsed time 00:00:02)
+
+Project saved.
+Project closed.

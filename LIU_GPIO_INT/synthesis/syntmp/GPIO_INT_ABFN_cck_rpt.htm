@@ -1,0 +1,114 @@
+<html><body><samp><pre>
+<!@TC:1724331286>
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+
+# Written on Thu Aug 22 18:24:48 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "GPIO_INT_ABFN"
+Constraint File(s):      "D:\libero_tests\LIU_GPIO_INT\designer\GPIO_INT_ABFN\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 4 issues in 3 out of 8 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                Ending                                                  |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+GPIO_INT_ABFN_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     GPIO_INT_ABFN_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     |     20.000           |     No paths         |     No paths         |     No paths                         
+GPIO_INT_ABFN_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     GPIO_INT_ABFN_sb_0/CCC_0/GL0                            |     10.000           |     No paths         |     No paths         |     No paths                         
+GPIO_INT_ABFN_sb_0/CCC_0/GL0                            GPIO_INT_ABFN_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     |     10.000           |     No paths         |     No paths         |     No paths                         
+GPIO_INT_ABFN_sb_0/CCC_0/GL0                            GPIO_INT_ABFN_sb_0/CCC_0/GL0                            |     10.000           |     No paths         |     No paths         |     No paths                         
+===========================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+<a name=UnconstrainedStartEndPointsCCK42></a>Unconstrained Start/End Points</a>
+******************************
+
+p:DEVRST_N
+p:GPIO_IN[0]
+p:GPIO_IN[1]
+p:GPIO_OUT[0]
+p:GPIO_OUT[1]
+p:RX
+p:TX
+
+
+<a name=InapplicableconstraintsCCK43></a>Inapplicable constraints</a>
+************************
+
+set_false_path -through [get_nets { GPIO_INT_ABFN_sb_0.CORERESETP_0.CONFIG1_DONE GPIO_INT_ABFN_sb_0.CORERESETP_0.CONFIG2_DONE GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PERST_N GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PSEL GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PWRITE GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PRDATA[*] GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_RESET_F2M GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_M3_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]
+	@E::"d:/libero_tests/liu_gpio_int/designer/gpio_int_abfn/synthesis.fdc":12:0:12:0|Timing constraint (through [get_nets { GPIO_INT_ABFN_sb_0.CORERESETP_0.CONFIG1_DONE GPIO_INT_ABFN_sb_0.CORERESETP_0.CONFIG2_DONE GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PERST_N GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PSEL GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PWRITE GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PRDATA[*] GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_RESET_F2M GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_M3_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]) (false path) was not applied to the design because all of the '-through' objects specified by the constraint are driven by constants
+	@E:MF1038:"d:/libero_tests/liu_gpio_int/designer/gpio_int_abfn/synthesis.fdc":12:0:12:0|collection "[get_nets { GPIO_INT_ABFN_sb_0.CORERESETP_0.CONFIG1_DONE GPIO_INT_ABFN_sb_0.CORERESETP_0.CONFIG2_DONE GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PERST_N GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PSEL GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PWRITE GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PRDATA[*] GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_RESET_F2M GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_M3_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET GPIO_INT_ABFN_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]" contains only objects driven by constants
+
+<a name=ApplicableConstraintsWithIssuesCCK44></a>Applicable constraints with issues</a>
+**********************************
+
+create_generated_clock -name GPIO_INT_ABFN_sb_0/CCC_0/GL0 -multiply_by 4 -divide_by 2 -source [get_pins { GPIO_INT_ABFN_sb_0.CCC_0.CCC_INST.RCOSC_25_50MHZ }] [get_pins { GPIO_INT_ABFN_sb_0.CCC_0.CCC_INST.GL0 }]
+	@W:MT688:"d:/libero_tests/liu_gpio_int/designer/gpio_int_abfn/synthesis.fdc":8:0:8:0|No path from master pin (-source) to source of clock GPIO_INT_ABFN_sb_0/CCC_0/GL0 due to black box GPIO_INT_ABFN_sb_0.CCC_0.CCC_INST
+set_false_path -through [get_pins { GPIO_INT_ABFN_sb_0.GPIO_INT_ABFN_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]
+	@W::"d:/libero_tests/liu_gpio_int/designer/gpio_int_abfn/synthesis.fdc":13:0:13:0|Timing constraint (through [get_pins { GPIO_INT_ABFN_sb_0.GPIO_INT_ABFN_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design
+
+<a name=ConstraintsWithMatchingWildcardExpressionsCCK45></a>Constraints with matching wildcard expressions</a>
+**********************************************
+
+set_false_path -from [get_cells { GPIO_INT_ABFN_sb_0.CORERESETP_0.MSS_HPMS_READY_int GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PERST_N_re }] -to [get_cells { GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]
+	@N:MF891:"d:/libero_tests/liu_gpio_int/designer/gpio_int_abfn/synthesis.fdc":11:0:11:0|expression "[get_cells { GPIO_INT_ABFN_sb_0.CORERESETP_0.MSS_HPMS_READY_int GPIO_INT_ABFN_sb_0.CORERESETP_0.SDIF*_PERST_N_re }]" applies to objects:
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.MSS_HPMS_READY_int
+	@N:MF891:"d:/libero_tests/liu_gpio_int/designer/gpio_int_abfn/synthesis.fdc":11:0:11:0|expression "[get_cells { GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]" applies to objects:
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif0_areset_n_rcosc
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst_i
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif1_areset_n_rcosc
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_arst
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_arst_i
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif2_areset_n_rcosc
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_arst
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_arst_i
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif3_areset_n_rcosc
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_arst
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_arst_i
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1
+set_false_path -through [get_nets { GPIO_INT_ABFN_sb_0.CORERESETP_0.ddr_settled GPIO_INT_ABFN_sb_0.CORERESETP_0.count_ddr_enable GPIO_INT_ABFN_sb_0.CORERESETP_0.release_sdif*_core GPIO_INT_ABFN_sb_0.CORERESETP_0.count_sdif*_enable }]
+	@N:MF891:"d:/libero_tests/liu_gpio_int/designer/gpio_int_abfn/synthesis.fdc":9:0:9:0|expression "[get_nets { GPIO_INT_ABFN_sb_0.CORERESETP_0.ddr_settled GPIO_INT_ABFN_sb_0.CORERESETP_0.count_ddr_enable GPIO_INT_ABFN_sb_0.CORERESETP_0.release_sdif*_core GPIO_INT_ABFN_sb_0.CORERESETP_0.count_sdif*_enable }]" applies to objects:
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.ddr_settled
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.release_sdif0_core
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.release_sdif1_core
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.release_sdif2_core
+		GPIO_INT_ABFN_sb_0.CORERESETP_0.release_sdif3_core
+
+<a name=LibraryReportCCK46></a>Library Report</a>
+**************
+
+
+# End of Constraint Checker Report
+
+</pre></samp></body></html>

@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  DUMMY1  -multisrs  D:\libero_tests\DUMMY_2\synthesis\synwork\DUMMY1_comp.srs  -osyn  D:\libero_tests\DUMMY_2\synthesis\synwork\DUMMY1_mult.srs  -log  D:\libero_tests\DUMMY_2\synthesis\synlog\DUMMY1_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top DUMMY1 -multisrs ..\synwork\DUMMY1_comp.srs -osyn ..\synwork\DUMMY1_mult.srs -log ..\synlog\DUMMY1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\dummy1_comp.srs|io:i|time:1724398762|size:63434|exec:0|csum:875FBCF67373A3FD9E804329ABCABD97
+file:..\synwork\dummy1_mult.srs|io:o|time:1724398763|size:4464|exec:0|csum:
+file:..\synlog\dummy1_multi_srs_gen.srr|io:o|time:1724398763|size:1147|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

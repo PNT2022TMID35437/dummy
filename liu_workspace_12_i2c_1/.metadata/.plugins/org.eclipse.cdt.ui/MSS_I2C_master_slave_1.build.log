@@ -1,0 +1,20 @@
+13:47:44 **** Build of configuration Debug for project MSS_I2C_master_slave_1 ****
+make all 
+Building target: MSS_I2C_master_slave_1.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"MSS_I2C_master_slave_1.map" -o "MSS_I2C_master_slave_1.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_i2c/mss_i2c.o  ./drivers/mss_hpdma/mss_hpdma.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: MSS_I2C_master_slave_1.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "MSS_I2C_master_slave_1.elf"  "MSS_I2C_master_slave_1.hex"
+Finished building: MSS_I2C_master_slave_1.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "MSS_I2C_master_slave_1.elf"
+   text	   data	    bss	    dec	    hex	filename
+   7920	   1072	  56544	  65536	  10000	MSS_I2C_master_slave_1.elf
+Finished building: MSS_I2C_master_slave_1.siz
+ 
+
+13:47:45 Build Finished (took 320ms)
+

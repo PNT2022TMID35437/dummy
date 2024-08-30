@@ -1,0 +1,18 @@
+15:05:33 **** Incremental Build of configuration Debug for project SF2_simple_gpio ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../drivers_config/sys_config -I../CMSIS -I../hal/CortexM3/GNU -I../hal/CortexM3 -I.. -I../hal -I../drivers/CoreGPIO -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: SF2_simple_gpio.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"SF2_simple_gpio.map" -o "SF2_simple_gpio.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/CoreGPIO/core_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+./CMSIS/startup_gcc/startup_m2sxxx.o: In function `SF2_MDDR_MODE_CR':
+D:\libero_tests\CORE_I2C_TEMP - Copy\SoftConsole\SF2_GNU_SC4_simple_gpio\Debug/../CMSIS/startup_gcc/startup_m2sxxx.S:323: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+makefile:47: recipe for target 'SF2_simple_gpio.elf' failed
+make: *** [SF2_simple_gpio.elf] Error 1
+
+15:05:34 Build Finished (took 281ms)
+

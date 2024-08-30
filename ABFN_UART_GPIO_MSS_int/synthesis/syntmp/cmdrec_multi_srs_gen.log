@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  ABFN_UART_GPIO_INT_MSS  -multisrs  D:\libero_tests\ABFN_UART_GPIO_MSS_int\synthesis\synwork\ABFN_UART_GPIO_INT_MSS_comp.srs  -osyn  D:\libero_tests\ABFN_UART_GPIO_MSS_int\synthesis\synwork\ABFN_UART_GPIO_INT_MSS_mult.srs  -log  D:\libero_tests\ABFN_UART_GPIO_MSS_int\synthesis\synlog\ABFN_UART_GPIO_INT_MSS_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top ABFN_UART_GPIO_INT_MSS -multisrs ..\synwork\ABFN_UART_GPIO_INT_MSS_comp.srs -osyn ..\synwork\ABFN_UART_GPIO_INT_MSS_mult.srs -log ..\synlog\ABFN_UART_GPIO_INT_MSS_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\abfn_uart_gpio_int_mss_comp.srs|io:i|time:1724232588|size:59642|exec:0|csum:CD52D3CA996A4EA12543F461C8314656
+file:..\synwork\abfn_uart_gpio_int_mss_mult.srs|io:o|time:1724232589|size:2407|exec:0|csum:
+file:..\synlog\abfn_uart_gpio_int_mss_multi_srs_gen.srr|io:o|time:1724232590|size:1061|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

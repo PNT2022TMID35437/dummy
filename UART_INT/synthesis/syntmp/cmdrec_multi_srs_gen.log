@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  UART_INT1  -multisrs  D:\libero_tests\UART_INT\synthesis\synwork\UART_INT1_comp.srs  -osyn  D:\libero_tests\UART_INT\synthesis\synwork\UART_INT1_mult.srs  -log  D:\libero_tests\UART_INT\synthesis\synlog\UART_INT1_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top UART_INT1 -multisrs ..\synwork\UART_INT1_comp.srs -osyn ..\synwork\UART_INT1_mult.srs -log ..\synlog\UART_INT1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\uart_int1_comp.srs|io:i|time:1724414390|size:97866|exec:0|csum:4FD6AE20FB8538BCB9AFA51669D2F7B3
+file:..\synwork\uart_int1_mult.srs|io:o|time:1724414391|size:2647|exec:0|csum:
+file:..\synlog\uart_int1_multi_srs_gen.srr|io:o|time:1724414391|size:1151|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

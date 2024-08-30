@@ -1,0 +1,16 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF in library work.
+@N: CG364 :"D:\libero_tests\Ethernet_dummy\component\work\eth_dummy_MSS\eth_dummy_MSS_syn.v":5:7:5:13|Synthesizing module MSS_005 in library work.
+@N: CG364 :"D:\libero_tests\Ethernet_dummy\component\work\eth_dummy_MSS\eth_dummy_MSS.v":9:7:9:19|Synthesizing module eth_dummy_MSS in library work.
+@N: CG364 :"D:\libero_tests\Ethernet_dummy\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+@N: CG364 :"D:\libero_tests\Ethernet_dummy\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+@N: CG364 :"D:\libero_tests\Ethernet_dummy\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":5:7:5:25|Synthesizing module OSC_C0_OSC_C0_0_OSC in library work.
+@N: CG364 :"D:\libero_tests\Ethernet_dummy\component\work\OSC_C0\OSC_C0.v":33:7:33:12|Synthesizing module OSC_C0 in library work.
+@N: CG364 :"D:\libero_tests\Ethernet_dummy\component\work\eth_dummy\eth_dummy.v":9:7:9:15|Synthesizing module eth_dummy in library work.
+@N: CL159 :"D:\libero_tests\Ethernet_dummy\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v":14:7:14:9|Input XTL is unused.
+@N|Running in 64-bit mode
+

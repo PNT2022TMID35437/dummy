@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  TEMP  -multisrs  D:\libero_tests\CORE_I2C_TEMP\synthesis\synwork\TEMP_comp.srs  -osyn  D:\libero_tests\CORE_I2C_TEMP\synthesis\synwork\TEMP_mult.srs  -log  D:\libero_tests\CORE_I2C_TEMP\synthesis\synlog\TEMP_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top TEMP -multisrs ..\synwork\TEMP_comp.srs -osyn ..\synwork\TEMP_mult.srs -log ..\synlog\TEMP_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\temp_comp.srs|io:i|time:1724825990|size:92438|exec:0|csum:2B20EE97AD9D020D6E5F9759AAAB8ABA
+file:..\synwork\temp_mult.srs|io:o|time:1724825991|size:2632|exec:0|csum:
+file:..\synlog\temp_multi_srs_gen.srr|io:o|time:1724825991|size:1061|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

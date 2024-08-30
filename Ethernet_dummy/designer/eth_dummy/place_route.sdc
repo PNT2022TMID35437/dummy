@@ -1,0 +1,7 @@
+# Microchip Technology Inc.
+# Date: 2024-Aug-28 19:56:45
+# This file was generated based on the following SDC source files:
+#   D:/libero_tests/Ethernet_dummy/constraint/eth_dummy_derived_constraints.sdc
+#
+
+create_clock -name {OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT} -period 20 [ get_pins { OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ/CLKOUT } ]

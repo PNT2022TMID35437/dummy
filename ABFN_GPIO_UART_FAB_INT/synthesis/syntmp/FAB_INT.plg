@@ -1,0 +1,17 @@
+@P:  Worst Slack : 1.997
+@P:  FAB_INT_sb_0/CCC_0/GL0 - Estimated Frequency : 125.0 MHz
+@P:  FAB_INT_sb_0/CCC_0/GL0 - Requested Frequency : 100.0 MHz
+@P:  FAB_INT_sb_0/CCC_0/GL0 - Estimated Period : 8.003
+@P:  FAB_INT_sb_0/CCC_0/GL0 - Requested Period : 10.000
+@P:  FAB_INT_sb_0/CCC_0/GL0 - Slack : 1.997
+@P:  FAB_INT_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : NA
+@P:  FAB_INT_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  FAB_INT_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : NA
+@P:  FAB_INT_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  FAB_INT_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : NA
+@P: FAB_INT Part : m2s005vf400std
+@P: FAB_INT Register bits  : 213 
+@P: FAB_INT DSP Blocks  : 0
+@P: FAB_INT I/O primitives : 7
+@P: FAB_INT RAM64x18 :  2
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,65 @@
+#include "core_i2c.h"
+
+// Define I2C instance
+i2c_instance_t g_core_i2c;
+
+// I2C instance configuration (adjust as needed)
+#define I2C_FREQ           100000 // 100 kHz I2C frequency
+
+#define I2C_BASE_ADDR      0x30000000 // The base address for your I2C instance
+
+// Slave device and register address
+#define SLAVE_ADDR         0x4E
+#define REG_ADDR           0x00
+
+// Function to initialize CoreI2C
+void i2c_init(void) {
+    // Initialize the CoreI2C instance with the specified base address, clock rate, and address mode
+    I2C_init(&g_core_i2c,I2C_BASE_ADDR,0x4E,I2C_PCLK_DIV_256);
+    I2C_enable_interrupts(&g_core_i2c);
+     NVIC_EnableIRQ(FabricIrq0_IRQHandler);
+}
+
+// Function to read a register from the I2C slave
+uint8_t i2c_read_register(uint8_t slave_addr, uint8_t reg_addr) {
+    uint8_t rx_data;
+    i2c_status_t status;
+
+    // Send the register address to the slave
+    I2C_write(&g_core_i2c, slave_addr, &reg_addr, 1, I2C_RELEASE_BUS);
+    status=I2C_get_status(&g_core_i2c);
+    if (status != I2C_SUCCESS) {
+        // Handle error
+        return 0xFF;
+    }
+
+    // Read the data from the specified register
+     I2C_read(&g_core_i2c, slave_addr, &rx_data, 1, I2C_RELEASE_BUS);
+    status=I2C_get_status(&g_core_i2c);
+    if (status != I2C_SUCCESS) {
+        // Handle error
+        return 0xFF;
+    }
+
+    return rx_data;
+}
+
+int main() {
+    // Initialize the I2C core
+    i2c_init();
+
+    // Read register 0x00 from the slave device with address 0x4E
+    uint8_t reg_data = i2c_read_register(SLAVE_ADDR, REG_ADDR);
+
+    // Main application loop
+    while (1) {
+        // Use reg_data as needed
+    }
+
+    return 0;
+}
+
+void I2C_
+
+
+}

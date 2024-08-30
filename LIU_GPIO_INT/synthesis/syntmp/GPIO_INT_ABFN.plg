@@ -1,0 +1,17 @@
+@P:  Worst Slack : 1.836
+@P:  GPIO_INT_ABFN_sb_0/CCC_0/GL0 - Estimated Frequency : 122.5 MHz
+@P:  GPIO_INT_ABFN_sb_0/CCC_0/GL0 - Requested Frequency : 100.0 MHz
+@P:  GPIO_INT_ABFN_sb_0/CCC_0/GL0 - Estimated Period : 8.164
+@P:  GPIO_INT_ABFN_sb_0/CCC_0/GL0 - Requested Period : 10.000
+@P:  GPIO_INT_ABFN_sb_0/CCC_0/GL0 - Slack : 1.836
+@P:  GPIO_INT_ABFN_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : NA
+@P:  GPIO_INT_ABFN_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  GPIO_INT_ABFN_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : NA
+@P:  GPIO_INT_ABFN_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  GPIO_INT_ABFN_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : NA
+@P: GPIO_INT_ABFN Part : m2s005vf400std
+@P: GPIO_INT_ABFN Register bits  : 202 
+@P: GPIO_INT_ABFN DSP Blocks  : 0
+@P: GPIO_INT_ABFN I/O primitives : 5
+@P: GPIO_INT_ABFN RAM64x18 :  2
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,11 @@
+17:56:51 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   9360	   1120	  55056	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+
+17:56:52 Build Finished (took 207ms)
+

@@ -1,0 +1,119 @@
+m255
+K4
+z2
+!s11f vlog 2023.4 2023.10, Oct 10 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/libero_tests/ABFN_UART/simulation
+vOSC_C0
+2D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0.v
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1723101974
+!i10b 1
+!s100 gNk1>2g;nV_kWe:I0nU@E0
+I8ARl^;]QE^f4K>PKK=UW21
+S1
+R0
+w1723101561
+8D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0.v
+FD:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0.v
+!i122 1
+L0 33 45
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OW;L;2023.4;77
+r1
+!s85 0
+31
+Z5 !s108 1723101973.000000
+!s107 D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0.v|
+!s101 -O0
+!i113 1
+Z6 o-sv -work presynth -O0
+Z7 tCvgOpt 0
+n@o@s@c_@c0
+vOSC_C0_OSC_C0_0_OSC
+2D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v
+R1
+!s110 1723101973
+!i10b 1
+!s100 RQ:9h3M<fQNViL><54cgc0
+IHfaOAMZn;e?M`fLTJmYV^1
+S1
+R0
+w1723101560
+8D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v
+FD:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v
+!i122 0
+L0 5 27
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/libero_tests/ABFN_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@o@s@c_@c0_@o@s@c_@c0_0_@o@s@c
+vUART_ABFN
+2D:/libero_tests/ABFN_UART/component/work/UART_ABFN/UART_ABFN.v
+R1
+R2
+!i10b 1
+!s100 HdTgKoPT6NVLJDYBF0OaV2
+I88@N_;D<`Q8UDYb`Dm]3>2
+S1
+R0
+w1723101571
+8D:/libero_tests/ABFN_UART/component/work/UART_ABFN/UART_ABFN.v
+FD:/libero_tests/ABFN_UART/component/work/UART_ABFN/UART_ABFN.v
+!i122 3
+L0 9 60
+R3
+R4
+r1
+!s85 0
+31
+Z8 !s108 1723101974.000000
+!s107 D:/libero_tests/ABFN_UART/component/work/UART_ABFN/UART_ABFN.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/libero_tests/ABFN_UART/component/work/UART_ABFN/UART_ABFN.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@u@a@r@t_@a@b@f@n
+vUART_MSS
+2D:/libero_tests/ABFN_UART/component/work/UART_MSS/UART_MSS.v
+R1
+R2
+!i10b 1
+!s100 4abFQCX0i7f[jBl:6m[5E0
+I@`9Ln6M9Z[7Roo>fmKf`a0
+S1
+R0
+w1723101341
+8D:/libero_tests/ABFN_UART/component/work/UART_MSS/UART_MSS.v
+FD:/libero_tests/ABFN_UART/component/work/UART_MSS/UART_MSS.v
+!i122 2
+L0 9 577
+R3
+R4
+r1
+!s85 0
+31
+R8
+!s107 D:/libero_tests/ABFN_UART/component/work/UART_MSS/UART_MSS.v|
+!s90 -reportprogress|300|-sv|-work|presynth|D:/libero_tests/ABFN_UART/component/work/UART_MSS/UART_MSS.v|
+!s101 -O0
+!i113 1
+R6
+R7
+n@u@a@r@t_@m@s@s

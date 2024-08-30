@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\libero_tests\SPI_MSS\designer\SPI\SPI_fp\SPI.pro'
+PDB file 'D:\libero_tests\SPI_MSS\designer\SPI\SPI.pdb' has been loaded successfully.
+DESIGN : SPI;  CHECKSUM : 8AF2;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\libero_tests\SPI_MSS\designer\SPI\SPI.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\libero_tests\SPI_MSS\designer\SPI\SPI.ppd'; file programs Fabric.
+Fabric component bitstream digest: e669a695087e2533c462baca5ad9003bb4b226e73846a9bcefca846dee324082
+Entire bitstream digest: c5a19bdc2a0c7fa231330425e3597356d3ebd157c67753948ae51325e402fe95
+Finished: Thu Aug 29 16:54:03 2024 (Elapsed time 00:00:02)
+
+Project saved.
+Project closed.

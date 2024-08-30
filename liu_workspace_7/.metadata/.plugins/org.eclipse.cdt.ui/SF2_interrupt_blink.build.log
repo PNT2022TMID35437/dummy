@@ -1,0 +1,11 @@
+16:43:04 **** Incremental Build of configuration Debug for project SF2_interrupt_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "SF2_interrupt_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5536	   1072	  58928	  65536	  10000	SF2_interrupt_blink.elf
+Finished building: SF2_interrupt_blink.siz
+ 
+
+16:43:04 Build Finished (took 190ms)
+

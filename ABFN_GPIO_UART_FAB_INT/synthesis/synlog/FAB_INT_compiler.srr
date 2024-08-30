@@ -1,0 +1,783 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys Verilog Compiler, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v" (library work)
+@I::"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CCC_0\FAB_INT_sb_CCC_0_FCCC.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" (library work)
+@W: CG100 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":4:13:4:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":14:13:14:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":27:13:27:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":43:13:43:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":55:13:55:25|User defined pragma syn_black_box detected
+
+@W: CG100 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":67:13:67:25|User defined pragma syn_black_box detected
+
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\FABOSC_0\FAB_INT_sb_FABOSC_0_OSC.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb_MSS\FAB_INT_sb_MSS_syn.v" (library work)
+@W: CG100 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb_MSS\FAB_INT_sb_MSS_syn.v":436:13:436:25|User defined pragma syn_black_box detected
+
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb_MSS\FAB_INT_sb_MSS.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v" (library COREAPB3_LIB)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v" (library COREAPB3_LIB)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v" (library COREAPB3_LIB)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\FAB_INT_sb.v" (library work)
+@I::"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT\FAB_INT.v" (library work)
+Verilog syntax check successful!
+File D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT\FAB_INT.v changed - recompiling
+Selecting top level module FAB_INT
+@N: CG775 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Component CoreAPB3 not found in library "work" or "__hyper__lib__", but found in library COREAPB3_LIB
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
+Running optimization stage 1 on VCC .......
+Finished optimization stage 1 on VCC (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND in library work.
+Running optimization stage 1 on GND .......
+Finished optimization stage 1 on GND (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT in library work.
+Running optimization stage 1 on CLKINT .......
+Finished optimization stage 1 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 93MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":729:7:729:9|Synthesizing module CCC in library work.
+Running optimization stage 1 on CCC .......
+Finished optimization stage 1 on CCC (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CCC_0\FAB_INT_sb_CCC_0_FCCC.v":5:7:5:27|Synthesizing module FAB_INT_sb_CCC_0_FCCC in library work.
+Running optimization stage 1 on FAB_INT_sb_CCC_0_FCCC .......
+Finished optimization stage 1 on FAB_INT_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v":30:7:30:23|Synthesizing module COREAPB3_MUXPTOB3 in library COREAPB3_LIB.
+Running optimization stage 1 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 1 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 96MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":31:7:31:14|Synthesizing module CoreAPB3 in library COREAPB3_LIB.
+
+	APB_DWIDTH=6'b100000
+	IADDR_OPTION=32'b00000000000000000000000000000000
+	APBSLOT0ENABLE=1'b1
+	APBSLOT1ENABLE=1'b1
+	APBSLOT2ENABLE=1'b0
+	APBSLOT3ENABLE=1'b0
+	APBSLOT4ENABLE=1'b0
+	APBSLOT5ENABLE=1'b0
+	APBSLOT6ENABLE=1'b0
+	APBSLOT7ENABLE=1'b0
+	APBSLOT8ENABLE=1'b0
+	APBSLOT9ENABLE=1'b0
+	APBSLOT10ENABLE=1'b0
+	APBSLOT11ENABLE=1'b0
+	APBSLOT12ENABLE=1'b0
+	APBSLOT13ENABLE=1'b0
+	APBSLOT14ENABLE=1'b0
+	APBSLOT15ENABLE=1'b0
+	SC_0=1'b0
+	SC_1=1'b0
+	SC_2=1'b0
+	SC_3=1'b0
+	SC_4=1'b0
+	SC_5=1'b0
+	SC_6=1'b0
+	SC_7=1'b0
+	SC_8=1'b0
+	SC_9=1'b0
+	SC_10=1'b0
+	SC_11=1'b0
+	SC_12=1'b0
+	SC_13=1'b0
+	SC_14=1'b0
+	SC_15=1'b0
+	MADDR_BITS=6'b010000
+	UPR_NIBBLE_POSN=4'b0011
+	FAMILY=32'b00000000000000000000000000010011
+	SYNC_RESET=32'b00000000000000000000000000000000
+	IADDR_NOTINUSE=32'b00000000000000000000000000000000
+	IADDR_EXTERNAL=32'b00000000000000000000000000000001
+	IADDR_SLOT0=32'b00000000000000000000000000000010
+	IADDR_SLOT1=32'b00000000000000000000000000000011
+	IADDR_SLOT2=32'b00000000000000000000000000000100
+	IADDR_SLOT3=32'b00000000000000000000000000000101
+	IADDR_SLOT4=32'b00000000000000000000000000000110
+	IADDR_SLOT5=32'b00000000000000000000000000000111
+	IADDR_SLOT6=32'b00000000000000000000000000001000
+	IADDR_SLOT7=32'b00000000000000000000000000001001
+	IADDR_SLOT8=32'b00000000000000000000000000001010
+	IADDR_SLOT9=32'b00000000000000000000000000001011
+	IADDR_SLOT10=32'b00000000000000000000000000001100
+	IADDR_SLOT11=32'b00000000000000000000000000001101
+	IADDR_SLOT12=32'b00000000000000000000000000001110
+	IADDR_SLOT13=32'b00000000000000000000000000001111
+	IADDR_SLOT14=32'b00000000000000000000000000010000
+	IADDR_SLOT15=32'b00000000000000000000000000010001
+	SL0=16'b0000000000000001
+	SL1=16'b0000000000000010
+	SL2=16'b0000000000000000
+	SL3=16'b0000000000000000
+	SL4=16'b0000000000000000
+	SL5=16'b0000000000000000
+	SL6=16'b0000000000000000
+	SL7=16'b0000000000000000
+	SL8=16'b0000000000000000
+	SL9=16'b0000000000000000
+	SL10=16'b0000000000000000
+	SL11=16'b0000000000000000
+	SL12=16'b0000000000000000
+	SL13=16'b0000000000000000
+	SL14=16'b0000000000000000
+	SL15=16'b0000000000000000
+	SC=16'b0000000000000000
+	SC_qual=16'b0000000000000000
+   Generated name = CoreAPB3_Z1
+@W: CG360 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":244:12:244:20|Removing wire IA_PRDATA, as there is no assignment to it.
+Running optimization stage 1 on CoreAPB3_Z1 .......
+Finished optimization stage 1 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 96MB peak: 96MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":23:7:23:14|Synthesizing module CoreGPIO in library work.
+
+	FAMILY=32'b00000000000000000000000000001011
+	IO_NUM=32'b00000000000000000000000000000010
+	APB_WIDTH=32'b00000000000000000000000000001000
+	OE_TYPE=1'b0
+	INT_BUS=1'b1
+	FIXED_CONFIG_0=1'b0
+	FIXED_CONFIG_1=1'b1
+	FIXED_CONFIG_2=1'b1
+	FIXED_CONFIG_3=1'b0
+	FIXED_CONFIG_4=1'b0
+	FIXED_CONFIG_5=1'b0
+	FIXED_CONFIG_6=1'b0
+	FIXED_CONFIG_7=1'b0
+	FIXED_CONFIG_8=1'b0
+	FIXED_CONFIG_9=1'b0
+	FIXED_CONFIG_10=1'b0
+	FIXED_CONFIG_11=1'b0
+	FIXED_CONFIG_12=1'b0
+	FIXED_CONFIG_13=1'b0
+	FIXED_CONFIG_14=1'b0
+	FIXED_CONFIG_15=1'b0
+	FIXED_CONFIG_16=1'b0
+	FIXED_CONFIG_17=1'b0
+	FIXED_CONFIG_18=1'b0
+	FIXED_CONFIG_19=1'b0
+	FIXED_CONFIG_20=1'b0
+	FIXED_CONFIG_21=1'b0
+	FIXED_CONFIG_22=1'b0
+	FIXED_CONFIG_23=1'b0
+	FIXED_CONFIG_24=1'b0
+	FIXED_CONFIG_25=1'b0
+	FIXED_CONFIG_26=1'b0
+	FIXED_CONFIG_27=1'b0
+	FIXED_CONFIG_28=1'b0
+	FIXED_CONFIG_29=1'b0
+	FIXED_CONFIG_30=1'b0
+	FIXED_CONFIG_31=1'b0
+	IO_TYPE_0=2'b00
+	IO_TYPE_1=2'b01
+	IO_TYPE_2=2'b00
+	IO_TYPE_3=2'b00
+	IO_TYPE_4=2'b00
+	IO_TYPE_5=2'b00
+	IO_TYPE_6=2'b00
+	IO_TYPE_7=2'b00
+	IO_TYPE_8=2'b00
+	IO_TYPE_9=2'b00
+	IO_TYPE_10=2'b00
+	IO_TYPE_11=2'b00
+	IO_TYPE_12=2'b00
+	IO_TYPE_13=2'b00
+	IO_TYPE_14=2'b00
+	IO_TYPE_15=2'b00
+	IO_TYPE_16=2'b00
+	IO_TYPE_17=2'b00
+	IO_TYPE_18=2'b00
+	IO_TYPE_19=2'b00
+	IO_TYPE_20=2'b00
+	IO_TYPE_21=2'b00
+	IO_TYPE_22=2'b00
+	IO_TYPE_23=2'b00
+	IO_TYPE_24=2'b00
+	IO_TYPE_25=2'b00
+	IO_TYPE_26=2'b00
+	IO_TYPE_27=2'b00
+	IO_TYPE_28=2'b00
+	IO_TYPE_29=2'b00
+	IO_TYPE_30=2'b00
+	IO_TYPE_31=2'b00
+	IO_INT_TYPE_0=3'b000
+	IO_INT_TYPE_1=3'b111
+	IO_INT_TYPE_2=3'b010
+	IO_INT_TYPE_3=3'b111
+	IO_INT_TYPE_4=3'b111
+	IO_INT_TYPE_5=3'b111
+	IO_INT_TYPE_6=3'b111
+	IO_INT_TYPE_7=3'b111
+	IO_INT_TYPE_8=3'b111
+	IO_INT_TYPE_9=3'b111
+	IO_INT_TYPE_10=3'b111
+	IO_INT_TYPE_11=3'b111
+	IO_INT_TYPE_12=3'b111
+	IO_INT_TYPE_13=3'b111
+	IO_INT_TYPE_14=3'b111
+	IO_INT_TYPE_15=3'b111
+	IO_INT_TYPE_16=3'b111
+	IO_INT_TYPE_17=3'b111
+	IO_INT_TYPE_18=3'b111
+	IO_INT_TYPE_19=3'b111
+	IO_INT_TYPE_20=3'b111
+	IO_INT_TYPE_21=3'b111
+	IO_INT_TYPE_22=3'b111
+	IO_INT_TYPE_23=3'b111
+	IO_INT_TYPE_24=3'b111
+	IO_INT_TYPE_25=3'b111
+	IO_INT_TYPE_26=3'b111
+	IO_INT_TYPE_27=3'b111
+	IO_INT_TYPE_28=3'b111
+	IO_INT_TYPE_29=3'b111
+	IO_INT_TYPE_30=3'b111
+	IO_INT_TYPE_31=3'b111
+	IO_VAL_0=1'b0
+	IO_VAL_1=1'b0
+	IO_VAL_2=1'b0
+	IO_VAL_3=1'b0
+	IO_VAL_4=1'b0
+	IO_VAL_5=1'b0
+	IO_VAL_6=1'b0
+	IO_VAL_7=1'b0
+	IO_VAL_8=1'b0
+	IO_VAL_9=1'b0
+	IO_VAL_10=1'b0
+	IO_VAL_11=1'b0
+	IO_VAL_12=1'b0
+	IO_VAL_13=1'b0
+	IO_VAL_14=1'b0
+	IO_VAL_15=1'b0
+	IO_VAL_16=1'b0
+	IO_VAL_17=1'b0
+	IO_VAL_18=1'b0
+	IO_VAL_19=1'b0
+	IO_VAL_20=1'b0
+	IO_VAL_21=1'b0
+	IO_VAL_22=1'b0
+	IO_VAL_23=1'b0
+	IO_VAL_24=1'b0
+	IO_VAL_25=1'b0
+	IO_VAL_26=1'b0
+	IO_VAL_27=1'b0
+	IO_VAL_28=1'b0
+	IO_VAL_29=1'b0
+	IO_VAL_30=1'b0
+	IO_VAL_31=1'b0
+	FIXED_CONFIG=32'b01100000000000000000000000000000
+	IO_INT_TYPE=96'b000111010111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+	IO_TYPE=64'b0001000000000000000000000000000000000000000000000000000000000000
+	IO_VAL=32'b00000000000000000000000000000000
+   Generated name = CoreGPIO_Z2
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":638:15:638:26|Removing redundant assignment.
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":664:15:664:26|Removing redundant assignment.
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":690:16:690:28|Removing redundant assignment.
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":731:16:731:28|Removing redundant assignment.
+Running optimization stage 1 on CoreGPIO_Z2 .......
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":672:0:672:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_both_19[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":646:0:646:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_neg_19[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":620:0:620:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.edge_pos_19[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":310:12:310:17|Pruning unused register xhdl1.GEN_BITS[1].gpin3_14[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":297:12:297:17|Pruning unused register xhdl1.GEN_BITS[1].gpin1_14[1]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":297:12:297:17|Pruning unused register xhdl1.GEN_BITS[1].gpin2_14[1]. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":698:0:698:5|Optimizing register bit xhdl1.GEN_BITS[1].APB_8.INTR_reg[1] to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":698:0:698:5|Pruning unused register xhdl1.GEN_BITS[1].APB_8.INTR_reg[1]. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on CoreGPIO_Z2 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000000
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000000
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000000
+	DEVICE_090=32'b00000000000000000000000000000000
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z3
+Running optimization stage 1 on CoreResetP_Z3 .......
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Pruning unused register count_ddr[13:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning unused register count_sdif3[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning unused register count_sdif2[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning unused register count_sdif1[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Pruning unused register count_sdif0[12:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif0_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif1_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif2_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_sdif3_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning unused register count_ddr_enable_rcosc. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning unused register count_sdif3_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning unused register count_sdif2_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning unused register count_sdif1_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Pruning unused register count_sdif0_enable. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register count_ddr_enable. Make sure that there are no unused intermediate registers.
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int and merging RESET_N_F2M_int. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1 and merging sdif3_spll_lock_q1. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning unused register release_ext_reset. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register EXT_RESET_OUT_int. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning unused register sm2_state[2:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_q1. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning unused register sm2_areset_n_clk_base. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on CoreResetP_Z3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v":38:7:38:42|Synthesizing module FAB_INT_sb_CoreUARTapb_0_0_Clock_gen in library work.
+
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+   Generated name = FAB_INT_sb_CoreUARTapb_0_0_Clock_gen_0s
+Running optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_Clock_gen_0s .......
+Finished optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_Clock_gen_0s (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v":31:7:31:41|Synthesizing module FAB_INT_sb_CoreUARTapb_0_0_Tx_async in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000001
+	tx_idle=32'b00000000000000000000000000000000
+	tx_load=32'b00000000000000000000000000000001
+	start_bit=32'b00000000000000000000000000000010
+	tx_data_bits=32'b00000000000000000000000000000011
+	parity_bit=32'b00000000000000000000000000000100
+	tx_stop_bit=32'b00000000000000000000000000000101
+	delay_state=32'b00000000000000000000000000000110
+   Generated name = FAB_INT_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s
+@W: CG1340 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v":261:0:261:5|Index into variable tx_byte could be out of range ; a simulation mismatch is possible.
+@W: CG1340 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v":261:0:261:5|Index into variable tx_byte could be out of range ; a simulation mismatch is possible.
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v":349:21:349:29|Removing redundant assignment.
+Running optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s .......
+Finished optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":30:7:30:41|Synthesizing module FAB_INT_sb_CoreUARTapb_0_0_Rx_async in library work.
+
+	RX_FIFO=32'b00000000000000000000000000000001
+	receive_states_rx_idle=32'b00000000000000000000000000000000
+	receive_states_rx_data_bits=32'b00000000000000000000000000000001
+	receive_states_rx_stop_bit=32'b00000000000000000000000000000010
+   Generated name = FAB_INT_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":243:23:243:35|Removing redundant assignment.
+Running optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s .......
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":459:0:459:5|Sharing sequential element clear_framing_error_en and merging clear_parity_en. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL190 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":459:0:459:5|Optimizing register bit receive_full_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":459:0:459:5|Pruning unused register receive_full_int. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v":31:7:31:41|Synthesizing module FAB_INT_sb_CoreUARTapb_0_0_COREUART in library work.
+
+	TX_FIFO=32'b00000000000000000000000000000001
+	RX_FIFO=32'b00000000000000000000000000000001
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	FAMILY=32'b00000000000000000000000000001111
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+   Generated name = FAB_INT_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v":374:22:374:33|Removing redundant assignment.
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":228:7:228:9|Synthesizing module INV in library work.
+Running optimization stage 1 on INV .......
+Finished optimization stage 1 on INV (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":456:7:456:14|Synthesizing module RAM64x18 in library work.
+Running optimization stage 1 on RAM64x18 .......
+Finished optimization stage 1 on RAM64x18 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":221:7:221:45|Synthesizing module FAB_INT_sb_CoreUARTapb_0_0_ram128x8_pa4 in library work.
+Running optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_ram128x8_pa4 .......
+Finished optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_ram128x8_pa4 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":72:7:72:46|Synthesizing module FAB_INT_sb_CoreUARTapb_0_0_fifo_ctrl_128 in library work.
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":210:22:210:29|Removing redundant assignment.
+Running optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_fifo_ctrl_128 .......
+Finished optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_fifo_ctrl_128 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":33:7:33:43|Synthesizing module FAB_INT_sb_CoreUARTapb_0_0_fifo_256x8 in library work.
+@W: CG360 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":47:6:47:11|Removing wire AEMPTY, as there is no assignment to it.
+@W: CG360 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":47:14:47:18|Removing wire AFULL, as there is no assignment to it.
+Running optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_fifo_256x8 .......
+Finished optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_fifo_256x8 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@W: CG133 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v":135:8:135:17|Object data_ready is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s .......
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v":335:0:335:5|Pruning unused register rx_dout_reg_empty_q. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v":59:7:59:44|Synthesizing module FAB_INT_sb_CoreUARTapb_0_0_CoreUARTapb in library work.
+
+	FAMILY=32'b00000000000000000000000000010011
+	TX_FIFO=32'b00000000000000000000000000000001
+	RX_FIFO=32'b00000000000000000000000000000001
+	BAUD_VALUE=32'b00000000000000000000000000000001
+	FIXEDMODE=32'b00000000000000000000000000000000
+	PRG_BIT8=32'b00000000000000000000000000000000
+	PRG_PARITY=32'b00000000000000000000000000000000
+	RX_LEGACY_MODE=32'b00000000000000000000000000000000
+	BAUD_VAL_FRCTN=32'b00000000000000000000000000000000
+	BAUD_VAL_FRCTN_EN=32'b00000000000000000000000000000000
+   Generated name = FAB_INT_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_1s_0s_0s_0s_0s_0s_0s
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v":249:31:249:41|Removing redundant assignment.
+@N: CG179 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v":270:31:270:41|Removing redundant assignment.
+@W: CG133 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v":157:20:157:30|Object controlReg3 is declared but not assigned. Either assign a value or remove the declaration.
+Running optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_1s_0s_0s_0s_0s_0s_0s .......
+Finished optimization stage 1 on FAB_INT_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_1s_0s_0s_0s_0s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":168:7:168:9|Synthesizing module OR3 in library work.
+Running optimization stage 1 on OR3 .......
+Finished optimization stage 1 on OR3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb_MSS\FAB_INT_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_005 in library work.
+Running optimization stage 1 on MSS_005 .......
+Finished optimization stage 1 on MSS_005 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb_MSS\FAB_INT_sb_MSS.v":9:7:9:20|Synthesizing module FAB_INT_sb_MSS in library work.
+Running optimization stage 1 on FAB_INT_sb_MSS .......
+Finished optimization stage 1 on FAB_INT_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ_FAB .......
+Finished optimization stage 1 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
+Running optimization stage 1 on RCOSC_25_50MHZ .......
+Finished optimization stage 1 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\FABOSC_0\FAB_INT_sb_FABOSC_0_OSC.v":5:7:5:29|Synthesizing module FAB_INT_sb_FABOSC_0_OSC in library work.
+Running optimization stage 1 on FAB_INT_sb_FABOSC_0_OSC .......
+@W: CL318 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\FABOSC_0\FAB_INT_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\FABOSC_0\FAB_INT_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\FABOSC_0\FAB_INT_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\FABOSC_0\FAB_INT_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+Finished optimization stage 1 on FAB_INT_sb_FABOSC_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
+Running optimization stage 1 on SYSRESET .......
+Finished optimization stage 1 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\FAB_INT_sb.v":9:7:9:16|Synthesizing module FAB_INT_sb in library work.
+Running optimization stage 1 on FAB_INT_sb .......
+Finished optimization stage 1 on FAB_INT_sb (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CG364 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT\FAB_INT.v":9:7:9:13|Synthesizing module FAB_INT in library work.
+Running optimization stage 1 on FAB_INT .......
+Finished optimization stage 1 on FAB_INT (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Running optimization stage 2 on FAB_INT .......
+Finished optimization stage 2 on FAB_INT (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on FAB_INT_sb .......
+Finished optimization stage 2 on FAB_INT_sb (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on SYSRESET .......
+Finished optimization stage 2 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on FAB_INT_sb_FABOSC_0_OSC .......
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\FABOSC_0\FAB_INT_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused.
+Finished optimization stage 2 on FAB_INT_sb_FABOSC_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on RCOSC_25_50MHZ .......
+Finished optimization stage 2 on RCOSC_25_50MHZ (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on RCOSC_25_50MHZ_FAB .......
+Finished optimization stage 2 on RCOSC_25_50MHZ_FAB (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on FAB_INT_sb_MSS .......
+Finished optimization stage 2 on FAB_INT_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on MSS_005 .......
+Finished optimization stage 2 on MSS_005 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on OR3 .......
+Finished optimization stage 2 on OR3 (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_1s_0s_0s_0s_0s_0s_0s .......
+@W: CL246 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v":103:20:103:24|Input port bits 1 to 0 of PADDR[4:0] are unused. Assign logic for all port bits or change the input port size.
+@A: CL153 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v":157:20:157:30|*Unassigned bits of controlReg3[2:0] are referenced and tied to 0 -- simulation mismatch possible.
+Finished optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_CoreUARTapb_19s_1s_1s_1s_0s_0s_0s_0s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_fifo_256x8 .......
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":35:6:35:11|Input RCLOCK is unused.
+Finished optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_fifo_256x8 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_fifo_ctrl_128 .......
+Finished optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_fifo_ctrl_128 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_ram128x8_pa4 .......
+Finished optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_ram128x8_pa4 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on RAM64x18 .......
+Finished optimization stage 2 on RAM64x18 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on INV .......
+Finished optimization stage 2 on INV (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+Running optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s .......
+@N: CL201 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v":287:0:287:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Finished optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+Running optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s .......
+@W: CL190 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":255:0:255:5|Optimizing register bit overflow_int to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":255:0:255:5|Pruning unused register overflow_int. Make sure that there are no unused intermediate registers.
+@W: CL190 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":198:0:198:5|Optimizing register bit overflow to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL169 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":198:0:198:5|Pruning unused register overflow. Make sure that there are no unused intermediate registers.
+@N: CL201 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":255:0:255:5|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v":61:8:61:19|Input read_rx_byte is unused.
+Finished optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 99MB)
+Running optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s .......
+@N: CL201 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v":112:0:112:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 7 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+   00000000000000000000000000000110
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v":41:6:41:17|Input rst_tx_empty is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v":42:11:42:21|Input tx_hold_reg is unused.
+Finished optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_Clock_gen_0s .......
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\work\FAB_INT_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v":50:15:50:31|Input BAUD_VAL_FRACTION is unused.
+Finished optimization stage 2 on FAB_INT_sb_CoreUARTapb_0_0_Clock_gen_0s (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on CoreResetP_Z3 .......
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif0_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2 and merging sdif3_spll_lock_q2. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state.
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state.
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state.
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state.
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state.
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":59:20:59:34|Input SDIF0_SPLL_LOCK is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":107:20:107:37|Input SOFT_EXT_RESET_OUT is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":108:20:108:33|Input SOFT_RESET_F2M is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":109:20:109:32|Input SOFT_M3_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":110:20:110:49|Input SOFT_MDDR_DDR_AXI_S_CORE_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":111:20:111:39|Input SOFT_FDDR_CORE_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":112:20:112:39|Input SOFT_SDIF0_PHY_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":113:20:113:40|Input SOFT_SDIF0_CORE_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":114:20:114:39|Input SOFT_SDIF1_PHY_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":115:20:115:40|Input SOFT_SDIF1_CORE_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":116:20:116:39|Input SOFT_SDIF2_PHY_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":117:20:117:40|Input SOFT_SDIF2_CORE_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":118:20:118:39|Input SOFT_SDIF3_PHY_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":119:20:119:40|Input SOFT_SDIF3_CORE_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":123:20:123:42|Input SOFT_SDIF0_0_CORE_RESET is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v":124:20:124:42|Input SOFT_SDIF0_1_CORE_RESET is unused.
+Finished optimization stage 2 on CoreResetP_Z3 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on CoreGPIO_Z2 .......
+@W: CL247 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v":185:26:185:32|Input port bit 1 of GPIO_IN[1:0] is unused
+
+Finished optimization stage 2 on CoreGPIO_Z2 (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 100MB)
+Running optimization stage 2 on CoreAPB3_Z1 .......
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":72:36:72:40|Input IADDR is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":73:13:73:19|Input PRESETN is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":74:13:74:16|Input PCLK is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":106:18:106:25|Input PRDATAS2 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":107:18:107:25|Input PRDATAS3 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":108:18:108:25|Input PRDATAS4 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":109:18:109:25|Input PRDATAS5 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":110:18:110:25|Input PRDATAS6 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":111:18:111:25|Input PRDATAS7 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":112:18:112:25|Input PRDATAS8 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":113:18:113:25|Input PRDATAS9 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":114:18:114:26|Input PRDATAS10 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":115:18:115:26|Input PRDATAS11 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":116:18:116:26|Input PRDATAS12 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":117:18:117:26|Input PRDATAS13 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":118:18:118:26|Input PRDATAS14 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":119:18:119:26|Input PRDATAS15 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":123:13:123:20|Input PREADYS2 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":124:13:124:20|Input PREADYS3 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":125:13:125:20|Input PREADYS4 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":126:13:126:20|Input PREADYS5 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":127:13:127:20|Input PREADYS6 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":128:13:128:20|Input PREADYS7 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":129:13:129:20|Input PREADYS8 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":130:13:130:20|Input PREADYS9 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":131:13:131:21|Input PREADYS10 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":132:13:132:21|Input PREADYS11 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":133:13:133:21|Input PREADYS12 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":134:13:134:21|Input PREADYS13 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":135:13:135:21|Input PREADYS14 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":136:13:136:21|Input PREADYS15 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":140:13:140:21|Input PSLVERRS2 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":141:13:141:21|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":142:13:142:21|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":143:13:143:21|Input PSLVERRS5 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":144:13:144:21|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":145:13:145:21|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":146:13:146:21|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":147:13:147:21|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":148:13:148:22|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":149:13:149:22|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":150:13:150:22|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":151:13:151:22|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":152:13:152:22|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\libero_tests\ABFN_GPIO_UART_FAB_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v":153:13:153:22|Input PSLVERRS15 is unused.
+Finished optimization stage 2 on CoreAPB3_Z1 (CPU Time 0h:00m:00s, Memory Used current: 100MB peak: 100MB)
+Running optimization stage 2 on COREAPB3_MUXPTOB3 .......
+Finished optimization stage 2 on COREAPB3_MUXPTOB3 (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Running optimization stage 2 on FAB_INT_sb_CCC_0_FCCC .......
+Finished optimization stage 2 on FAB_INT_sb_CCC_0_FCCC (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Running optimization stage 2 on CCC .......
+Finished optimization stage 2 on CCC (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Running optimization stage 2 on CLKINT .......
+Finished optimization stage 2 on CLKINT (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Running optimization stage 2 on GND .......
+Finished optimization stage 2 on GND (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+Running optimization stage 2 on VCC .......
+Finished optimization stage 2 on VCC (CPU Time 0h:00m:00s, Memory Used current: 101MB peak: 101MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\libero_tests\ABFN_GPIO_UART_FAB_INT\synthesis\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 101MB peak: 101MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Thu Aug 22 17:57:52 2024
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+@N|Running in 64-bit mode
+File D:\libero_tests\ABFN_GPIO_UART_FAB_INT\synthesis\synwork\layer0.srs changed - recompiling
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 94MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu Aug 22 17:57:53 2024
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\libero_tests\ABFN_GPIO_UART_FAB_INT\synthesis\synwork\FAB_INT_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:03s realtime, 0h:00m:03s cputime
+
+Process completed successfully.
+# Thu Aug 22 17:57:53 2024
+
+###########################################################]

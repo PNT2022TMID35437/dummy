@@ -1,0 +1,260 @@
+18:56:27 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+18:56:28 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+18:56:28 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+18:58:48 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+18:58:49 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+18:59:57 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+18:59:57 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:60:42: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+        MSS_GPIO_set_output( MSS_GPIO_30, 0xFFFFFFFF);
+                                          ^
+Finished building: ../main.c
+ 
+Building target: simple_blink.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"simple_blink.map" -o "simple_blink.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: simple_blink.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "simple_blink.elf"  "simple_blink.hex"
+Finished building: simple_blink.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5280	   1072	  59184	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+19:00:01 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+19:00:01 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:60:42: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+        MSS_GPIO_set_output( MSS_GPIO_30, 0xFFFFFFFF);
+                                          ^
+Finished building: ../main.c
+ 
+Building target: simple_blink.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"simple_blink.map" -o "simple_blink.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: simple_blink.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "simple_blink.elf"  "simple_blink.hex"
+Finished building: simple_blink.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5328	   1072	  59136	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+19:00:20 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+19:00:20 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: simple_blink.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"simple_blink.map" -o "simple_blink.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: simple_blink.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "simple_blink.elf"  "simple_blink.hex"
+Finished building: simple_blink.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+19:01:45 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+19:01:45 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: simple_blink.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"simple_blink.map" -o "simple_blink.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: simple_blink.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "simple_blink.elf"  "simple_blink.hex"
+Finished building: simple_blink.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+19:03:29 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+19:03:29 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: simple_blink.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"simple_blink.map" -o "simple_blink.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: simple_blink.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "simple_blink.elf"  "simple_blink.hex"
+Finished building: simple_blink.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+19:03:34 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+19:03:34 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+19:05:10 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+19:05:10 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Building file: ../main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I../hal -I../hal/CortexM3 -I../hal/CortexM3/GNU -I../CMSIS -I../CMSIS/startup_gcc -I../drivers/mss_gpio -std=gnu11 --specs=cmsis.specs -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: simple_blink.elf
+Invoking: Cross ARM C Linker
+arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T ../CMSIS/startup_gcc/debug-in-microsemi-smartfusion2-esram.ld -Xlinker --gc-sections -Wl,-Map,"simple_blink.map" -o "simple_blink.elf"  ./hal/CortexM3/GNU/hal.o ./hal/CortexM3/GNU/hw_reg_access.o  ./hal/CortexM3/cortex_nvic.o  ./drivers_config/sys_config/sys_config.o  ./drivers/mss_uart/mss_uart.o  ./drivers/mss_sys_services/mss_comblk.o ./drivers/mss_sys_services/mss_sys_services.o  ./drivers/mss_nvm/mss_nvm.o  ./drivers/mss_hpdma/mss_hpdma.o  ./drivers/mss_gpio/mss_gpio.o  ./CMSIS/startup_gcc/newlib_stubs.o ./CMSIS/startup_gcc/startup_m2sxxx.o  ./CMSIS/system_m2sxxx.o  ./main.o   
+Finished building target: simple_blink.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O ihex "simple_blink.elf"  "simple_blink.hex"
+Finished building: simple_blink.hex
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 
+19:07:32 **** Incremental Build of configuration Debug for project polled_uart ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "polled_uart.elf"
+   text	   data	    bss	    dec	    hex	filename
+   6576	   1104	  57856	  65536	  10000	polled_uart.elf
+Finished building: polled_uart.siz
+ 
+19:07:32 **** Incremental Build of configuration Debug for project simple_blink ****
+make all 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "simple_blink.elf"
+   text	   data	    bss	    dec	    hex	filename
+   5200	   1072	  59264	  65536	  10000	simple_blink.elf
+Finished building: simple_blink.siz
+ 

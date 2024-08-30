@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>MSS_U</design>
+	<target_verilog>D:\libero_tests\UART_ABFN_MSS\synthesis\MSS_U.vm</target_verilog>
+</SynplifyOutput>

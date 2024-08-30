@@ -1,0 +1,22 @@
+Selecting top level module IIC_MSS
+@N: CG364 :"C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF in library work.
+Running optimization stage 1 on BIBUF .......
+Finished optimization stage 1 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 89MB peak: 90MB)
+@N: CG364 :"D:\libero_tests\I2C_1\component\work\IIC_MSS\IIC_MSS_syn.v":5:7:5:13|Synthesizing module MSS_005 in library work.
+Running optimization stage 1 on MSS_005 .......
+Finished optimization stage 1 on MSS_005 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 90MB)
+@N: CG364 :"D:\libero_tests\I2C_1\component\work\IIC_MSS\IIC_MSS.v":9:7:9:13|Synthesizing module IIC_MSS in library work.
+Running optimization stage 1 on IIC_MSS .......
+Finished optimization stage 1 on IIC_MSS (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on IIC_MSS .......
+Finished optimization stage 2 on IIC_MSS (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on MSS_005 .......
+Finished optimization stage 2 on MSS_005 (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+Running optimization stage 2 on BIBUF .......
+Finished optimization stage 2 on BIBUF (CPU Time 0h:00m:00s, Memory Used current: 90MB peak: 91MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\libero_tests\I2C_1\synthesis\synwork\layer0.duruntime
+
+

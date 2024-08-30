@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  LIU_GPIO_SB_1  -multisrs  D:\libero_tests\LIU_GPIO_1\synthesis\synwork\LIU_GPIO_SB_1_comp.srs  -osyn  D:\libero_tests\LIU_GPIO_1\synthesis\synwork\LIU_GPIO_SB_1_mult.srs  -log  D:\libero_tests\LIU_GPIO_1\synthesis\synlog\LIU_GPIO_SB_1_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\bin64\syn_nfilter.exe -link -top LIU_GPIO_SB_1 -multisrs ..\synwork\LIU_GPIO_SB_1_comp.srs -osyn ..\synwork\LIU_GPIO_SB_1_mult.srs -log ..\synlog\LIU_GPIO_SB_1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\liu_gpio_sb_1_comp.srs|io:i|time:1724047825|size:154080|exec:0|csum:962812C436DC780DCFB0057650A15F6D
+file:..\synwork\liu_gpio_sb_1_mult.srs|io:o|time:1724047826|size:2898|exec:0|csum:
+file:..\synlog\liu_gpio_sb_1_multi_srs_gen.srr|io:o|time:1724047826|size:1061|exec:0|csum:
+file:c:\microchip\libero_soc_v2024.1\synplifypro\bin64\syn_nfilter.exe|io:i|time:1704385664|size:10549248|exec:1|csum:0A08FED8FB1594556EFD70D403F152B0

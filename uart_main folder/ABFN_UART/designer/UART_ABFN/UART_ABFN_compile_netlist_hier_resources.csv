@@ -1,0 +1,4 @@
+Detailed Resource Usage
+Module Name,Single-Ended I/O,Chip Globals,MSS,CAN,10/100/1000 Ethernet,HS USB,Multi-Mode UART,RCOSC_50MHZ
+OSC_C0_0/OSC_C0_0/Primitives,0,1,0,0,0,0,0,1
+UART_MSS_0/Primitives,2,0,1,0,0,0,0,0

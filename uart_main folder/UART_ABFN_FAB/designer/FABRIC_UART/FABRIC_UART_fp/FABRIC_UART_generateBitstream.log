@@ -1,0 +1,13 @@
+Software Version: 2024.1.0.3
+Opened 'D:\libero_tests\UART_ABFN_FAB\designer\FABRIC_UART\FABRIC_UART_fp\FABRIC_UART.pro'
+PDB file 'D:\libero_tests\UART_ABFN_FAB\designer\FABRIC_UART\FABRIC_UART.pdb' has been loaded successfully.
+DESIGN : FABRIC_UART;  CHECKSUM : 2D0E;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\libero_tests\UART_ABFN_FAB\designer\FABRIC_UART\FABRIC_UART.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\libero_tests\UART_ABFN_FAB\designer\FABRIC_UART\FABRIC_UART.ppd'; file programs Fabric.
+Fabric component bitstream digest: e0525778d1cb14628020279b2e539c3182beb4b95a06421665da27ec5eb3e986
+Entire bitstream digest: a6d5b5e62ac4dc9e9b2f4b15dda3678dcf0c3d3ad68e7623137bb764b719ebd6
+Finished: Tue Aug 20 10:48:37 2024 (Elapsed time 00:00:02)
+
+Project saved.
+Project closed.

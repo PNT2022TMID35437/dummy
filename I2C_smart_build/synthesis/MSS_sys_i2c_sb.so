@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>MSS_sys_i2c_sb</design>
+	<target_verilog>D:\libero_tests\I2C_smart_build\synthesis\MSS_sys_i2c_sb.vm</target_verilog>
+</SynplifyOutput>

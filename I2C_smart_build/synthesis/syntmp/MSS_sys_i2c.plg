@@ -1,0 +1,16 @@
+@P:  Worst Slack : NA
+@P:  MSS_sys_i2c_sb_0/CCC_0/GL0 - Estimated Frequency : NA
+@P:  MSS_sys_i2c_sb_0/CCC_0/GL0 - Requested Frequency : 100.0 MHz
+@P:  MSS_sys_i2c_sb_0/CCC_0/GL0 - Estimated Period : NA
+@P:  MSS_sys_i2c_sb_0/CCC_0/GL0 - Requested Period : 10.000
+@P:  MSS_sys_i2c_sb_0/CCC_0/GL0 - Slack : NA
+@P:  MSS_sys_i2c_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Frequency : NA
+@P:  MSS_sys_i2c_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Frequency : 50.0 MHz
+@P:  MSS_sys_i2c_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Estimated Period : NA
+@P:  MSS_sys_i2c_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Requested Period : 20.000
+@P:  MSS_sys_i2c_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT - Slack : NA
+@P: MSS_sys_i2c Part : m2s005vf400std
+@P: MSS_sys_i2c Register bits  : 0 
+@P: MSS_sys_i2c DSP Blocks  : 0
+@P: MSS_sys_i2c I/O primitives : 2
+@P:  CPU Time : 0h:00m:01s

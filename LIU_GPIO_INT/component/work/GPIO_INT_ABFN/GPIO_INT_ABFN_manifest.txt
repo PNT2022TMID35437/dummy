@@ -1,0 +1,14 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Thu Aug 22 18:23:53 2024
+Project   :  D:\libero_tests\LIU_GPIO_INT
+Component :  GPIO_INT_ABFN
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/LIU_GPIO_INT/component/work/GPIO_INT_ABFN/GPIO_INT_ABFN.v
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/LIU_GPIO_INT/component/work/GPIO_INT_ABFN/subsystem.bfm
+

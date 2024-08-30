@@ -1,0 +1,4 @@
+Detailed Resource Usage
+Module Name,Single-Ended I/O,Chip Globals,MSS,RCOSC_50MHZ
+IIC_MSS_0/Primitives,2,0,1,0
+OSC_C0_0/OSC_C0_0/Primitives,0,1,0,1

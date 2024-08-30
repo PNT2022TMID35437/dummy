@@ -1,0 +1,29 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: MSS_sys_i2c 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S005 , Package: 400 VF , Speed grade: STD 
+
+# Date generated: Mon Aug 26 13:06:05 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io I2C_1_SCL -DIRECTION INOUT -pinname M17 -fixed no
+set_io I2C_1_SDA -DIRECTION INOUT -pinname N16 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location MSS_sys_i2c_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 396 44
+set_location MSS_sys_i2c_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 218 54
+set_location MSS_sys_i2c_sb_0/CCC_0/GL0_INST -fixed no 219 30
+set_location MSS_sys_i2c_sb_0/MSS_sys_i2c_sb_MSS_0/MSS_ADLIB_INST -fixed no 228 56
+set_location MSS_sys_i2c_sb_0/CCC_0/CCC_INST -fixed no 390 44

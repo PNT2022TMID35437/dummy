@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MSS_I2C_master_slave/Copy of main.c&apos; to &apos;main.c&apos;" description="Rename resource &apos;Copy of main.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Copy of main.c" name="main.c" stamp="1724653302620" updateReferences="true"/>
+</session>

@@ -1,0 +1,31 @@
+# Microchip Physical design constraints file
+
+# Version: 2024.1 2024.1.0.3
+
+# Design Name: ABFN_UART_GPIO_INT_MSS 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S005 , Package: 400 VF , Speed grade: STD 
+
+# Date generated: Wed Aug 21 15:00:40 2024 
+
+
+#
+# I/O constraints
+#
+
+set_io GPIO_30_OUT -DIRECTION OUTPUT -pinname A20 -fixed no
+set_io GPIO_31_IN -DIRECTION INPUT -pinname A19 -fixed no
+set_io MMUART_0_RXD -DIRECTION INPUT -pinname C19 -fixed no
+set_io MMUART_0_TXD -DIRECTION OUTPUT -pinname D18 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location ABFN_UART_GPIO_INT_MSS_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 396 44
+set_location ABFN_UART_GPIO_INT_MSS_sb_0/CCC_0/GL0_INST -fixed no 219 30
+set_location ABFN_UART_GPIO_INT_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 218 54
+set_location ABFN_UART_GPIO_INT_MSS_sb_0/ABFN_UART_GPIO_INT_MSS_sb_MSS_0/MSS_ADLIB_INST -fixed no 228 56
+set_location ABFN_UART_GPIO_INT_MSS_sb_0/CCC_0/CCC_INST -fixed no 390 44

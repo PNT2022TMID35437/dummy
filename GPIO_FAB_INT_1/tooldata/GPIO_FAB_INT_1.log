@@ -1,0 +1,16 @@
+Project Name: GPIO_FAB_INT_1
+Location: D:\libero_tests\GPIO_FAB_INT_1
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S005-VF400I
+Family         : SmartFusion2
+Die            : M2S005
+Package        : 400 VF
+Speed          : STD
+Core Voltage   : 1.2
+Range          : IND

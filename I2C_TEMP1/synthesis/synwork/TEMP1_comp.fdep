@@ -1,0 +1,80 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\libero_tests\\I2C_TEMP1\\synthesis\\synwork\\TEMP1_comp.srs|-top|TEMP1|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|D:\\libero_tests\\I2C_TEMP1\\synthesis\\|-I|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib|-sysv|-devicelib|C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|COREAPB3_LIB|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\bin64\\c_ver.exe":1704385142
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\generic\\smartfusion2.v":1704384662
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\hypermods.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\umr_capim.v":1704384514
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_objects.v":1704384280
+#CUR:"C:\\Microchip\\Libero_SoC_v2024.1\\SynplifyPro\\lib\\vlog\\scemi_pipes.svh":1704384280
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\Actel\\DirectCore\\COREI2C\\7.2.101\\rtl\\vlog\\core\\corei2creal.v":1724749866
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\work\\COREI2C_C0\\COREI2C_C0_0\\rtl\\vlog\\core\\corei2c.v":1724759627
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\work\\COREI2C_C0\\COREI2C_C0.v":1724759627
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_muxptob3.v":1724391163
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3_iaddr_reg.v":1724391163
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\Actel\\DirectCore\\CoreAPB3\\4.2.100\\rtl\\vlog\\core\\coreapb3.v":1724391163
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\work\\CoreAPB3_C0\\CoreAPB3_C0.v":1724749946
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1720505688
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\work\\OSC_C0\\OSC_C0_0\\OSC_C0_OSC_C0_0_OSC.v":1724749603
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\work\\OSC_C0\\OSC_C0.v":1724749603
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\work\\TEMP1_MSS\\TEMP1_MSS_syn.v":1724760338
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\work\\TEMP1_MSS\\TEMP1_MSS.v":1724760338
+#CUR:"D:\\libero_tests\\I2C_TEMP1\\component\\work\\TEMP1\\TEMP1.v":1724760395
+0			"D:\libero_tests\I2C_TEMP1\component\Actel\DirectCore\COREI2C\7.2.101\rtl\vlog\core\corei2creal.v" verilog
+1			"D:\libero_tests\I2C_TEMP1\component\work\COREI2C_C0\COREI2C_C0_0\rtl\vlog\core\corei2c.v" verilog
+2			"D:\libero_tests\I2C_TEMP1\component\work\COREI2C_C0\COREI2C_C0.v" verilog
+3			"D:\libero_tests\I2C_TEMP1\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_muxptob3.v" verilog
+4			"D:\libero_tests\I2C_TEMP1\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3_iaddr_reg.v" verilog
+5			"D:\libero_tests\I2C_TEMP1\component\Actel\DirectCore\CoreAPB3\4.2.100\rtl\vlog\core\coreapb3.v" verilog
+6			"D:\libero_tests\I2C_TEMP1\component\work\CoreAPB3_C0\CoreAPB3_C0.v" verilog
+7			"D:\libero_tests\I2C_TEMP1\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+8			"D:\libero_tests\I2C_TEMP1\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.v" verilog
+9			"D:\libero_tests\I2C_TEMP1\component\work\OSC_C0\OSC_C0.v" verilog
+10			"D:\libero_tests\I2C_TEMP1\component\work\TEMP1_MSS\TEMP1_MSS_syn.v" verilog
+11			"D:\libero_tests\I2C_TEMP1\component\work\TEMP1_MSS\TEMP1_MSS.v" verilog
+12			"D:\libero_tests\I2C_TEMP1\component\work\TEMP1\TEMP1.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 1
+3 -1
+4 -1
+5 4 3
+6 5
+7 -1
+8 7
+9 8
+10 -1
+11 10
+12 11 9 2 6
+#Dependency Lists(Users Of)
+0 1
+1 2
+2 12
+3 5
+4 5
+5 6
+6 12
+7 8
+8 9
+9 12
+10 11
+11 12
+12 -1
+#Design Unit to File Association
+module COREAPB3_LIB CoreAPB3 5
+module COREAPB3_LIB coreapb3_iaddr_reg 4
+module COREAPB3_LIB COREAPB3_MUXPTOB3 3
+module work TEMP1 12
+module work TEMP1_MSS 11
+module work MSS_005 10
+module work OSC_C0 9
+module work OSC_C0_OSC_C0_0_OSC 8
+module work XTLOSC_FAB 7
+module work RCOSC_25_50MHZ_FAB 7
+module work RCOSC_1MHZ_FAB 7
+module work XTLOSC 7
+module work RCOSC_25_50MHZ 7
+module work RCOSC_1MHZ 7
+module work CoreAPB3_C0 6
+module work COREI2C_C0 2
+module work COREI2C_C0_COREI2C_C0_0_COREI2C 1
+module work COREI2C_COREI2CREAL 0

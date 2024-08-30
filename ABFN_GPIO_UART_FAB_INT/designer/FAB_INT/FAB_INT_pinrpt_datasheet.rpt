@@ -1,0 +1,21 @@
+----------------------------------------------------------------
+-Pin Report - Date: Thu Aug 22 17:59:22 2024 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2024.1
+-Version: 2024.1.0.3
+-Design Name: FAB_INT
+-Family: SmartFusion2
+-Die: M2S005
+-Package: 400 VF
+-----------------------------------------------------------------
+
+Port        |Pin |Fixed |Function                                         |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+------------|----|------|-------------------------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+DEVRST_N     U17  Fixed  DEVRST_N                                          ---       
+GPIO_IN[0]   A19  Yes    MSIO18NB1/I2C_0_SCL/GPIO_31_B/USB_DATA1_C         Bank1     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+GPIO_OUT[0]  B19  Yes    MSIO17NB1/MMUART_0_CLK/GPIO_29_B/USB_NXT_C        Bank1     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+GPIO_OUT[1]  A20  Yes    MSIO18PB1/I2C_0_SDA/GPIO_30_B/USB_DATA0_C         Bank1     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+INT[0]       E18  No     MSIO15PB1/GB6/MMUART_1_CLK/GPIO_25_B/USB_DATA4_C  Bank1     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+INT[1]       C1   No     MSIO52PB6                                         Bank6     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+RX           R18  No     MSIO5NB2/USB_DATA5_B                              Bank2     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+TX           C19  Yes    MSIO17PB1/MMUART_0_RXD/GPIO_28_B/USB_STP_C        Bank1     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 

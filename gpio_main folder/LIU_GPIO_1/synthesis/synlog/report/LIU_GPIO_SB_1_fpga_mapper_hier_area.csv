@@ -1,0 +1,15 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. LIU_GPIO_SB_1, 632, 841, 211, 0, 0, 0, 0, 2, 67
+.	. LIU_GPIO_SB_1_sb, 632, 841, 211, 0, 0, 0, 0, 2, 1
+.	.	. CoreAPB3_Z1, 0, 28, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. COREAPB3_MUXPTOB3, 0, 24, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreGPIO_Z2, 512, 685, 192, 0, 0, 0, 0, 0, 0
+.	.	. CoreResetP_Z3, 9, 2, 0, 0, 0, 0, 0, 1, 0
+.	.	. LIU_GPIO_SB_1_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 1
+.	.	. LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_CoreUARTapb_19s_0s_0s_1s_0s_0s_0s_0s_0s_0s, 111, 112, 19, 0, 0, 0, 0, 0, 0
+.	.	.	. LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_COREUART_0s_0s_0s_15s_0s, 87, 91, 19, 0, 0, 0, 0, 0, 0
+.	.	.	.	. LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_Clock_gen_0s, 19, 10, 14, 0, 0, 0, 0, 0, 0
+.	.	.	.	. LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_Rx_async_0s_0s_1s_2s, 38, 56, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. LIU_GPIO_SB_1_sb_CoreUARTapb_0_0_Tx_async_0s_0s_1s_2s_3s_4s_5s_6s, 21, 24, 5, 0, 0, 0, 0, 0, 0
+.	.	. LIU_GPIO_SB_1_sb_MSS, 0, 14, 0, 0, 0, 0, 0, 0, 0

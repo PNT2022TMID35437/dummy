@@ -1,0 +1,15 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Fri Aug 23 16:27:52 2024
+Project   :  D:\libero_tests\DUMMY_GPIO_MSS
+Component :  CORERESET_PF_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/DUMMY_GPIO_MSS/component/work/CORERESET_PF_C0/CORERESET_PF_C0_0/core/corereset_pf.v
+    D:/libero_tests/DUMMY_GPIO_MSS/component/work/CORERESET_PF_C0/CORERESET_PF_C0.v
+
+Stimulus files for all Simulation tools:
+    D:/libero_tests/DUMMY_GPIO_MSS/component/work/CORERESET_PF_C0/CORERESET_PF_C0_0/test/corereset_pf_tb.v
+

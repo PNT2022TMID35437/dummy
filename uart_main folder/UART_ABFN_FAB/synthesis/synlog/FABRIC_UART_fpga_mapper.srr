@@ -1,0 +1,419 @@
+# Tue Aug 20 10:17:09 2024
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202309act, Build 044R, Built Jan  4 2024 08:30:58, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 183MB peak: 183MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 199MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 199MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 190MB peak: 199MB)
+
+
+Vector Gate Optimization Enabled: Optimizing  Partial Hanging Logic. 
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 250MB peak: 250MB)
+
+@N: MO111 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\fabosc_0\fabric_uart_sb_fabosc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F (in view: work.FABRIC_UART_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_O2F (in view: work.FABRIC_UART_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\fabosc_0\fabric_uart_sb_fabosc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC (in view: work.FABRIC_UART_sb_FABOSC_0_OSC(verilog)) on net XTLOSC_CCC (in view: work.FABRIC_UART_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\fabosc_0\fabric_uart_sb_fabosc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F (in view: work.FABRIC_UART_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_O2F (in view: work.FABRIC_UART_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@N: MO111 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\fabosc_0\fabric_uart_sb_fabosc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC (in view: work.FABRIC_UART_sb_FABOSC_0_OSC(verilog)) on net RCOSC_1MHZ_CCC (in view: work.FABRIC_UART_sb_FABOSC_0_OSC(verilog)) has its enable tied to GND.
+@W: BN132 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif3_spll_lock_q1 because it is equivalent to instance FABRIC_UART_sb_0.CORERESETP_0.CONFIG2_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance FABRIC_UART_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":946:4:946:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance FABRIC_UART_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance FABRIC_UART_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":257:0:257:5|Removing sequential instance FABRIC_UART_sb_0.CoreUARTapb_0_0.uUART.clear_parity_reg0 because it is equivalent to instance FABRIC_UART_sb_0.CoreUARTapb_0_0.uUART.clear_framing_error_reg0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":272:0:272:5|Removing sequential instance FABRIC_UART_sb_0.CoreUARTapb_0_0.uUART.clear_framing_error_reg because it is equivalent to instance FABRIC_UART_sb_0.CoreUARTapb_0_0.uUART.clear_parity_reg. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: BZ173 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3.v":267:2:267:5|ROM CoreAPB3_0.iPSELS_raw_2[0] (in view: work.FABRIC_UART_sb(verilog)) mapped in logic.
+@N: MO106 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreapb3\4.1.100\rtl\vlog\core\coreapb3.v":267:2:267:5|Found ROM CoreAPB3_0.iPSELS_raw_2[0] (in view: work.FABRIC_UART_sb(verilog)) with 1 words by 1 bit.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 254MB peak: 254MB)
+
+Encoding state machine sm0_state[6:0] (in view: work.CoreResetP_Z3(verilog))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine rx_state[3:0] (in view: work.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\coreuartapb_0_0\rtl\vlog\core\coreuart.v":287:0:287:5|There are no possible illegal states for state machine rx_state[3:0] (in view: work.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s(verilog)); safe FSM implementation is not required.
+@N: MO231 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\coreuartapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":140:0:140:5|Found counter in view:work.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s(verilog) instance genblk3\.rx_fifo.CoreUART_top_COREUART_0_fifo_128x8_pa4.wr_pointer[6:0] 
+@N: MO231 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\coreuartapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":140:0:140:5|Found counter in view:work.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s(verilog) instance genblk3\.rx_fifo.CoreUART_top_COREUART_0_fifo_128x8_pa4.rd_pointer[6:0] 
+@N: MO231 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\coreuartapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":140:0:140:5|Found counter in view:work.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s(verilog) instance genblk2\.tx_fifo.CoreUART_top_COREUART_0_fifo_128x8_pa4.wr_pointer[6:0] 
+@N: MO231 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\coreuartapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v":140:0:140:5|Found counter in view:work.FABRIC_UART_sb_CoreUARTapb_0_0_COREUART_1s_1s_0s_15s_0s(verilog) instance genblk2\.tx_fifo.CoreUART_top_COREUART_0_fifo_128x8_pa4.rd_pointer[6:0] 
+@N: MO231 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\coreuartapb_0_0\rtl\vlog\core\clock_gen.v":275:6:275:11|Found counter in view:work.FABRIC_UART_sb_CoreUARTapb_0_0_Clock_gen_0s(verilog) instance genblk1\.baud_cntr[12:0] 
+Encoding state machine xmit_state[6:0] (in view: work.FABRIC_UART_sb_CoreUARTapb_0_0_Tx_async_1s_0s_1s_2s_3s_4s_5s_6s(verilog))
+original code -> new code
+   00000000000000000000000000000000 -> 0000001
+   00000000000000000000000000000001 -> 0000010
+   00000000000000000000000000000010 -> 0000100
+   00000000000000000000000000000011 -> 0001000
+   00000000000000000000000000000100 -> 0010000
+   00000000000000000000000000000101 -> 0100000
+   00000000000000000000000000000110 -> 1000000
+Encoding state machine rx_state[2:0] (in view: work.FABRIC_UART_sb_CoreUARTapb_0_0_Rx_async_1s_0s_1s_2s(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 255MB peak: 255MB)
+
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.INIT_DONE_int (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_state[6] (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 261MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 262MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 261MB peak: 262MB)
+
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif2_core (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif1_core (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1485:4:1485:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif0_core (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif1_core_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif0_core_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.ddr_settled_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":963:4:963:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif3_spll_lock_q2 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":929:4:929:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.CONFIG1_DONE_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":856:4:856:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_areset_n_rcosc (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_areset_n_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":755:4:755:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif3_core_clk_base (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif2_core_clk_base (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif1_core_clk_base (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif0_core_clk_base (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1646:4:1646:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.ddr_settled_clk_base (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.ddr_settled (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.release_sdif3_core (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":912:4:912:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif3_areset_n_rcosc (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":898:4:898:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif2_areset_n_rcosc (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":884:4:884:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif1_areset_n_rcosc (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1 (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":870:4:870:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sdif0_areset_n_rcosc (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_state[5] (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_state[4] (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_state[3] (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_state[2] (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_state[1] (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\libero_tests\uart_abfn_fab\component\actel\directcore\coreresetp\7.1.100\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FABRIC_UART_sb_0.CORERESETP_0.sm0_state[0] (in view: work.FABRIC_UART(verilog)) because it does not drive other instances.
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 262MB peak: 262MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		     1.62ns		 244 /       196
+@N: FP130 |Promoting Net FABRIC_UART_sb_0.CORERESETP_0.MSS_HPMS_READY_int on CLKINT  I_137 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 262MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 262MB peak: 263MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 263MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 263MB peak: 263MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 211MB peak: 263MB)
+
+Writing Analyst data base D:\libero_tests\UART_ABFN_FAB\synthesis\synwork\FABRIC_UART_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 263MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 263MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 261MB peak: 263MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 263MB)
+
+@W: MT246 :"d:\libero_tests\uart_abfn_fab\component\work\fabric_uart_sb\ccc_0\fabric_uart_sb_ccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@N: MT615 |Found clock FABRIC_UART_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT with period 20.00ns 
+@N: MT615 |Found clock FABRIC_UART_sb_0/CCC_0/GL0 with period 10.00ns 
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Aug 20 10:17:11 2024
+#
+
+
+Top view:               FABRIC_UART
+Requested Frequency:    50.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\libero_tests\UART_ABFN_FAB\designer\FABRIC_UART\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 2.671
+
+                                                      Requested     Estimated     Requested     Estimated               Clock                                                                  Clock           
+Starting Clock                                        Frequency     Frequency     Period        Period        Slack     Type                                                                   Group           
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FABRIC_UART_sb_0/CCC_0/GL0                            100.0 MHz     136.4 MHz     10.000        7.329         2.671     generated (from FABRIC_UART_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT)     default_clkgroup
+FABRIC_UART_sb_0/FABOSC_0/I_RCOSC_25_50MHZ/CLKOUT     50.0 MHz      NA            20.000        NA            NA        declared                                                               default_clkgroup
+===============================================================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------
+Starting                    Ending                      |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------
+FABRIC_UART_sb_0/CCC_0/GL0  FABRIC_UART_sb_0/CCC_0/GL0  |  10.000      2.671  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: FABRIC_UART_sb_0/CCC_0/GL0
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                                                                                              Arrival          
+Instance                                                 Reference                      Type        Pin                Net                                                     Time        Slack
+                                                         Clock                                                                                                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_ADDR[12]     FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[12]     3.791       2.671
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_SEL          FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx         3.822       2.696
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_ADDR[15]     FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[15]     3.923       2.994
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_ADDR[3]      CoreAPB3_0_APBmslave0_PADDR[3]                          3.676       3.021
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_ADDR[13]     FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[13]     3.604       3.088
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_ADDR[4]      CoreAPB3_0_APBmslave0_PADDR[4]                          3.611       3.155
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_ADDR[14]     FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[14]     3.567       3.225
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_WRITE        CoreAPB3_0_APBmslave0_PWRITE                            3.742       3.340
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_ADDR[2]      CoreAPB3_0_APBmslave0_PADDR[2]                          3.599       3.401
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_ENABLE       CoreAPB3_0_APBmslave0_PENABLE                           3.660       3.499
+================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                         Starting                                                                                                              Required          
+Instance                                                 Reference                      Type        Pin                Net                                                     Time         Slack
+                                                         Clock                                                                                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_RDATA[4]     FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[4]     9.606        2.671
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_RDATA[1]     FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[1]     9.636        2.701
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_RDATA[5]     FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[5]     9.684        2.749
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     FABRIC_UART_sb_0/CCC_0/GL0     MSS_005     F_HM0_RDATA[2]     FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[2]     9.703        2.768
+FABRIC_UART_sb_0.CoreUARTapb_0_0.iPRDATA[0]              FABRIC_UART_sb_0/CCC_0/GL0     SLE         EN                 un1_NxtPrdata23_i                                       9.662        2.791
+FABRIC_UART_sb_0.CoreUARTapb_0_0.iPRDATA[1]              FABRIC_UART_sb_0/CCC_0/GL0     SLE         EN                 un1_NxtPrdata23_i                                       9.662        2.791
+FABRIC_UART_sb_0.CoreUARTapb_0_0.iPRDATA[2]              FABRIC_UART_sb_0/CCC_0/GL0     SLE         EN                 un1_NxtPrdata23_i                                       9.662        2.791
+FABRIC_UART_sb_0.CoreUARTapb_0_0.iPRDATA[3]              FABRIC_UART_sb_0/CCC_0/GL0     SLE         EN                 un1_NxtPrdata23_i                                       9.662        2.791
+FABRIC_UART_sb_0.CoreUARTapb_0_0.iPRDATA[4]              FABRIC_UART_sb_0/CCC_0/GL0     SLE         EN                 un1_NxtPrdata23_i                                       9.662        2.791
+FABRIC_UART_sb_0.CoreUARTapb_0_0.iPRDATA[5]              FABRIC_UART_sb_0/CCC_0/GL0     SLE         EN                 un1_NxtPrdata23_i                                       9.662        2.791
+=================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.394
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.606
+
+    - Propagation time:                      6.935
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     2.671
+
+    Number of logic level(s):                3
+    Starting point:                          FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[12]
+    Ending point:                            FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST / F_HM0_RDATA[4]
+    The start point is clocked by            FABRIC_UART_sb_0/CCC_0/GL0 [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            FABRIC_UART_sb_0/CCC_0/GL0 [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+
+Instance / Net                                                       Pin                Pin               Arrival     No. of    
+Name                                                     Type        Name               Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------------------
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     MSS_005     F_HM0_ADDR[12]     Out     3.791     3.791 r     -         
+FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PADDR[12]      Net         -                  -       0.248     -           1         
+FABRIC_UART_sb_0.CoreAPB3_0.iPSELS_1[0]                  CFG2        B                  In      -         4.040 r     -         
+FABRIC_UART_sb_0.CoreAPB3_0.iPSELS_1[0]                  CFG2        Y                  Out     0.143     4.183 f     -         
+iPSELS_1[0]                                              Net         -                  -       0.248     -           1         
+FABRIC_UART_sb_0.CoreAPB3_0.iPSELS[0]                    CFG4        B                  In      -         4.431 f     -         
+FABRIC_UART_sb_0.CoreAPB3_0.iPSELS[0]                    CFG4        Y                  Out     0.164     4.596 f     -         
+CoreAPB3_0_APBmslave0_PSELx                              Net         -                  -       1.135     -           15        
+FABRIC_UART_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA[4]      CFG2        A                  In      -         5.731 f     -         
+FABRIC_UART_sb_0.CoreAPB3_0.u_mux_p_to_b3.PRDATA[4]      CFG2        Y                  Out     0.087     5.818 f     -         
+FABRIC_UART_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[4]      Net         -                  -       1.117     -           1         
+FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST     MSS_005     F_HM0_RDATA[4]     In      -         6.935 f     -         
+================================================================================================================================
+Total path delay (propagation time + setup) of 7.329 is 4.580(62.5%) logic and 2.750(37.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT447 :"d:/libero_tests/uart_abfn_fab/designer/fabric_uart/synthesis.fdc":9:0:9:0|Timing constraint (through [get_nets { FABRIC_UART_sb_0.CORERESETP_0.ddr_settled FABRIC_UART_sb_0.CORERESETP_0.count_ddr_enable FABRIC_UART_sb_0.CORERESETP_0.release_sdif*_core FABRIC_UART_sb_0.CORERESETP_0.count_sdif*_enable }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/libero_tests/uart_abfn_fab/designer/fabric_uart/synthesis.fdc":10:0:10:0|Timing constraint (from [get_cells { FABRIC_UART_sb_0.CORERESETP_0.MSS_HPMS_READY_int }] to [get_cells { FABRIC_UART_sb_0.CORERESETP_0.sm0_areset_n_rcosc FABRIC_UART_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/libero_tests/uart_abfn_fab/designer/fabric_uart/synthesis.fdc":11:0:11:0|Timing constraint (from [get_cells { FABRIC_UART_sb_0.CORERESETP_0.MSS_HPMS_READY_int FABRIC_UART_sb_0.CORERESETP_0.SDIF*_PERST_N_re }] to [get_cells { FABRIC_UART_sb_0.CORERESETP_0.sdif*_areset_n_rcosc* }]) (false path) was not applied to the design because none of the '-to' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/libero_tests/uart_abfn_fab/designer/fabric_uart/synthesis.fdc":12:0:12:0|Timing constraint (through [get_nets { FABRIC_UART_sb_0.CORERESETP_0.CONFIG1_DONE FABRIC_UART_sb_0.CORERESETP_0.CONFIG2_DONE FABRIC_UART_sb_0.CORERESETP_0.SDIF*_PERST_N FABRIC_UART_sb_0.CORERESETP_0.SDIF*_PSEL FABRIC_UART_sb_0.CORERESETP_0.SDIF*_PWRITE FABRIC_UART_sb_0.CORERESETP_0.SDIF*_PRDATA[*] FABRIC_UART_sb_0.CORERESETP_0.SOFT_EXT_RESET_OUT FABRIC_UART_sb_0.CORERESETP_0.SOFT_RESET_F2M FABRIC_UART_sb_0.CORERESETP_0.SOFT_M3_RESET FABRIC_UART_sb_0.CORERESETP_0.SOFT_MDDR_DDR_AXI_S_CORE_RESET FABRIC_UART_sb_0.CORERESETP_0.SOFT_FDDR_CORE_RESET FABRIC_UART_sb_0.CORERESETP_0.SOFT_SDIF*_PHY_RESET FABRIC_UART_sb_0.CORERESETP_0.SOFT_SDIF*_CORE_RESET FABRIC_UART_sb_0.CORERESETP_0.SOFT_SDIF0_0_CORE_RESET FABRIC_UART_sb_0.CORERESETP_0.SOFT_SDIF0_1_CORE_RESET }]) (false path) was not applied to the design because none of the '-through' objects specified by the constraint exist in the design 
+@W: MT447 :"d:/libero_tests/uart_abfn_fab/designer/fabric_uart/synthesis.fdc":13:0:13:0|Timing constraint (through [get_pins { FABRIC_UART_sb_0.FABRIC_UART_sb_MSS_0.MSS_ADLIB_INST.CONFIG_PRESET_N }]) (false path) was not applied to the design because none of the paths specified by the constraint exist in the design 
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 263MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 260MB peak: 263MB)
+
+---------------------------------------
+Resource Usage Report for FABRIC_UART 
+
+Mapping to part: m2s005vf400std
+Cell usage:
+CCC             1 use
+CLKINT          2 uses
+INV             2 uses
+MSS_005         1 use
+OR3             3 uses
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           10 uses
+CFG2           57 uses
+CFG3           33 uses
+CFG4           69 uses
+
+Carry cells:
+ARI1            56 uses - used for arithmetic functions
+ARI1            13 uses - used for Wide-Mux implementation
+Total ARI1      69 uses
+
+
+Sequential Cells: 
+SLE            196 uses
+
+DSP Blocks:    0 of 11 (0%)
+
+I/O ports: 3
+I/O primitives: 2
+INBUF          1 use
+OUTBUF         1 use
+
+
+Global Clock Buffers: 2
+
+RAM/ROM usage summary
+Total Block RAMs (RAM64x18) : 2 of 11 (18%)
+
+Total LUTs:    238
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 72; LUTs = 72;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  196 + 72 + 0 + 0 = 268;
+Total number of LUTs after P&R:  238 + 72 + 0 + 0 = 310;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 129MB peak: 263MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Aug 20 10:17:11 2024
+
+###########################################################]

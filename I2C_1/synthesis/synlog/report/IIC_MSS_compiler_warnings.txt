@@ -1,0 +1,2 @@
+@W: CG100 :"D:\libero_tests\I2C_1\component\work\IIC_MSS\IIC_MSS_syn.v":436:13:436:25|User defined pragma syn_black_box detected
+

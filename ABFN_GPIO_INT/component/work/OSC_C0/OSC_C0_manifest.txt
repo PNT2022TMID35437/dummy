@@ -1,0 +1,20 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+
+Date      :  Thu Aug 22 19:42:47 2024
+Project   :  D:\libero_tests\ABFN_GPIO_INT
+Component :  OSC_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/libero_tests/ABFN_GPIO_INT/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd
+    D:/libero_tests/ABFN_GPIO_INT/component/work/OSC_C0/OSC_C0.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/libero_tests/ABFN_GPIO_INT/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+
+Constraint files:
+    D:/libero_tests/ABFN_GPIO_INT/component/work/OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.sdc

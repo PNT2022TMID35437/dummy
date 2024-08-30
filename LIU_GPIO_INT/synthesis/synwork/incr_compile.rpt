@@ -1,0 +1,79 @@
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09M
+Install: C:\Microchip\Libero_SoC_v2024.1\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-9J7KET5
+
+Implementation : synthesis
+Synopsys HDL compiler and linker, Version comp202309synp1, Build 146R, Built Jan  4 2024 08:15:03, @
+
+Modified Files: 0
+FID:  path (prevtimestamp, timestamp)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 24
+FID:  path (timestamp)
+0        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\generic\smartfusion2.v (2024-01-04 21:41:02)
+1        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\hypermods.v (2024-01-04 21:34:40)
+2        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_objects.v (2024-01-04 21:34:40)
+3        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\scemi_pipes.svh (2024-01-04 21:34:40)
+4        C:\Microchip\Libero_SoC_v2024.1\SynplifyPro\lib\vlog\umr_capim.v (2024-01-04 21:38:34)
+5        D:\libero_tests\LIU_GPIO_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3.v (2024-08-16 14:57:39)
+6        D:\libero_tests\LIU_GPIO_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_iaddr_reg.v (2024-08-16 14:57:39)
+7        D:\libero_tests\LIU_GPIO_INT\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vlog\core\coreapb3_muxptob3.v (2024-08-16 14:57:39)
+8        D:\libero_tests\LIU_GPIO_INT\component\Actel\DirectCore\CoreGPIO\3.0.120\rtl\vlog\core\coregpio.v (2024-08-19 10:23:02)
+9        D:\libero_tests\LIU_GPIO_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp.v (2024-08-16 11:56:28)
+10       D:\libero_tests\LIU_GPIO_INT\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vlog\core\coreresetp_pcie_hotreset.v (2024-08-16 11:56:28)
+11       D:\libero_tests\LIU_GPIO_INT\component\Actel\SgCore\OSC\2.0.101\osc_comps.v (2024-07-09 11:44:48)
+12       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN\GPIO_INT_ABFN.v (2024-08-22 18:23:52)
+13       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb\CCC_0\GPIO_INT_ABFN_sb_CCC_0_FCCC.v (2024-08-22 18:22:34)
+14       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb\CoreUARTapb_0_0\rtl\vlog\core\Clock_gen.v (2024-08-22 18:22:34)
+15       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUART.v (2024-08-22 18:22:34)
+16       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb\CoreUARTapb_0_0\rtl\vlog\core\CoreUARTapb.v (2024-08-22 18:22:34)
+17       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb\CoreUARTapb_0_0\rtl\vlog\core\Rx_async.v (2024-08-22 18:22:34)
+18       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb\CoreUARTapb_0_0\rtl\vlog\core\Tx_async.v (2024-08-22 18:22:34)
+19       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb\CoreUARTapb_0_0\rtl\vlog\core\fifo_256x8_smartfusion2.v (2024-08-22 18:22:34)
+20       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb\FABOSC_0\GPIO_INT_ABFN_sb_FABOSC_0_OSC.v (2024-08-22 18:22:35)
+21       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb\GPIO_INT_ABFN_sb.v (2024-08-22 18:22:35)
+22       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb_MSS\GPIO_INT_ABFN_sb_MSS.v (2024-08-22 18:22:32)
+23       D:\libero_tests\LIU_GPIO_INT\component\work\GPIO_INT_ABFN_sb_MSS\GPIO_INT_ABFN_sb_MSS_syn.v (2024-08-22 18:22:32)
+
+*******************************************************************
+Unchanged modules: 26
+MID:  lib.cell.view
+0        COREAPB3_LIB.COREAPB3_MUXPTOB3.verilog
+1        COREAPB3_LIB.CoreAPB3.verilog
+2        COREAPB3_LIB.coreapb3_iaddr_reg.verilog
+3        work.CoreGPIO.verilog
+4        work.CoreResetP.verilog
+5        work.GPIO_INT_ABFN.verilog
+6        work.GPIO_INT_ABFN_sb.verilog
+7        work.GPIO_INT_ABFN_sb_CCC_0_FCCC.verilog
+8        work.GPIO_INT_ABFN_sb_CoreUARTapb_0_0_COREUART.verilog
+9        work.GPIO_INT_ABFN_sb_CoreUARTapb_0_0_Clock_gen.verilog
+10       work.GPIO_INT_ABFN_sb_CoreUARTapb_0_0_CoreUARTapb.verilog
+11       work.GPIO_INT_ABFN_sb_CoreUARTapb_0_0_Rx_async.verilog
+12       work.GPIO_INT_ABFN_sb_CoreUARTapb_0_0_Tx_async.verilog
+13       work.GPIO_INT_ABFN_sb_CoreUARTapb_0_0_fifo_256x8.verilog
+14       work.GPIO_INT_ABFN_sb_CoreUARTapb_0_0_fifo_ctrl_128.verilog
+15       work.GPIO_INT_ABFN_sb_CoreUARTapb_0_0_ram128x8_pa4.verilog
+16       work.GPIO_INT_ABFN_sb_FABOSC_0_OSC.verilog
+17       work.GPIO_INT_ABFN_sb_MSS.verilog
+18       work.MSS_005.verilog
+19       work.RCOSC_1MHZ.verilog
+20       work.RCOSC_1MHZ_FAB.verilog
+21       work.RCOSC_25_50MHZ.verilog
+22       work.RCOSC_25_50MHZ_FAB.verilog
+23       work.XTLOSC.verilog
+24       work.XTLOSC_FAB.verilog
+25       work.coreresetp_pcie_hotreset.verilog

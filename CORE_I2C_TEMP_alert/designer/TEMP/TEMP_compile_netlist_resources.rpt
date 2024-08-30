@@ -1,0 +1,183 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2024.1 (Version 2024.1.0.3)
+Date: Wed Aug 28 14:31:18 2024
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S005         |
+| Package                        | 400 VF         |
+| Speed Grade                    | STD            |
+| Temp                           | -40:25:100     |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 3.3V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+--------------------------------------------------------+
+| Topcell | TEMP                                                   |
+| Format  | Verilog                                                |
+| Source  | D:\libero_tests\CORE_I2C_TEMP - Copy\synthesis\TEMP.vm |
++---------+--------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 438  | 6060  | 7.23       |
+| DFF                       | 137  | 6060  | 2.26       |
+| I/O Register              | 0    | 513   | 0.00       |
+| User I/O                  | 10   | 171   | 5.85       |
+| -- Single-ended I/O       | 10   | 171   | 5.85       |
+| -- Differential I/O Pairs | 0    | 85    | 0.00       |
+| RAM64x18                  | 0    | 11    | 0.00       |
+| RAM1K18                   | 0    | 10    | 0.00       |
+| MACC                      | 0    | 11    | 0.00       |
+| Chip Globals              | 2    | 8     | 25.00      |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 438  | 137 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 438  | 137 |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (128KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 1    | 2     |
+| UART          | 1    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 0    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 5    |
+| Total  | 5    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 3            | 0           | 0               |
+| Output I/O                    | 3            | 0           | 0               |
+| Bidirectional I/O             | 4            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS33     |  3.30v |  N/A |  3    |  3     |  4            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+--------------------------------------------------------------------+
+| Fanout | Type    | Name                                                               |
++--------+---------+--------------------------------------------------------------------+
+| 138    | INT_NET | Net   : TEMP_sb_0/GL0_INST                                         |
+|        |         | Driver: TEMP_sb_0/CCC_0/GL0_INST/U0_RGB1                           |
+|        |         | Source: NETLIST                                                    |
+| 128    | INT_NET | Net   : TEMP_sb_0/MSS_HPMS_READY_int                               |
+|        |         | Driver: TEMP_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNI800K4/U0_RGB1 |
+|        |         | Source: NETLIST                                                    |
++--------+---------+--------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+-------------------------------------------------------------+
+| Fanout | Type    | Name                                                        |
++--------+---------+-------------------------------------------------------------+
+| 31     | INT_NET | Net   : TEMP_sb_0/CoreAPB3_0_APBmslave0_PADDR[2]            |
+|        |         | Driver: TEMP_sb_0/TEMP_sb_MSS_0/MSS_ADLIB_INST              |
+| 30     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I_Z[3] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I[3]   |
+| 29     | INT_NET | Net   : TEMP_sb_0/CI2CII0I[3]                               |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CII0I_Z[3] |
+| 25     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I_Z[2] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I[2]   |
+| 23     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CII0I_Z[6] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CII0I[6]   |
+| 23     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I_Z[4] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I[4]   |
+| 21     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CI0Ol_Z    |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CI0Ol      |
+| 20     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2COO0I_Z[3] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2COO0I[3]   |
+| 18     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CllOl_Z    |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CllOl      |
+| 16     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I_Z[1] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I[1]   |
++--------+---------+-------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+-------------------------------------------------------------+
+| Fanout | Type    | Name                                                        |
++--------+---------+-------------------------------------------------------------+
+| 31     | INT_NET | Net   : TEMP_sb_0/CoreAPB3_0_APBmslave0_PADDR[2]            |
+|        |         | Driver: TEMP_sb_0/TEMP_sb_MSS_0/MSS_ADLIB_INST              |
+| 30     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I_Z[3] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I[3]   |
+| 29     | INT_NET | Net   : TEMP_sb_0/CI2CII0I[3]                               |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CII0I_Z[3] |
+| 25     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I_Z[2] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I[2]   |
+| 23     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CII0I_Z[6] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CII0I[6]   |
+| 23     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I_Z[4] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I[4]   |
+| 21     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CI0Ol_Z    |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CI0Ol      |
+| 20     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2COO0I_Z[3] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2COO0I[3]   |
+| 18     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CllOl_Z    |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2CllOl      |
+| 16     | INT_NET | Net   : TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I_Z[1] |
+|        |         | Driver: TEMP_sb_0/COREI2C_0_0/CI2CIlI[0].ui2c/CI2ClO0I[1]   |
++--------+---------+-------------------------------------------------------------+
+
